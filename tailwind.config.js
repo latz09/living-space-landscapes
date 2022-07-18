@@ -8,6 +8,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				spaces: ['Roboto', 'sans-serif'],
+				long: ['Ibarra Real Nova', 'serif']
 			},
 			colors: {
 				landscape: {
@@ -18,5 +19,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [],
+	plugins: [require('@tailwindcss/typography')],
 };
