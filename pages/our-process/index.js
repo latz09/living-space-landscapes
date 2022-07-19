@@ -1,0 +1,5 @@
+const OurProcess = () => {
+    return ( <div><h1>Our process page</h1></div> );
+}
+ 
+export default OurProcess;

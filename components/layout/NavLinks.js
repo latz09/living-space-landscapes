@@ -1,27 +1,29 @@
+
 import Link from 'next/link';
 
 const NavLinks = () => {
 	return (
 		<>
-			<div className='flex justify-between content-center'>
+			<div className='grid gap-2 place-content-center py-3 md:py-0 md:flex md:justify-between md:content-center md:items-center'>
 				<div className='nav-link'>
 					<Link href={'/'}> Home</Link>
 				</div>
 				<div className='nav-link'>
-					<Link href={'/'}>Process</Link>
+					<Link href={'/our-process'}>Process</Link>
 				</div>
 				<div className='nav-link'>
-					<Link href={'/'}>Services</Link>
+					<Link href={'/services'}>Services</Link>
 				</div>
 				<div className='nav-link'>
-					<Link href={'/'}>Gallery</Link>
+					<Link href={'/gallery'}>Gallery</Link>
 				</div>
 				<div className='nav-link'>
-					<Link href={'/'}>Why Us</Link>
+					<Link href={'/why-us'}>Why Us</Link>
 				</div>
 				<div className='nav-link'>
-					<Link href={'/'}>Contact</Link>
+					<Link href={'/contact'}>Contact</Link>
 				</div>
+			
 			</div>
 		</>
 	);
