@@ -8,9 +8,12 @@
 
 @layer components {
 	.nav-link {
-		@apply  text-landscape-700 text-2xl hover:text-landscape-300 transition duration-500 
+		@apply  text-landscape-700 md:text-2xl hover:text-landscape-300 transition duration-500 
 	}
-	.contact-us {
-		@apply bg-landscape-700 p-4 shadow-md text-2xl border-2 border-landscape-500 text-white rounded hover:opacity-80 cursor-pointer transition duration-500
+	.button-link {
+		@apply bg-landscape-700 px-5 py-1 md:p-4 shadow-md md:text-xl my-7 md:my-12  border-2 border-landscape-500 text-white rounded hover:opacity-80 cursor-pointer transition duration-500
+	}
+	.description {
+		@apply sm:text-justify text-gray-700 text-opacity-80  text-sm p-4 md:text-lg tracking-wide font-long
 	}
 }

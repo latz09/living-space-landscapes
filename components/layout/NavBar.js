@@ -10,10 +10,8 @@ const Navbar = () => {
 		setMenuOpen(!menuOpen);
 	};
 
-	console.log(menuOpen);
-
 	return (
-		<>
+		<div className='relative'>
 			<div className='max-w-4xl mx-auto'>
 				<Logo />
 			</div>
@@ -25,12 +23,14 @@ const Navbar = () => {
 					<RiMenu3Fill />
 				</button>
 			</div>
-			{menuOpen && (
-				<div>
-					<NavLinks />
-				</div>
-			)}
-		</>
+			<div className="md:hidden"
+				onClick={() => {
+					setMenuOpen(false);
+				}}
+			>
+				{menuOpen && <NavLinks />}
+			</div>
+		</div>
 	);
 };
 
