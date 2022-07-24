@@ -6,7 +6,7 @@ const Logo = () => {
 	return (
 		<Link href={'/'}>
 			<a>
-				<Image src={logo} alt='' layout='responsive' />
+				<Image src={logo} alt='' layout='responsive' priority={true} />
 			</a>
 		</Link>
 	);

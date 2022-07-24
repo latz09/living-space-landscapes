@@ -7,14 +7,16 @@ export const businessInformation = {
 			city: 'South St. Paul MN 55075',
 		},
 	},
-	contact: {
-		scott: {
+	contact: [
+		{
+			name: 'Scott',
 			phoneNumber: '612-868-7787',
 			email: 'scott@livingspacelandscapes.com',
 		},
-		Megan: {
+		{
+			name: 'Megan',
 			phoneNumber: '612-398-1616',
 			email: 'megan@livingspacelandscapes.com',
 		},
-	},
+	],
 };

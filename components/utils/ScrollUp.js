@@ -1,12 +1,9 @@
-import Link from 'next/link';
 import { AiOutlineArrowUp } from 'react-icons/ai';
 
-const ScrollUp = ({href}) => {
+const ScrollUp = () => {
 	return (
 		<div className='cursor-pointer text-3xl text-landscape-300 text-center'>
-			<Link href={href}>
-				<AiOutlineArrowUp />
-			</Link>
+			<AiOutlineArrowUp />
 		</div>
 	);
 };

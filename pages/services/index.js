@@ -1,7 +1,8 @@
+import Link from 'next/link';
 import Service from '../../components/services/Service';
 import PageHeading from '../../components/utils/PageHeading';
-import { services } from '../../data/services';
 import ScrollUp from '../../components/utils/ScrollUp';
+import { services } from '../../data/services';
 
 const Services = () => {
 	return (
@@ -17,9 +18,7 @@ const Services = () => {
 						/>
 					</div>
 				))}
-				<div className='place-self-center'>
-					<ScrollUp href={'/services'} />
-				</div>
+			
 			</div>
 		</>
 	);

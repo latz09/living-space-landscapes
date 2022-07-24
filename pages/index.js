@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Hero from '../components/layout/hero/Hero';
 import Philosophy from '../components/homepage/Philosophy';
 import ButtonLink from '../components/utils/ButtonLink';
@@ -28,7 +29,6 @@ const HomePage = () => {
 			<SectionHeading title='Gallery' />
 			<Carousel />
 			<ButtonLink title='Full Gallery' href={'/gallery'} />
-			<ScrollUp href={'/'}/>
 			
 		</div>
 	);

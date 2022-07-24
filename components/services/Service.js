@@ -3,7 +3,7 @@ import SectionHeading from '../utils/SectionHeading';
 import ButtonLink from '../utils/ButtonLink';
 
 const Service = ({ title, image, description }) => {
-	console.log(image);
+
 
 	return (
 		<>
