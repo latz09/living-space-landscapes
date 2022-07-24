@@ -5,14 +5,14 @@ import Contact from './Contact';
 
 const ContactInfo = () => {
 	const contacts = businessInformation.contact;
-	console.log(contacts);
+
 
 	return (
 		<div className='p-4 text-landscape-700 shadow-lg  border py-14'>
 			<div className='flex justify-center mb-5 border-b pb-8'>
 				<Address />{' '}
 			</div>
-			<div className='grid grid-cols-3 items-center justify-items-center'>
+			<div className='grid sm:grid-cols-3 items-center justify-items-center'>
 				<div>
 					<SectionHeading title='Contact' />
 				</div>
