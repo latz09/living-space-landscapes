@@ -18,7 +18,7 @@ const Navbar = () => {
 			<div className='hidden md:block p-2'>
 				<NavLinks />
 			</div>
-			<div className='md:hidden nav-link p-2 flex justify-end'>
+			<div className='md:hidden nav-link p-2 flex justify-end content-center text-3xl mb-3'>
 				<button onClick={toggleMenu}>
 					<RiMenu3Fill />
 				</button>

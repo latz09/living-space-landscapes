@@ -17,6 +17,6 @@
 		@apply sm:text-justify text-gray-700 text-opacity-80  text-sm p-4 md:text-lg tracking-wide font-long
 	}
 	.review-text {
-		@apply mt-4 bg-opacity-10 px-4 prose py-3 border-x border-landscape-700 text-gray-600  
+		@apply mt-4 bg-opacity-10 px-4 prose py-3 border-x border-landscape-700 text-gray-600 italic font-serif leading-8
 	}
 }

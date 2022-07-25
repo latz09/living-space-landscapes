@@ -7,9 +7,11 @@ import SectionHeading from '../components/utils/SectionHeading';
 const HomePage = () => {
 	return (
 		<div className='grid gap-4 mb-24 justify-items-center mt-4'>
+			<div className="grid justify-items-center xl:flex xl:p-8 ">
 			<Hero />
 
 			<Philosophy />
+			</div>
 
 			<div className='flex space-x-3'>
 				<ButtonLink title='Set up Consultation' href={'/contact'} />
