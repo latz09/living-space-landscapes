@@ -7,8 +7,9 @@ import { services } from '../../data/services';
 const Services = () => {
 	return (
 		<>
-			<div className='grid  sm:gap-16  py-12 max-w-4xl mx-auto col-span-2 '>
+			<div className='grid  sm:gap-16  col-span-2 '>
 				<PageHeading title='Services' />
+				<div className="max-w-5xl mx-auto">
 				{services.map((service) => (
 					<div key={service.title}>
 						<Service
@@ -18,7 +19,7 @@ const Services = () => {
 						/>
 					</div>
 				))}
-			
+			</div>
 			</div>
 		</>
 	);

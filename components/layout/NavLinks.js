@@ -14,9 +14,7 @@ const NavLinks = () => {
 				<li className='nav-link'>
 					<Link href={'/services'}>Services</Link>
 				</li>
-				<li className='nav-link '>
-					<Link href={'/gallery'}>Gallery</Link>
-				</li>
+		
 				<li className='nav-link'>
 					<Link href={'/why-us'}>Why Us</Link>
 				</li>
@@ -25,6 +23,9 @@ const NavLinks = () => {
 				</li>
 				<li className='nav-link'>
 					<Link href={'/contact'}>Contact</Link>
+				</li>
+				<li className='nav-link '>
+					<Link href={'/gallery'}>Gallery</Link>
 				</li>
 			</ul>
 		</div>

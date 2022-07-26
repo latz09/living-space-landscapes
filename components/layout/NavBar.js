@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import { RiMenu3Fill } from 'react-icons/ri';
 import { useState } from 'react';
-import Logo from './Logo';
+import { MdHouseSiding } from 'react-icons/md';
 import NavLinks from './NavLinks';
 
 const Navbar = () => {
@@ -12,17 +13,21 @@ const Navbar = () => {
 
 	return (
 		<div className='max-w-7xl mx-auto '>
-	
-		
 			<div className='hidden md:block my-2'>
 				<NavLinks />
 			</div>
-			<div className='md:hidden nav-link my-3 mr-3 flex justify-end  text-2xl '>
+			<div className='md:hidden nav-link my-3 mr-3 flex justify-between ml-2  text-2xl '>
+				<Link href={'/'}>
+					<div className='text-4xl cursor-pointer'>
+						<MdHouseSiding />
+					</div>
+				</Link>
 				<button onClick={toggleMenu}>
 					<RiMenu3Fill />
 				</button>
 			</div>
-			<div className="md:hidden"
+			<div
+				className='md:hidden'
 				onClick={() => {
 					setMenuOpen(false);
 				}}
