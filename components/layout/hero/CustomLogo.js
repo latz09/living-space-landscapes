@@ -3,8 +3,8 @@ import ButtonLink from '../../utils/ButtonLink';
 const CustomLogo = () => {
 	return (
 		<div className=' bg-white bg-opacity-90 xs:p-3 lg:hidden border-b-4 p-3 border-landscape-700'>
-			<div className='flex text-7xl lg:text-8xl space-x-1 justify-center '>
-				<h1 className='mt-2 md:mt-5 text-landscape-300'> Living</h1>
+			<div className='flex text-7xl lg:text-8xl space-x-1 justify-center font-logo '>
+				<h1 className='mt-2 md:mt-5 text-landscape-300 '> Living</h1>
 				<div className='text-landscape-700 grid items-center justify-items-center'>
 					<div>space</div>
 					<div className='text-xl tracking-widest '>LANDSCAPES</div>
