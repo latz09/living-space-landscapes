@@ -4,21 +4,21 @@ import ButtonLink from '../components/utils/ButtonLink';
 import Carousel from '../components/carousel/Carousel';
 import SectionHeading from '../components/utils/SectionHeading';
 import Reviews from '../components/reviews/Reviews';
+import Logo from '../components/layout/Logo';
+import CustomLogo from '../components/layout/hero/CustomLogo';
 
 const HomePage = () => {
 	return (
-		<div className='grid gap-4 mb-24 justify-items-center mt-4'>
-			<div className='grid justify-items-center xl:flex xl:p-8 w-screen '>
-				<Hero />
+		<div className='grid gap-4 mb-24 justify-items-center'>
+			<Hero />
+			<CustomLogo />
 
-				<Philosophy />
-			</div>
-
+			<Philosophy />
 			<div className='flex space-x-3'>
 				<ButtonLink title='Set up Consultation' href={'/contact'} />
-				<ButtonLink title='Services' href={'/services'} />
+				
 			</div>
-			<div className='min-h-screen grid justify-items-center'>
+			<div className='grid justify-items-center'>
 				<div className='grid lg:grid-cols-2 gap-8 m-7 '>
 					<Reviews />
 				</div>
@@ -27,8 +27,9 @@ const HomePage = () => {
 				</div>
 			</div>
 
-			<SectionHeading title='Gallery' />
+			<SectionHeading title='Recent Projects' />
 			<Carousel />
+
 			<ButtonLink title='Full Gallery' href={'/gallery'} />
 		</div>
 	);

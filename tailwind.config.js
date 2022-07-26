@@ -9,6 +9,7 @@ module.exports = {
 			fontFamily: {
 				spaces: ['Roboto', 'sans-serif'],
 				long: ['Ibarra Real Nova', 'serif'],
+				logo: ['Sorts Mill Goudy', 'serif'],
 			},
 			colors: {
 				landscape: {

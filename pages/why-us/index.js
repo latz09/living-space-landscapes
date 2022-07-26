@@ -30,3 +30,6 @@ const WhyUs = () => {
 };
 
 export default WhyUs;
+
+
+// FIX LAYOUT OF HOMEPAGE

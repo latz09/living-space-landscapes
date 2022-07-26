@@ -11,14 +11,13 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className='relative'>
-			<div className='max-w-4xl mx-auto'>
-				<Logo />
-			</div>
-			<div className='hidden md:block p-2'>
+		<div className='max-w-7xl mx-auto '>
+	
+		
+			<div className='hidden md:block my-2'>
 				<NavLinks />
 			</div>
-			<div className='md:hidden nav-link p-2 flex justify-end content-center text-3xl mb-3'>
+			<div className='md:hidden nav-link my-3 mr-3 flex justify-end  text-2xl '>
 				<button onClick={toggleMenu}>
 					<RiMenu3Fill />
 				</button>

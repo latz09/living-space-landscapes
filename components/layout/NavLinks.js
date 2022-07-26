@@ -1,9 +1,12 @@
 import Link from 'next/link';
+import Logo from './Logo';
 
 const NavLinks = () => {
 	return (
-		<>
-			<ul className='grid gap-2 py-3 justify-center bg-white  md:py-0 md:flex md:justify-between md:content-center md:items-center px-4'>
+		<div>
+			
+			<ul className='grid gap-2  justify-center bg-white   md:flex md:justify-between md:content-center md:items-center p-4 '>
+			
 				<li className='nav-link'>
 					<Link href={'/'}> Home</Link>
 				</li>
@@ -11,7 +14,7 @@ const NavLinks = () => {
 				<li className='nav-link'>
 					<Link href={'/services'}>Services</Link>
 				</li>
-				<li className='nav-link'>
+				<li className='nav-link '>
 					<Link href={'/gallery'}>Gallery</Link>
 				</li>
 				<li className='nav-link'>
@@ -24,7 +27,7 @@ const NavLinks = () => {
 					<Link href={'/contact'}>Contact</Link>
 				</li>
 			</ul>
-		</>
+		</div>
 	);
 };
 
