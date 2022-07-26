@@ -7,7 +7,7 @@ const Hero = () => {
 	return (
 		<div className='relative'>
 			<div className='z-0 '>
-				<Image src={heroImage} alt='' layout='' />
+				<Image src={heroImage} alt='' layout='' priority={true} />
 			</div>
 
 			<div className='absolute inset-0  z-10 bg-white  bg-opacity-10 hidden lg:grid grid-cols-2 justify-items-center font-logo'>
