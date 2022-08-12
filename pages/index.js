@@ -14,20 +14,13 @@ const HomePage = () => {
 			<CustomLogo />
 
 			<Philosophy />
-			<div className='flex space-x-3'>
-				<ButtonLink title='Set up Consultation' href={'/contact'} />
-				
-			</div>
+
 			<div className='grid justify-items-center'>
 				<div className='grid lg:grid-cols-2 gap-8 m-7 '>
 					<Reviews />
 				</div>
-				<div>
-					<ButtonLink title='All Reviews' href={'/reviews'} />
-				</div>
 			</div>
 
-			<SectionHeading title='Recent Projects' />
 			<Carousel />
 
 			<ButtonLink title='Full Gallery' href={'/gallery'} />

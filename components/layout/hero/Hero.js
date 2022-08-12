@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import heroImage from '../../../public/images/yards/hero-long.png';
 
-import ButtonLink from '../../utils/ButtonLink';
+import ButtonLink from '../../utils/ButtonLink'; 
 
 const Hero = () => {
 	return (
