@@ -3,11 +3,11 @@ import { carouselImages } from '../../data/carouselImages';
 
 const Carousel = () => {
 	return (
-		<div className='grid md:grid-cols-2 gap-4'>
+		<div className='grid md:grid-cols-2 gap-4 md:justify-items-center'>
 			{carouselImages.map((image) => (
 				<div
 					key={image.src}
-					className='shadow-md grid gap-7 justify-items-center place-content-center p-3 pb-8 m-4 sm:m-0 border border-gray-500 border-opacity-30'
+					className=' grid gap-7 place-content-center pb-8 sm:m-0 md:px-2'
 				>
 					<Image
 						alt={image.src}

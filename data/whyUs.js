@@ -7,7 +7,7 @@ export const background = {
 	],
 	image: '/images/scott.jpg',
 	about:
-		'Worked in the horticulture, nursery and landscap industry since the 1980s.  Lived in Portland Oregon for several years learning the art of Japanese Gardens.  Worked with experienced Japanese garden builders in Portland.',
+		'Worked in the horticulture, nursery and landscape industry since the 1980s.  Lived in Portland Oregon for several years learning the art of Japanese Gardens.  Worked with experienced Japanese garden builders in Portland.',
 	organizations: [
 		{
 			organization: 'M.N.L.A',

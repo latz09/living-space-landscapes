@@ -31,14 +31,17 @@ const Intro = ({
 					</div>
 				</div>
 			</div>
-			<div className='self-center'>
-				<Image
-					src={image}
-					alt={alt}
-					height={300}
-					width={200}
-					layout='intrinsic'
-				/>
+			<div className='self-center p-2 shadow-lg grid italic'>
+				<span>
+					<Image
+						src={image}
+						alt={alt}
+						height={300}
+						width={200}
+						layout='intrinsic'
+					/>
+				</span>
+				<span className="text-center text-gray-500">Scott</span>
 			</div>
 		</div>
 	);
