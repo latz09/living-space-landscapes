@@ -2,10 +2,14 @@ import { reviews } from '../../data/reviews';
 import ReviewItem from './ReviewItem';
 
 const Reviews = () => {
-    
+  
+	const [first, second] = reviews
+	const firstTwoReviews = [first, second]
+
+	console.log(firstTwoReviews)
 	return (
 		<>
-			{reviews.map((review) => (
+			{firstTwoReviews.map((review) => (
 				<div key={review.name} >
 					<ReviewItem
 						name={review.name}

@@ -12,17 +12,13 @@ const HomePage = () => {
 		<div className='grid gap-4 mb-24 justify-items-center'>
 			<Hero />
 			<CustomLogo />
-
 			<Philosophy />
-
 			<div className='grid justify-items-center'>
 				<div className='grid lg:grid-cols-2 gap-8 m-7 '>
 					<Reviews />
 				</div>
-			</div>
-
+			</div>{' '}
 			<Carousel />
-
 			<ButtonLink title='Full Gallery' href={'/gallery'} />
 		</div>
 	);
