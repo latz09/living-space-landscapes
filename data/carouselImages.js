@@ -5,7 +5,7 @@ import image4 from '../public/images/yards/installation.jpg';
 import image5 from '../public/images/yards/new-sod.jpg';
 import image6 from '../public/images/yards/normandale.jpg';
 
-export const carouselImages = [image1, image2, image3, image4];
+export const carouselImages = [image1, image2, image3, image6];
 
 export const galleryImages = [
 	image1,
