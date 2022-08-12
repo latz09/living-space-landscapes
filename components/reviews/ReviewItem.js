@@ -27,15 +27,7 @@ const ReviewItem = ({ name, rating, review }) => {
 						{review}
 					</span>
 				</div>
-				<div className='text-3xl py-4'>
-					<button
-						onClick={() => {
-							setShowOverflow(!showOverflow);
-						}}
-					>
-						{!showOverflow ? <BsArrowBarDown /> : <BsArrowBarUp />}
-					</button>
-				</div>
+	
 			</div>
 		</>
 	);

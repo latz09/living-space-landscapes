@@ -5,7 +5,7 @@ const Philosophy = () => {
 	return (
 		<div className="grid md:grid-cols-2 justify-items-center items-center">
 			<h1 className="font-logo text-4xl text-landscape-700 hidden md:block">Philosphy</h1>
-			<div className='text-gray-500 grid prose font-long '>
+			<div className='text-gray-500 grid prose font-sans tracking-wide  '>
 				<p className='text-base  md:text-xl px-3'>
 					We create your landscape with a{' '}
 					<span className='text-landscape-700 '>naturalistic style </span>that
