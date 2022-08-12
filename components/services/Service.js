@@ -3,8 +3,6 @@ import SectionHeading from '../utils/SectionHeading';
 import ButtonLink from '../utils/ButtonLink';
 
 const Service = ({ title, image, description }) => {
-
-
 	return (
 		<>
 			<div className='my-7 text-center border-y border-landscape-700 py-3'>
@@ -23,11 +21,6 @@ const Service = ({ title, image, description }) => {
 						alt={`Image of ${title}`}
 						width={240}
 						height={195}
-					/>
-					<ButtonLink
-						href={'/contact'}
-						title={'Consultation'}
-						styles={'p-2 text-center mx-2'}
 					/>
 				</div>
 			</div>

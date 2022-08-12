@@ -26,7 +26,7 @@ const Intro = ({
 				</div>
 				<div>
 					<WhyUsHeading title='Background' />
-					<div className='prose text-gray-700 sm:text-base tracking-wide text-justify mr-8'>
+					<div className='prose text-gray-500 sm:text-base tracking-wide text-justify mr-8'>
 						<p>{about}</p>
 					</div>
 				</div>
