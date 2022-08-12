@@ -11,9 +11,9 @@ const CustomLogo = () => {
 				</div>{' '}
 			</div>
 			<div className='flex justify-center space-x-3 items-center '>
-				<ButtonLink title='Why us!' href={'/why-us'} styles='px-4' />
-				<ButtonLink title='Services' href={'/services'} styles='px-4' />
-				<ButtonLink title='Contact' href={'/contact'} styles='px-4' />
+				<ButtonLink title='Why us!' href={'/why-us'}  />
+				<ButtonLink title='Services' href={'/services'}  />
+				<ButtonLink title='Contact' href={'/contact'}  />
 			</div>
 		</div>
 	);
