@@ -15,7 +15,7 @@ const ServiceHero = () => {
 			</div>
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
 				<div className='grid gap-4 text-center tracking-widest text-gray-50'>
-					<h1 className='text-3xl md:text-7xl font-logo text-landscape-500'>
+					<h1 className='text-5xl md:text-7xl font-logo text-landscape-500'>
 						Services
 					</h1>
 					<span className=' text-lg md:text-2xl mx-12'>
