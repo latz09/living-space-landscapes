@@ -1,11 +1,39 @@
 import Image from 'next/image';
-import heroImage from '../../../public/images/yards/hero-long.png';
+import heroImage from '../../../public/images/yards/patio-red-chairs.jpg';
 
-import ButtonLink from '../../utils/ButtonLink'; 
+// import ButtonLink from '../../utils/ButtonLink';
 
 const Hero = () => {
 	return (
-		<div className='relative'>
+		<div className='relative w-[100vw] h-[75vh]'>
+			<div className='-z-10'>
+				<Image
+					src={heroImage}
+					alt=''
+					layout='fill'
+					objectFit='cover'
+					objectPosition='center'
+				/>
+			</div>
+			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
+				<div className=''>
+					<div className='flex text-5xl md:text-7xl lg:text-8xl space-x-1 p-4'>
+						<h1 className='mt-2 md:mt-5 text-landscape-300'> Living</h1>
+						<div className='text-landscape-700 grid items-center justify-items-center'>
+							<div>space</div>
+							<div className='text-xl tracking-widest '>LANDSCAPES</div>
+						</div>{' '}
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default Hero;
+
+{
+	/* <div className='relative'>
 			<div className='z-0 '>
 				<Image src={heroImage} alt='' layout='' priority={true} />
 			</div>
@@ -42,8 +70,5 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
-		</div>
-	);
-};
-
-export default Hero;
+		</div> */
+}
