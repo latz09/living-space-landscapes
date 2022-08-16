@@ -6,13 +6,14 @@ import heroImage from '../../../public/images/yards/patio-red-chairs.jpg';
 const Hero = () => {
 	return (
 		<div className='relative w-[100vw] h-[75vh]'>
-			<div className='-z-10'>
+			<div className='-z-10  '>
 				<Image
 					src={heroImage}
 					alt=''
 					layout='fill'
 					objectFit='cover'
 					objectPosition='center'
+					priority='true'
 				/>
 			</div>
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
