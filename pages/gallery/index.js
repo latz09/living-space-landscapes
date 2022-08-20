@@ -4,17 +4,17 @@ import { galleryImages } from '../../data/carouselImages';
 import { v4 as uuid } from 'uuid';
 
 const Gallery = () => {
-	
 	return (
-		<div>
-          
-            <PageHeading  title='Gallery'/>
-			<div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 items-center max-w-7xl mx-auto min-h-screen'>
-				{galleryImages.map((image) => (
-					<div key={uuid()} className="p-3 shadow-lg text-center mx-8 sm:mx-0">
-						<ImageItem image={image} />
-					</div>
-				))}
+		<div className="bg-gray-200 pb-9 border-x-4 border-landscape-700">
+			<PageHeading title='Gallery' />
+			<div className="bg-landscape-300 max-w-7xl mx-auto px-4 border-x-8 border-landscape-500">
+				<div className='grid xl:grid-cols-2 place-items-center  gap-4  bg-landscape-500 py-9'>
+					{galleryImages.map((image) => (
+						<div key={uuid()}>
+							<ImageItem image={image} />
+						</div>
+					))}
+				</div>
 			</div>
 		</div>
 	);

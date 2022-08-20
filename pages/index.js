@@ -22,6 +22,7 @@ const HomePage = () => {
 				</div>
 			</div>{' '}
 			<Carousel />
+			<ButtonLink href={'/gallery'} title='Full Gallery'/>
 		</div>
 	);
 };
