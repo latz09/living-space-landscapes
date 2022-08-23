@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import heroImage from '../../../public/images/yards/patio-red-chairs.jpg';
-
+import logo from '../../../public/images/logos/logo.jpg'
 // import ButtonLink from '../../utils/ButtonLink';
 
 const Hero = () => {
@@ -18,13 +18,15 @@ const Hero = () => {
 			</div>
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
 				<div className=''>
-					<div className='flex text-5xl md:text-7xl lg:text-8xl space-x-1 p-4'>
+
+					<Image src ={logo} alt=''/>
+					{/* <div className='flex text-5xl md:text-7xl lg:text-8xl space-x-1 p-4'>
 						<h1 className='mt-2 md:mt-5 text-landscape-300'> Living</h1>
 						<div className='text-landscape-700 grid items-center justify-items-center'>
 							<div>space</div>
 							<div className='text-xl tracking-widest '>LANDSCAPES</div>
 						</div>{' '}
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>
