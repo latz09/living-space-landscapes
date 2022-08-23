@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import heroImage from '../../../public/images/yards/patio-red-chairs.jpg';
-import logo from '../../../public/images/logos/logo.jpg'
+import logo from '../../../public/images/logos/logo.png'
 // import ButtonLink from '../../utils/ButtonLink';
 
 const Hero = () => {
