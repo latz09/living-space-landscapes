@@ -17,7 +17,7 @@ const Hero = () => {
 				/>
 			</div>
 			<div className='relative flex justify-center items-center h-full	 bg-black bg-opacity-60'>
-				<div className='lg:w-1/2 max-w-3xl'>
+				<div className='lg:w-1/2 max-w-3xl px-4'>
 
 					<Image src ={logo} alt='' layout='intrinsic' />
 				
