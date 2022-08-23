@@ -5,7 +5,7 @@ import logo from '../../../public/images/logos/logo.png'
 
 const Hero = () => {
 	return (
-		<div className='relative w-[100vw] h-[75vh]'>
+		<div className='relative w-full h-[75vh]'>
 			<div className='-z-10  '>
 				<Image
 					src={heroImage}
@@ -16,12 +16,11 @@ const Hero = () => {
 					priority='true'
 				/>
 			</div>
-			<div className='relative flex justify-center items-center h-full	 bg-black bg-opacity-60'>
+			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
 				<div className='lg:w-1/2 max-w-3xl px-4'>
-
-					<Image src ={logo} alt='' layout='intrinsic' />
-				
+					<Image src ={logo} alt='' layout='intrinsic' />				
 				</div>
+
 			</div>
 		</div>
 	);

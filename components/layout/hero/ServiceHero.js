@@ -3,7 +3,7 @@ import serviceHero from '../../../public/images/yards/hero.jpg';
 
 const ServiceHero = () => {
 	return (
-		<div className='relative w-[100vw] h-[75vh]'>
+		<div className='relative w-full h-[75vh]'>
 			<div className='-z-10'>
 				<Image
 					src={serviceHero}

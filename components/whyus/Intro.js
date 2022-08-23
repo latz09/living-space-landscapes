@@ -13,8 +13,9 @@ const Intro = ({
 	certifications,
 	memberships,
 }) => {
+
 	return (
-		<div className='grid gap-4 justify-items-center md:justify-items-start justify-around md:flex p-4 max-w-4xl mx-auto  border-l-4 md:pl-12 border-landscape-700'>
+		<div className='grid gap-4 justify-items-center md:justify-items-start justify-around md:flex p-4 max-w-4xl mx-auto  border-l-4 md:pl-12 border-landscape-300'>
 			<div className='grid gap-4 justify-items-between'>
 				<div className='text-gray-400 tracking-wide'>
 					<SectionHeading title={name} />
@@ -41,7 +42,7 @@ const Intro = ({
 						layout='intrinsic'
 					/>
 				</span>
-				<span className="text-center text-gray-500">Scott</span>
+				<span className='text-center text-gray-500'>Scott</span>
 			</div>
 		</div>
 	);

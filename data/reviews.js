@@ -1,6 +1,6 @@
 export const reviews = [
 	{
-		name: 'kathleen elli',
+		name: 'Kathleen elli',
 		rating: 5,
 		review:
 			'Absolutely fantastic! The crew was quick, talented, respectful. Scott and Megan were delightful and met our design and install needs in every way. End project is just delightful!',

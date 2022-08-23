@@ -11,7 +11,7 @@ import image10 from '../public/images/yards/4.jpg';
 import image11 from '../public/images/yards/5.jpg';
 import image12 from '../public/images/yards/6.jpg';
 
-export const carouselImages = [image1, image2, image3, image6];
+export const carouselImages = [image2, image1, image3, image6];
 
 export const galleryImages = [
 	image7,
