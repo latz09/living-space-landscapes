@@ -1,7 +1,7 @@
 const Text = () => {
 	return (
 		<div className='text-gray-500 grid font-sans tracking-wide prose'>
-			<p className='text-base  md:text-xl px-3'>
+			<p className='text-lg  md:text-xl mx-3'>
 				We create your landscape with a{' '}
 				<span className='text-landscape-700 '>naturalistic style </span>that
 				will inspire a sense of{' '}
