@@ -6,7 +6,6 @@ const Reviews = () => {
 	const [first, second] = reviews
 	const firstTwoReviews = [first, second]
 
-	console.log(firstTwoReviews)
 	return (
 		<>
 			{firstTwoReviews.map((review) => (
