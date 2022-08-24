@@ -1,30 +1,37 @@
 import Link from 'next/link';
 
-
 const NavLinks = () => {
-	return (
-		<div>
-			
-			<ul className='grid gap-2  justify-center   md:flex md:justify-evenly md:content-center md:items-center p-4 '>
-			
-				<li className='nav-link'>
-					<Link href={'/'}> Home</Link>
-				</li>
+	const navLinks = [
+		{
+			name: 'Home',
+			link: '/',
+		},
+		{
+			name: 'Services',
+			link: '/services',
+		},
+		{
+			name: 'Why Us',
+			link: '/why-us',
+		},
+		{
+			name: 'Contact',
+			link: '/contact',
+		},
+		{
+			name: 'Gallery',
+			link: '/gallery',
+		},
+	];
 
-				<li className='nav-link'>
-					<Link href={'/services'}>Services</Link>
-				</li>
-		
-				<li className='nav-link'>
-					<Link href={'/why-us'}>Why Us</Link>
-				</li>
-		
-				<li className='nav-link'>
-					<Link href={'/contact'}>Contact</Link>
-				</li>
-				<li className='nav-link '>
-					<Link href={'/gallery'}>Gallery</Link>
-				</li>
+	return (
+		<div className=" ">
+			<ul className='nav-bar '>
+				{navLinks.map((link) => (
+					<li key={link.name} className='nav-link'>
+						<Link href={link.link}>{link.name}</Link>
+					</li>
+				))}
 			</ul>
 		</div>
 	);

@@ -12,7 +12,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className='bg-landscape-500'>
+		<div className='bg-landscape-500 relative'>
 			<div className='max-w-7xl mx-auto '>
 				<div className='hidden md:block py-2'>
 					<NavLinks />
@@ -27,12 +27,7 @@ const Navbar = () => {
 						<RiMenu3Fill />
 					</button>
 				</div>
-				<div
-					className='md:hidden'
-					onClick={() => {
-						setMenuOpen(false);
-					}}
-				>
+				<div className='md:hidden' onClick={toggleMenu}>
 					{menuOpen && <NavLinks />}
 				</div>
 			</div>
