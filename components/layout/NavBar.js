@@ -35,7 +35,7 @@ const Navbar = () => {
 			<div className='bg-landscape-500'>
 				<div className='max-w-7xl mx-auto flex items-center justify-between py-4 md:px-10 px-7 text-gray-50 tracking-wider'>
 					<Link href={'/'}>
-						<span className='hover:text-landscape-700 duration-700 text-4xl cursor-pointer '>
+						<span className='hover:text-landscape-700 duration-700 text-4xl cursor-pointer' onClick={() => setOpen(!open)}>
 							<MdHouseSiding />{' '}
 						</span>
 					</Link>
@@ -55,7 +55,8 @@ const Navbar = () => {
 						{navLinks.map((link) => (
 							<div
 								key={link.name}
-								className='md:ml-8 text-2xl md:my-0 my-7 text-center'
+								className='md:ml-8 text-lg md:text-2xl md:my-0 my-7 text-center'
+								onClick={() => setOpen(!open)}
 							>
 								<Link href={link.link}>
 									<a className='hover:text-landscape-700 duration-700 border-b pb-2 md:border-none md:pb-0'>
