@@ -29,13 +29,16 @@ const Navbar = () => {
 	];
 
 	const [open, setOpen] = useState(false);
+	const closeMenu = () => {
+	  open && setOpen(false) 
+	}
 
 	return (
 		<div className='shadow-md w-full fixed top-0 left-0 z-10'>
 			<div className='bg-landscape-500'>
 				<div className='max-w-7xl mx-auto flex items-center justify-between py-4 md:px-10 px-7 text-gray-50 tracking-wider'>
 					<Link href={'/'}>
-						<span className='hover:text-landscape-700 duration-700 text-4xl cursor-pointer' onClick={() => setOpen(!open)}>
+						<span className='hover:text-landscape-700 duration-700 text-4xl cursor-pointer' onClick={closeMenu}>
 							<MdHouseSiding />{' '}
 						</span>
 					</Link>
