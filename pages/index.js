@@ -6,7 +6,7 @@ import Reviews from '../components/reviews/Reviews';
 
 const HomePage = () => {
 	return (
-		<div className='grid gap-4 pb-8 justify-items-center bg-gray-50'>
+		<div className='grid gap-4 pb-8 justify-items-center bg-gray-50 pt-16'>
 			<Hero />
 			<Philosophy />
 			<div className='flex space-x-4'>

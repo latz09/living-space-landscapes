@@ -6,7 +6,7 @@ import logo from '../../../public/images/logos/logo.png'
 const Hero = () => {
 	return (
 		<div className='relative w-full h-[75vh]'>
-			<div className='-z-10  '>
+			<div className='z-10  '>
 				<Image
 					src={heroImage}
 					alt=''

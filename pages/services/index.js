@@ -4,7 +4,7 @@ import { services } from '../../data/services';
 
 const Services = () => {
 	return (
-		<>		
+		<div className="pt-16">		
 			<ServiceHero />
 			<div className='grid sm:gap-16 my-12'>
 				<div className='max-w-5xl mx-auto'>
@@ -19,7 +19,7 @@ const Services = () => {
 					))}
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 

@@ -3,7 +3,7 @@ import Layout from '../components/layout/layout';
 
 function MyApp({ Component, pageProps }) {
 	return (
-		<div className='font-spaces'>
+		<div className='font-spaces '>
 			<Layout>
 				<div className=''>
 					<Component {...pageProps} />

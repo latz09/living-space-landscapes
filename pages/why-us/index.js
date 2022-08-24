@@ -6,8 +6,8 @@ import { background } from '../../data/whyUs';
 
 const WhyUs = () => {
 	return (
-		<div>
-			<PageHeading title='Why Us' />
+		<div className="pt-16">
+			
 			<div className='grid gap-20 my-12'>
 				<Intro
 					name={background.name}

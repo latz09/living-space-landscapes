@@ -7,7 +7,7 @@
 
 @layer components {
 	.nav-link {
-		@apply text-gray-100 md:text-2xl hover:text-white transition duration-700;
+		@apply md:text-2xl hover:text-black transition duration-700;
 	}
 	.nav-bar {
 		@apply grid gap-2  justify-center   md:flex md:justify-evenly md:content-center md:items-center p-4;

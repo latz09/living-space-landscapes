@@ -4,7 +4,7 @@ import PageHeading from '../../components/utils/PageHeading';
 
 const contact = () => {
 	return (
-		<div className="mb-12">
+		<div className="py-16">
 			<div className='bg-landscape-700 bg-opacity-90 text-white text-center  sm:text-2xl md:text-3xl font-bold tracking-wider flex justify-center pt-12 pb-20'>
 				<p>Schedule a consultation with one of our professionals</p>
 			</div>
