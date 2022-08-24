@@ -32,7 +32,7 @@ const Navbar = () => {
 
 	return (
 		<div className='shadow-md w-full fixed top-0 left-0 z-10'>
-			<div className="bg-landscape-500">
+			<div className='bg-landscape-500'>
 				<div className='max-w-7xl mx-auto flex items-center justify-between py-4 md:px-10 px-7 text-gray-50 tracking-wider'>
 					<Link href={'/'}>
 						<span className='hover:text-landscape-700 duration-700 text-4xl cursor-pointer '>
@@ -53,14 +53,16 @@ const Navbar = () => {
 						}`}
 					>
 						{navLinks.map((link) => (
-							<li key={link.name} className='md:ml-8 text-2xl md:my-0 my-7 text-center'>
-								<a
-									href={link.link}
-									className='hover:text-landscape-700 duration-700 border-b pb-2 md:border-none md:pb-0'
-								>
-									{link.name}
-								</a>
-							</li>
+							<div
+								key={link.name}
+								className='md:ml-8 text-2xl md:my-0 my-7 text-center'
+							>
+								<Link href={link.link}>
+									<a className='hover:text-landscape-700 duration-700 border-b pb-2 md:border-none md:pb-0'>
+										{link.name}
+									</a>
+								</Link>
+							</div>
 						))}
 					</ul>
 				</div>
