@@ -12,9 +12,13 @@ const HomePage = () => {
 			<Hero />
 			<Philosophy />
 
-			<div className='flex space-x-4'>
-				<ButtonLink title='Explore Services' href={'/services'} />
-				<ButtonLink title='Why choose us' href={'/why-us'} />
+			<div className='flex space-x-4 w-full max-w-3xl mx-auto text-center ' >
+				<div className='w-1/2 px-2'>
+					<ButtonLink title='Our Process' href={'/our-process'} />
+				</div>
+				<div className='w-1/2 px-2'>
+					<ButtonLink title='Why us' href={'/why-us'} />
+				</div>
 			</div>
 			<JapaneseHero />
 			<Reviews />

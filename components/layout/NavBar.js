@@ -14,8 +14,8 @@ const Navbar = () => {
 			link: '/why-us',
 		},
 		{
-			name: 'Services',
-			link: '/services',
+			name: 'Our Process',
+			link: '/our-process',
 		},
 		{
 			name: 'Gallery',
