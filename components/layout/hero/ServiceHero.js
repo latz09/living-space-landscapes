@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import serviceHero from '../../../public/images/yards/hero.jpg';
+import serviceHero from '../../../public/images/gallery-images/11.jpg';
 
 const ServiceHero = () => {
 	return (
