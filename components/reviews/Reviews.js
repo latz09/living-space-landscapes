@@ -6,7 +6,7 @@ const Reviews = () => {
 	const firstTwoReviews = [first, second];
 
 	return (
-		<div className='grid lg:grid-cols-2 gap-8 py-8 '>
+		<div className='grid lg:grid-cols-2 place-items-center gap-8 py-8 lg:h-[60vh] '>
 			{firstTwoReviews.map((review) => (
 				<div key={review.name}>
 					<ReviewItem

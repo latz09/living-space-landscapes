@@ -1,16 +1,17 @@
 import Image from 'next/image';
 import { carouselImages } from '../../data/carouselImages';
 import ButtonLink from '../utils/ButtonLink';
+import SectionHeading from '../utils/SectionHeading';
 
 const GalleryPreview = () => {
 	return (
 		<>
+			<div className="py-8">
+				<SectionHeading title={'Inspiration Gallery'} />
+			</div>
 			<div className='grid md:grid-cols-2  md:gap-12'>
 				{carouselImages.map((image) => (
-					<div
-						key={image.src}
-						className=' grid gap-7 pb-8 sm:m-0 md:px-2'
-					>
+					<div key={image.src} className=' grid gap-7 pb-8 sm:m-0 md:px-2'>
 						<Image
 							alt={image.src}
 							src={image.src}
@@ -21,7 +22,7 @@ const GalleryPreview = () => {
 					</div>
 				))}
 			</div>
-			<ButtonLink href={'/gallery'} title='Full Gallery'/>
+			<ButtonLink href={'/gallery'} title='Full Gallery' />
 		</>
 	);
 };
