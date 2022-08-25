@@ -9,6 +9,7 @@ const StoneHero = () => {
 				<Image
 					src={stoneHero}
 					alt=''
+					priority='true'
 					layout='fill'
 					objectFit='cover'
 					objectPosition='center'

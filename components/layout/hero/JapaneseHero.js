@@ -8,6 +8,7 @@ const JapaneseHero = () => {
         <Image
             src={japaneseHero}
             alt=''
+            priority='true'
             layout='fill'
             objectFit='cover'
             objectPosition='center'

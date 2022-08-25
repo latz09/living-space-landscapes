@@ -8,6 +8,7 @@ const ServiceHero = () => {
 				<Image
 					src={serviceHero}
 					alt=''
+					priority='true'
 					layout='fill'
 					objectFit='cover'
 					objectPosition='left'
