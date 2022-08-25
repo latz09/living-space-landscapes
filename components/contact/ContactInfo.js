@@ -8,7 +8,7 @@ const ContactInfo = () => {
 
 
 	return (
-		<div className='p-4 text-landscape-700 shadow-lg  border py-14'>
+		<div className='p-4 text-landscape-700 border py-14'>
 			<div className='flex justify-center mb-5 border-b pb-8'>
 				<Address />{' '}
 			</div>

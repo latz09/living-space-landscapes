@@ -1,6 +1,6 @@
 import ContactInfo from '../../components/contact/ContactInfo';
-import Form from '../../components/contact/Form';
-import PageHeading from '../../components/utils/PageHeading';
+import EmailUs from '../../components/contact/EmailUs';
+
 
 const contact = () => {
 	return (
@@ -10,10 +10,10 @@ const contact = () => {
 			</div>
 			<div className='grid lg:grid-cols-2 gap-4  p-4 max-w-6xl mx-auto items-stretch'>
 			
-				<div className="relative bottom-16 bg-white">
-					<Form />
+				<div className="relative bottom-16 bg-white shadow-lg">
+					<EmailUs />
 				</div>
-                <div className="lg:relative bottom-16 bg-white">
+                <div className="lg:relative bottom-16 bg-white shadow-lg">
 					<ContactInfo />
 				</div>
 			</div>
