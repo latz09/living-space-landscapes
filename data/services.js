@@ -11,12 +11,12 @@ export const services = [
 		title: 'Installation',
 		description:
 			'Living Space Landscapes applies horticulturally correct methods of soil preparation and planting at each project. We take pride in combining the artistic arrangements of plants and skilled boulder setting. Our craftsmanship really shows in the labor intensive, cut-to-fit natural stone patios or walkways. When it is all complete, your landscape should give you a sense of connection with nature and a way of escaping from all your troubles. Just a simple stroll through your new landscape should provide mental restoration and reward you with an overall mood of quiet elegance surrounded by natural beauty.',
-		image: 'images/yards/installation.jpg'
+		image: 'images/gallery-images/2.jpg'
 	},
 	{
 		title: 'Aesthetic Pruning',
 		description:
 			'Sculpting of Japanese influenced garden trees, or niwaki has become a finely honed art with a distinctive set of pruning techniques. In-ground giant bonsai or Hindu-Pan style evergreens are skillfully hand pruned every year. These specimen trees rely on craftsmanship, horticultural knowledge, and a sense of proportion and balance to maintain their shape. Without the trained eye of an experienced gardener to monitor the pruning needs, the giant bonsai trees will revert back to a natural growth rate and lose the essence of its design and intent. Living Space Landscapes takes care of many bonsai garden trees in the Twin Cities area. Other Minnesota landscape companies also commission us to provide the aesthetic pruning for their clients that have giant bonsai trees.',
-			image: 'images/yards/pruning.jpg'
+			image: 'images/gallery-images/16.jpg'
 	},
 ];
