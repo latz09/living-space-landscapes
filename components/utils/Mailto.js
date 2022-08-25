@@ -1,6 +1,6 @@
-const Mailto = ({ email, subject, body, ...props }) => {
+const Mailto = ({ email, subject, body, cc, ...props }) => {
 	return (
-		<a href={`mailto:${email}?subject=${subject || ''}&body=${body || ''}`}>
+		<a href={`mailto:${email}?cc=${cc}&subject=${subject || ''}&body=${body || ''}`}>
 			{props.children}
 		</a>
 	);

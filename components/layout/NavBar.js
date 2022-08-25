@@ -17,14 +17,13 @@ const Navbar = () => {
 			name: 'Services',
 			link: '/services',
 		},
-
-		{
-			name: 'Contact',
-			link: '/contact',
-		},
 		{
 			name: 'Gallery',
 			link: '/gallery',
+		},
+		{
+			name: 'Contact',
+			link: '/contact',
 		},
 	];
 
@@ -50,7 +49,7 @@ const Navbar = () => {
 						onClick={() => setOpen(!open)}
 						className='text-3xl  cursor-pointer md:hidden'
 					>
-						{!open ?  <RiMenu3Fill /> : <RiCloseLine />}
+						{!open ? <RiMenu3Fill /> : <RiCloseLine />}
 					</button>
 
 					<ul

@@ -21,7 +21,8 @@ const EmailUs = () => {
 			<div className=' text-landscape-700  text-center'>
 			
 				<Mailto
-					email='jordan@latzwebdesign.com'
+					email='megan@livingspacelandscapes.com'
+					cc='scott@livingspacelandscapes.com'
 					subject='Consultation Request'
 					body={body}
 				>
