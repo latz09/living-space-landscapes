@@ -32,24 +32,33 @@ const Navbar = () => {
 	return (
 		<div className='shadow-md w-full fixed top-0 left-0 z-10'>
 			<div className='bg-landscape-500'>
-				<div className='max-w-7xl mx-auto flex items-center justify-between py-4 md:px-10 px-7 text-gray-50 tracking-widest'>
+				<div className='max-w-7xl mx-auto flex items-center justify-between py-4 md:px-10 px-7 text-white tracking-widest'>
 					<Link href={'/'}>
-						<span
+						<button
 							className='hover:text-landscape-700 duration-700 text-4xl cursor-pointer'
 							onClick={closeMenu}
+							label='Navigate Home'
 						>
 							<MdHouseSiding />{' '}
-						</span>
+						</button>
 					</Link>
 
-					<button
+					<div
 						onClick={() => setOpen(!open)}
 						className='text-3xl  cursor-pointer md:hidden'
 					>
-						{!open ? <RiMenu3Fill /> : <RiCloseLine />}
-					</button>
+						{!open ? (
+							<button label='open navbar'>
+								<RiMenu3Fill />{' '}
+							</button>
+						) : (
+							<button label='close navbar'>
+								<RiCloseLine />
+							</button>
+						)}
+					</div>
 
-					<ul
+					<div
 						className={` bg-landscape-500 border-b-4 border-landscape-700 md:border-none md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto transition-all duration-700 ease-in ${
 							open ? 'top-16' : 'top-[-490px]'
 						}`}
@@ -67,7 +76,7 @@ const Navbar = () => {
 								</Link>
 							</div>
 						))}
-					</ul>
+					</div>
 				</div>
 			</div>
 		</div>

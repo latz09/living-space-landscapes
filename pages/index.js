@@ -19,7 +19,7 @@ const HomePage = () => {
 				<Hero />
 				<Philosophy />
 
-				<div className='flex space-x-4 w-full max-w-3xl mx-auto text-center '>
+				<div className='flex space-x-3 w-full max-w-3xl mx-auto text-center items-center'>
 					<div className='w-1/2 px-2'>
 						<ButtonLink title='Our Process' href={'/our-process'} />
 					</div>
