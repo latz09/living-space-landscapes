@@ -1,4 +1,4 @@
-import ServiceHero from '../../components/layout/hero/ServiceHero';
+import ServiceHero from '../../components/layout/heros/ServiceHero';
 import Service from '../../components/services/Service';
 import { services } from '../../data/services';
 import Meta from '../../components/utils/Meta';
