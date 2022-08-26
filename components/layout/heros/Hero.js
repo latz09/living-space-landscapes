@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import heroImage from '../../../public/images/gallery-images/11.jpg';
+import heroImage from '../../../public/images/webp/logoHero.webp';
 import logo from '../../../public/images/logos/logo.png';
 const Hero = () => {
 	return (
@@ -20,8 +20,6 @@ const Hero = () => {
 						alt='Living Landscapes Logo'
 						layout='intrinsic'
 						priority='true'
-						width={800}
-						height={256}
 					/>
 				</div>
 			</div>
