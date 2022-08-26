@@ -1,18 +1,19 @@
-import React, { useState } from 'react';
+import Meta from '../../components/utils/Meta';
 
-const ResponsiveNavbar = () => {
-	const [isSideMenuOpen, setisSideMenuOpen] = useState(false);
-
-	const showSideMenu = () => {
-		isSideMenuOpen ? setisSideMenuOpen(false) : setisSideMenuOpen(true);
-	};
-
+const JapaneseGardening = () => {
 	return (
-		<div>
-			
-		</div>
+		<>
+			<Meta
+				pageTitle={'Japanese Gardening'}
+				description={
+					'Creating your landscape with a naturalistic style. Boulders, stones, japanese gardening, patios, pathways'
+				}
+			/>
+			<div className='text-4xl text-landscape-700 text-center mt-28'>
+				Japanse gardening
+			</div>
+		</>
 	);
 };
 
-export default ResponsiveNavbar;
-
+export default JapaneseGardening;

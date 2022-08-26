@@ -12,6 +12,7 @@ const ServiceHero = () => {
 					layout='fill'
 					objectFit='cover'
 					objectPosition='left'
+					placeholder='blur'
 				/>
 			</div>
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-40'>

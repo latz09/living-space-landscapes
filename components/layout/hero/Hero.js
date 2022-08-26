@@ -14,6 +14,7 @@ const Hero = () => {
 					objectFit='cover'
 					objectPosition='center'
 					priority='true'
+					placeholder='blur'
 				/>
 			</div>
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
