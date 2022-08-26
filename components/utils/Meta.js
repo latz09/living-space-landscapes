@@ -1,5 +1,4 @@
 import Head from 'next/head';
-
 const Meta = ({ pageTitle, description }) => {
 	return (
 		<Head>
@@ -8,5 +7,4 @@ const Meta = ({ pageTitle, description }) => {
 		</Head>
 	);
 };
-
 export default Meta;

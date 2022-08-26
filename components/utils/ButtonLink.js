@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 const ButtonLink = ({ href, title, styles }) => {
 	return (
 		<Link href={href}>
@@ -9,5 +8,4 @@ const ButtonLink = ({ href, title, styles }) => {
 		</Link>
 	);
 };
-
 export default ButtonLink;

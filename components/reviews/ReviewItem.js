@@ -1,11 +1,5 @@
-import { useState } from 'react';
-import { BsArrowBarDown, BsArrowBarUp, BsPersonCircle } from 'react-icons/bs';
-import { FaStar } from 'react-icons/fa';
 import StarGenerator from './StarGenerator';
-
 const ReviewItem = ({ name, rating, review }) => {
-	const [showOverflow, setShowOverflow] = useState(false);
-
 	return (
 		<>
 			<div className='prose grid justify-items-center max-w-2xl mx-auto p-6  text-landscape-700 '>
@@ -20,5 +14,4 @@ const ReviewItem = ({ name, rating, review }) => {
 		</>
 	);
 };
-
 export default ReviewItem;

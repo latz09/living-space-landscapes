@@ -1,5 +1,4 @@
 import SectionHeading from '../utils/SectionHeading';
-
 const FeaturedIn = ({ articles }) => {
 	return (
 		<div className='text-center md:flex justify-center space-x-12 items-center'>
@@ -17,5 +16,4 @@ const FeaturedIn = ({ articles }) => {
 		</div>
 	);
 };
-
 export default FeaturedIn;

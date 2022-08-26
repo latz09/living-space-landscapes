@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { RiMenu3Fill, RiCloseLine } from 'react-icons/ri';
 import { useState } from 'react';
 import { MdHouseSiding } from 'react-icons/md';
-
 const Navbar = () => {
 	const navLinks = [
 		{
@@ -26,12 +25,10 @@ const Navbar = () => {
 			link: '/contact',
 		},
 	];
-
 	const [open, setOpen] = useState(false);
 	const closeMenu = () => {
 		open && setOpen(false);
 	};
-
 	return (
 		<div className='shadow-md w-full fixed top-0 left-0 z-10'>
 			<div className='bg-landscape-500'>
@@ -76,5 +73,4 @@ const Navbar = () => {
 		</div>
 	);
 };
-
 export default Navbar;

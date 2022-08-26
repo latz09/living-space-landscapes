@@ -1,6 +1,4 @@
 import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
-
-
 const Contact = ({ name, number, email }) => {
 	return (
 		<div className='grid gap-2'>
@@ -20,5 +18,4 @@ const Contact = ({ name, number, email }) => {
 		</div>
 	);
 };
-
 export default Contact;

@@ -1,5 +1,4 @@
 import Meta from '../../components/utils/Meta';
-
 const JapaneseGardening = () => {
 	return (
 		<>
@@ -15,5 +14,4 @@ const JapaneseGardening = () => {
 		</>
 	);
 };
-
 export default JapaneseGardening;

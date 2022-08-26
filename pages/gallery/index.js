@@ -1,7 +1,6 @@
 import ImageItem from '../../components/gallery/ImageItem';
 import { galleryImages } from '../../data/carouselImages';
 import Meta from '../../components/utils/Meta';
-
 const Gallery = () => {
 	return (
 		<>
@@ -23,5 +22,4 @@ const Gallery = () => {
 		</>
 	);
 };
-
 export default Gallery;

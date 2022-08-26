@@ -14,18 +14,18 @@ const Form = () => {
 						className='border border-landscape-300 focus:ring-landscape-700 focus:border-landscape-700 text-gray-700'
 						placeholder='email'
 						required={true}
-
 					/>
 					<input
 						type='text'
 						className='border border-landscape-300 focus:ring-landscape-700 focus:border-landscape-700 text-gray-700'
 						placeholder='phone number'
 					/>
-					<button className='p-2 bg-landscape-700 text-white text-xl hover:bg-opacity-70 transition duration-700'>Submit</button>
+					<button className='p-2 bg-landscape-700 text-white text-xl hover:bg-opacity-70 transition duration-700'>
+						Submit
+					</button>
 				</form>
 			</div>
 		</div>
 	);
 };
-
 export default Form;

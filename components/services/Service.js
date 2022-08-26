@@ -1,7 +1,5 @@
 import Image from 'next/image';
 import SectionHeading from '../utils/SectionHeading';
-
-
 const Service = ({ title, image, description }) => {
 	return (
 		<>
@@ -12,20 +10,20 @@ const Service = ({ title, image, description }) => {
 					styles={'text-3xl md:text-4xl'}
 				/>
 			</div>
-
 			<div className='sm:grid grid-cols-3'>
 				<p className=' col-span-2 description'>{description}</p>
 				<div className='grid justify-items-center md:justify-items-end py-8 mr-2'>
-					<Image
-						src={`/${image}`}
-						alt={`Image of ${title}`}
-						width={240}
-						height={195}
-					/>
+					<div className='relative w-full h-full text-center'>
+						<Image
+							src={`/${image}`}
+							alt={`Image of ${title}`}
+							width={240}
+							height={195}
+						/>
+					</div>
 				</div>
 			</div>
 		</>
 	);
 };
-
 export default Service;

@@ -7,5 +7,4 @@ const WhyUsHeading = ({ title }) => {
 		</>
 	);
 };
-
 export default WhyUsHeading;

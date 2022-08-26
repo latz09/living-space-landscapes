@@ -2,7 +2,6 @@ import ServiceHero from '../../components/layout/heros/ServiceHero';
 import Service from '../../components/services/Service';
 import { services } from '../../data/services';
 import Meta from '../../components/utils/Meta';
-
 const Services = () => {
 	return (
 		<>
@@ -31,5 +30,4 @@ const Services = () => {
 		</>
 	);
 };
-
 export default Services;

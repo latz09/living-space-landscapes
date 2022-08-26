@@ -3,7 +3,6 @@ import SectionHeading from '../utils/SectionHeading';
 import WhyUsHeading from '../utils/WhyUsHeading';
 import Certifications from './Certifications';
 import Memberships from './Memberships';
-
 const Intro = ({
 	name,
 	image,
@@ -13,7 +12,6 @@ const Intro = ({
 	certifications,
 	memberships,
 }) => {
-
 	return (
 		<div className='grid gap-4 justify-items-center md:justify-items-start justify-around md:flex p-4 max-w-4xl mx-auto  border-l-4 md:pl-12 border-landscape-300'>
 			<div className='grid gap-4 justify-items-between'>
@@ -47,5 +45,4 @@ const Intro = ({
 		</div>
 	);
 };
-
 export default Intro;

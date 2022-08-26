@@ -1,7 +1,6 @@
 import '../styles/globals.css';
 import Head from 'next/head';
 import Layout from '../components/layout/layout';
-
 function MyApp({ Component, pageProps }) {
 	return (
 		<>
@@ -9,7 +8,7 @@ function MyApp({ Component, pageProps }) {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<meta httpEquiv='Content-Type' content='text/html; charSet=utf-8' />
 				<link rel='shortcut icon' href='/images/image2vector.svg' />
-			</Head> 
+			</Head>
 			<div className='font-spaces '>
 				<Layout>
 					<div className=''>
@@ -20,5 +19,4 @@ function MyApp({ Component, pageProps }) {
 		</>
 	);
 }
-
 export default MyApp;

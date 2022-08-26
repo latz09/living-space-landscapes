@@ -1,9 +1,7 @@
-import PageHeading from '../../components/utils/PageHeading';
 import FeaturedIn from '../../components/whyus/FeaturedIn';
 import Intro from '../../components/whyus/Intro';
 import Meta from '../../components/utils/Meta';
 import { background } from '../../data/whyUs';
-
 const WhyUs = () => {
 	return (
 		<>
@@ -13,7 +11,6 @@ const WhyUs = () => {
 					'Creating your landscape with a naturalistic style. Boulders, stones, japanese gardening, patios, pathways'
 				}
 			/>
-
 			<div className='pt-16'>
 				<div className='grid gap-20 my-12'>
 					<Intro
@@ -30,5 +27,4 @@ const WhyUs = () => {
 		</>
 	);
 };
-
 export default WhyUs;

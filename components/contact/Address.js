@@ -1,5 +1,4 @@
 import { MdHouseSiding } from 'react-icons/md';
-
 const Address = () => {
 	return (
 		<div className='grid sm:grid-cols-3 items-center text-lg'>
@@ -12,5 +11,4 @@ const Address = () => {
 		</div>
 	);
 };
-
 export default Address;

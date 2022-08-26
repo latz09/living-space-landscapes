@@ -1,5 +1,4 @@
 import WhyUsHeading from '../utils/WhyUsHeading';
-
 const Certifications = ({ certifications }) => {
 	return (
 		<div className='grid'>
@@ -12,5 +11,4 @@ const Certifications = ({ certifications }) => {
 		</div>
 	);
 };
-
 export default Certifications;

@@ -6,7 +6,6 @@ import Reviews from '../components/reviews/Reviews';
 import StoneHero from '../components/layout/heros/StoneHero';
 import JapaneseHero from '../components/layout/heros/JapaneseHero';
 import Meta from '../components/utils/Meta';
-
 const HomePage = () => {
 	return (
 		<>
@@ -36,5 +35,4 @@ const HomePage = () => {
 		</>
 	);
 };
-
 export default HomePage;

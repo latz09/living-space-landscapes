@@ -1,13 +1,9 @@
 import { reviews } from '../../data/reviews';
 import ReviewItem from './ReviewItem';
-
 const Reviews = () => {
-	const [first, second] = reviews;
-	const firstTwoReviews = [first, second];
-
 	return (
 		<div className='grid lg:grid-cols-2 place-items-center gap-8 py-8 lg:h-[60vh] '>
-			{firstTwoReviews.map((review) => (
+			{reviews.map((review) => (
 				<div key={review.name}>
 					<ReviewItem
 						name={review.name}
@@ -19,5 +15,4 @@ const Reviews = () => {
 		</div>
 	);
 };
-
 export default Reviews;

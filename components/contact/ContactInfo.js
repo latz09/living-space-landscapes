@@ -2,11 +2,8 @@ import { businessInformation } from '../../data/businessInfo';
 import SectionHeading from '../utils/SectionHeading';
 import Address from './Address';
 import Contact from './Contact';
-
 const ContactInfo = () => {
 	const contacts = businessInformation.contact;
-
-
 	return (
 		<div className='p-4 text-landscape-700 border py-14'>
 			<div className='flex justify-center mb-5 border-b pb-8'>
@@ -33,5 +30,4 @@ const ContactInfo = () => {
 		</div>
 	);
 };
-
 export default ContactInfo;

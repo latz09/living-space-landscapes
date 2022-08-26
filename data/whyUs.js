@@ -27,42 +27,4 @@ export const background = {
 		'Cover of "Readers Digest" Publication: The Family Handyman',
 		'Mendota Heights Living magazine',
 	],
-	specialProjects: [
-		{
-			id: 1,
-			name: 'Japanese Garden',
-			description:
-				'Rearranged boulder placement with original garden designer David Slawson',
-			location: 'Carlton College, Northfield, MN',
-			image: '/images/yards/installation.jpg',
-		},
-		{
-			id: 2,
-			name: 'Japanese Garden',
-			description: 'Landscape improvements and shoreline restoration',
-			location: 'Normandale Community College, Bloomington, MN',
-			image: '/images/yards/normandale.jpg',
-		},
-		{
-			id: 3,
-			name: 'Japanese Garden',
-			description: 'Landscape improvements and aesthetic pruning',
-			location: ' Como Ordway Gardens, St Paul, MN',
-			image: '/images/yards/pruning.jpg',
-		},
-		{
-			id: 4,
-			name: 'St. Paul College',
-			description: 'New sod and plantings',
-			location: 'St. Paul, MN',
-			image: '/images/yards/new-sod.jpg',
-		},
-		{
-			id: 5,
-			name: 'Healing garden',
-			description: 'Design and installation',
-			location: 'Stillwater Medical Group Women’s Center',
-			image: '/images/yards/womens.jpg',
-		},
-	],
 };

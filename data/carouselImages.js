@@ -89,12 +89,7 @@ import image90 from '../public/images/gallery-images/90.jpg';
 import image91 from '../public/images/gallery-images/91.jpg';
 import image92 from '../public/images/gallery-images/92.jpg';
 import image93 from '../public/images/gallery-images/93.jpg';
-
-
-
-
 export const carouselImages = [image48, image74, image41, image4];
-
 export const galleryImages = [
 	{
 		image: image1,
@@ -116,7 +111,7 @@ export const galleryImages = [
 		alt: '',
 		category: '',
 	},
-	
+
 	{
 		image: image5,
 		alt: '',
@@ -177,7 +172,7 @@ export const galleryImages = [
 		alt: '',
 		category: '',
 	},
-	
+
 	{
 		image: image17,
 		alt: '',
@@ -238,7 +233,7 @@ export const galleryImages = [
 		alt: '',
 		category: '',
 	},
-	
+
 	{
 		image: image29,
 		alt: '',
@@ -465,7 +460,7 @@ export const galleryImages = [
 		alt: '',
 		category: '',
 	},
-	
+
 	{
 		image: image76,
 		alt: '',
@@ -556,5 +551,4 @@ export const galleryImages = [
 		alt: '',
 		category: '',
 	},
-	
 ];

@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import stoneHero from '../../../public/images/gallery-images/17.jpg';
 import ButtonLink from '../../utils/ButtonLink';
-
 const StoneHero = () => {
 	return (
 		<div className='relative w-full h-[75vh]'>
@@ -9,7 +8,6 @@ const StoneHero = () => {
 				<Image
 					src={stoneHero}
 					alt=''
-					priority='true'
 					layout='fill'
 					objectFit='cover'
 					objectPosition='center'
@@ -27,7 +25,7 @@ const StoneHero = () => {
 						aliquet risus feugiat in ante. Interdum varius sit amet mattis
 						vulputate.
 					</span>
-					<div className="md:w-1/3 mx-auto ">
+					<div className='md:w-1/3 mx-auto '>
 						<ButtonLink href={'/contact'} title={'Contact us'} />
 					</div>
 				</div>
@@ -35,5 +33,4 @@ const StoneHero = () => {
 		</div>
 	);
 };
-
 export default StoneHero;

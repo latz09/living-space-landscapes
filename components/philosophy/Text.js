@@ -17,5 +17,4 @@ const Text = () => {
 		</div>
 	);
 };
-
 export default Text;

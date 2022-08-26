@@ -1,11 +1,10 @@
 import ContactInfo from '../../components/contact/ContactInfo';
 import EmailUs from '../../components/contact/EmailUs';
 import Meta from '../../components/utils/Meta';
-
 const contact = () => {
 	return (
 		<>
-				<Meta
+			<Meta
 				pageTitle={'Contact Us'}
 				description={
 					'Creating your landscape with a naturalistic style. Boulders, stones, japanese gardening, patios, pathways'
@@ -27,6 +26,4 @@ const contact = () => {
 		</>
 	);
 };
-
 export default contact;
-
