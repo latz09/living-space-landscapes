@@ -8,7 +8,7 @@ const WhyUs = () => {
 			<Meta
 				pageTitle={'Why Choose Us'}
 				description={
-					'Creating your landscape with a naturalistic style. Boulders, stones, japanese gardening, patios, pathways'
+					'Creating your landscape with naturalistic style. Boulders, stones, japanese gardening, patios, pathways'
 				}
 			/>
 			<div className='pt-16'>
