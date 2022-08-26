@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import heroImage from '../../../public/images/webp/logoHero.webp';
-import logo from '../../../public/images/logos/logo.png';
+import logo from '../../../public/images/webp/logo.webp';
 const Hero = () => {
 	return (
 		<div className='relative w-full h-[75vh]'>
