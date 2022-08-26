@@ -37,7 +37,7 @@ const Navbar = () => {
 						<button
 							className='hover:text-landscape-700 duration-700 text-4xl cursor-pointer'
 							onClick={closeMenu}
-							label='Navigate Home'
+							aria-label='Navigate Home'
 						>
 							<MdHouseSiding />{' '}
 						</button>
@@ -45,14 +45,14 @@ const Navbar = () => {
 
 					<div
 						onClick={() => setOpen(!open)}
-						className='text-3xl  cursor-pointer md:hidden'
+						className='text-3xl  cursor-pointer md:hidden'						
 					>
 						{!open ? (
-							<button label='open navbar'>
+							<button label='open navbar' aria-label='open dropdown navigation bar'>
 								<RiMenu3Fill />{' '}
 							</button>
 						) : (
-							<button label='close navbar'>
+							<button label='close navbar' aria-label='close dropdown navigation bar'>
 								<RiCloseLine />
 							</button>
 						)}

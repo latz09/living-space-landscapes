@@ -6,15 +6,23 @@ const Hero = () => {
 		<div className='relative w-full h-[75vh]'>
 			<Image
 				src={heroImage}
-				alt=''
+				alt='Landscaping around a patio setting'
 				layout='fill'
 				objectFit='cover'
 				objectPosition='center'
 				placeholder='blur'
+				priority='true'
 			/>
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
-				<div className=' lg:w-1/2 max-w-3xl'>
-					<Image src={logo} alt='' layout='intrinsic' />
+				<div className='lg:w-1/2 max-w-3xl'>
+					<Image
+						src={logo}
+						alt='Living Landscapes Logo'
+						layout='intrinsic'
+						priority='true'
+						width={800}
+						height={256}
+					/>
 				</div>
 			</div>
 		</div>
