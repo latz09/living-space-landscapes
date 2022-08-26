@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<meta httpEquiv='Content-Type' content='text/html; charSet=utf-8' />
 				<link rel='shortcut icon' href='/images/image2vector.svg' />
-			</Head>
+			</Head> 
 			<div className='font-spaces '>
 				<Layout>
 					<div className=''>

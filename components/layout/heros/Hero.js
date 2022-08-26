@@ -6,7 +6,7 @@ import logo from '../../../public/images/logos/logo.png'
 const Hero = () => {
 	return (
 		<div className='relative w-full h-[75vh]'>
-			<div className='z-10  '>
+			<div className='z-10  w-full h-'>
 				<Image
 					src={heroImage}
 					alt=''
@@ -15,6 +15,8 @@ const Hero = () => {
 					objectPosition='center'
 					priority='true'
 					placeholder='blur'
+					width={200}
+					height={200}
 				/>
 			</div>
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>

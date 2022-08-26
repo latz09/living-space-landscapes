@@ -1,10 +1,10 @@
-import Hero from '../components/layout/hero/Hero';
+import Hero from '../components/layout/heros/Hero';
 import Philosophy from '../components/philosophy/Philosophy';
 import ButtonLink from '../components/utils/ButtonLink';
 import GalleryPreview from '../components/gallery/GalleryPreview';
 import Reviews from '../components/reviews/Reviews';
-import StoneHero from '../components/layout/hero/StoneHero';
-import JapaneseHero from '../components/layout/hero/JapaneseHero';
+import StoneHero from '../components/layout/heros/StoneHero';
+import JapaneseHero from '../components/layout/heros/JapaneseHero';
 import Meta from '../components/utils/Meta';
 
 const HomePage = () => {
