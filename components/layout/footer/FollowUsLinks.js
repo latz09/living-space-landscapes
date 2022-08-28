@@ -3,7 +3,7 @@ import { SiHouzz } from 'react-icons/si';
 
 const FollowUsLinks = () => {
 	return (
-		<div className='grid gap-5 text-landscape-700 tracking-widest'>
+		<div className='flex space-x-4 sm:space-x-0 py-2 sm:py-0 sm:grid gap-5 text-landscape-700 tracking-widest'>
 			
 
 			<a
