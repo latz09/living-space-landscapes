@@ -2,29 +2,8 @@ import Link from 'next/link';
 import { RiMenu3Fill, RiCloseLine } from 'react-icons/ri';
 import { useState } from 'react';
 import { MdHouseSiding } from 'react-icons/md';
+import { navLinks } from '../../data/navLinks';
 const Navbar = () => {
-	const navLinks = [
-		{
-			name: 'Japanese Gardens',
-			link: '/japanese-gardens',
-		},
-		{
-			name: 'Why Us',
-			link: '/why-us',
-		},
-		{
-			name: 'Our Process',
-			link: '/our-process',
-		},
-		{
-			name: 'Gallery',
-			link: '/gallery',
-		},
-		{
-			name: 'Contact',
-			link: '/contact',
-		},
-	];
 	const [open, setOpen] = useState(false);
 	const closeMenu = () => {
 		open && setOpen(false);
@@ -45,14 +24,20 @@ const Navbar = () => {
 
 					<div
 						onClick={() => setOpen(!open)}
-						className='text-3xl  cursor-pointer md:hidden'						
+						className='text-3xl  cursor-pointer md:hidden'
 					>
 						{!open ? (
-							<button label='open navbar' aria-label='open dropdown navigation bar'>
+							<button
+								label='open navbar'
+								aria-label='open dropdown navigation bar'
+							>
 								<RiMenu3Fill />{' '}
 							</button>
 						) : (
-							<button label='close navbar' aria-label='close dropdown navigation bar'>
+							<button
+								label='close navbar'
+								aria-label='close dropdown navigation bar'
+							>
 								<RiCloseLine />
 							</button>
 						)}

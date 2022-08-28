@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { BsArrowBarRight } from 'react-icons/bs';
-const Footer = () => {
+
+const ConsultationBar = () => {
 	return (
 		<div className='bg-landscape-500 w-full bottom-0 '>
 			<Link href={'/contact'}>
@@ -14,4 +15,5 @@ const Footer = () => {
 		</div>
 	);
 };
-export default Footer;
+
+export default ConsultationBar;

@@ -28,7 +28,7 @@ const EmailUs = () => {
 					</button>
 				</Mailto>
 			</div>
-			<div className='h-full  grid items-center p-12'>
+			<div className='h-full  grid items-center p-20'>
 				<Image src={logo} alt='' />
 			</div>
 		</div>
