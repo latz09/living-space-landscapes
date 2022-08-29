@@ -4,9 +4,11 @@ import logo from '../../../public/images/logos/navlogo.png';
 
 const FooterLogo = () => {
 	return (
-		<div className='hidden sm:block sm:p-3 opacity-80 cursor-pointer '>
+		<div className=' hidden sm:block sm:p-3 opacity-80 cursor-pointer '>
 			<Link href={'/'}>
-				<Image src={logo} alt='Living Space Landscapes Logo' />
+				<a>
+					<Image src={logo} alt='Living Space Landscapes Logo' />
+				</a>
 			</Link>
 		</div>
 	);

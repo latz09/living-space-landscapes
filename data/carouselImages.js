@@ -1,5 +1,5 @@
 import image1 from '../public/images/gallery-images/1.jpg';
-import image2 from '../public/images/gallery-images/48.jpg';
+import image2 from '../public/images/gallery-images/2.jpg';
 import image3 from '../public/images/gallery-images/3.jpg';
 import image4 from '../public/images/gallery-images/4.jpg';
 import image5 from '../public/images/gallery-images/5.jpg';
@@ -74,7 +74,7 @@ import image74 from '../public/images/gallery-images/74.jpg';
 import image76 from '../public/images/gallery-images/76.jpg';
 import image77 from '../public/images/gallery-images/77.jpg';
 import image78 from '../public/images/gallery-images/78.jpg';
-import image79 from '../public/images/gallery-images/79.jpg';
+import image79 from '../public/images/gallery-images/79.jpg'; 
 import image80 from '../public/images/gallery-images/80.jpg';
 import image81 from '../public/images/gallery-images/81.jpg';
 import image82 from '../public/images/gallery-images/82.jpg';
