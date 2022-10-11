@@ -1,5 +1,5 @@
 import { MdHouseSiding } from 'react-icons/md';
-import SocialHeroLinks from '../utils/SocialHeroLinks';
+// import SocialHeroLinks from '../utils/SocialHeroLinks';
 const Address = () => {
 	return (
 		<div className='grid sm:grid-cols-3 items-center text-lg'>

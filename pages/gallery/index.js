@@ -2,7 +2,7 @@ import { v4 as customId } from 'uuid';
 import ImageItem from '../../components/gallery/ImageItem';
 import { galleryImages } from '../../data/carouselImages';
 import Meta from '../../components/utils/Meta';
-import SocialReviewSectionLinks from '../../components/utils/SocialReviewSectionLinks';
+// import SocialReviewSectionLinks from '../../components/utils/SocialReviewSectionLinks';
 const Gallery = () => {
 	return (
 		<>

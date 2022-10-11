@@ -1,6 +1,5 @@
 import { businessInformation } from '../../data/businessInfo';
 import SectionHeading from '../utils/SectionHeading';
-
 import Address from './Address';
 import Contact from './Contact';
 const ContactInfo = () => {

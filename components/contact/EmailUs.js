@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import logo from '../../public/images/logos/navlogo.png';
 import Mailto from '../utils/Mailto';
-import SocialHeroLinks from '../utils/SocialHeroLinks';
+// import SocialHeroLinks from '../utils/SocialHeroLinks';
 const EmailUs = () => {
 	const body =
 		'Please let us know a bit about your landscape project including your overall goals, wants, and needs.  Photos are super helpful so include if possible.  We will need your contact info including your address to ensure we work in your area.  Thanks!';
