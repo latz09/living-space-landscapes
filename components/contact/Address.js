@@ -8,7 +8,7 @@ const Address = () => {
 				<span>Living Space Landscapes, Inc</span>
 				<span>820 Concord St North</span>
 				<span>Suite 103</span>
-				<span>South St. Paul MN 55075</span>
+				<span>South St. Paul, MN</span>
 			</div>
 		</div>
 	);
