@@ -11,7 +11,6 @@ const Footer = () => {
 				<FooterLogo />
 				<FooterLinks />
 				<FollowUsLinks />
-
 			</div>
 		</div>
 	);

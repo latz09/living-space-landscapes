@@ -6,6 +6,8 @@ import Reviews from '../components/reviews/Reviews';
 import StoneHero from '../components/layout/heros/StoneHero';
 import JapaneseHero from '../components/layout/heros/JapaneseHero';
 import Meta from '../components/utils/Meta';
+import SocialReviewSectionLinks from '../components/utils/SocialReviewSectionLinks';
+
 const HomePage = () => {
 	return (
 		<>
@@ -28,7 +30,11 @@ const HomePage = () => {
 					</div>
 				</div>
 				<JapaneseHero />
-				<Reviews />
+				<div className='py-8 lg:h-[60vh] grid place-items-center gap-3'>
+					<Reviews />
+
+					{/* <SocialReviewSectionLinks /> */}
+				</div>
 				<StoneHero />
 				<GalleryPreview />
 			</div>

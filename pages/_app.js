@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
 					</div>
 				</Layout>
 			</div>
-		</>
+		</> 
 	);
 }
 export default MyApp;

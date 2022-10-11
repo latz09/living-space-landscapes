@@ -2,7 +2,7 @@ import { reviews } from '../../data/reviews';
 import ReviewItem from './ReviewItem';
 const Reviews = () => {
 	return (
-		<div className='grid lg:grid-cols-2 place-items-center gap-8 py-8 lg:h-[60vh] '>
+		<div className='grid lg:grid-cols-2 gap-8  '>
 			{reviews.map((review) => (
 				<div key={review.name}>
 					<ReviewItem

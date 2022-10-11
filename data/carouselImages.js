@@ -74,7 +74,7 @@ import image74 from '../public/images/gallery-images/74.jpg';
 import image76 from '../public/images/gallery-images/76.jpg';
 import image77 from '../public/images/gallery-images/77.jpg';
 import image78 from '../public/images/gallery-images/78.jpg';
-import image79 from '../public/images/gallery-images/79.jpg'; 
+import image79 from '../public/images/gallery-images/79.jpg';
 import image80 from '../public/images/gallery-images/80.jpg';
 import image81 from '../public/images/gallery-images/81.jpg';
 import image82 from '../public/images/gallery-images/82.jpg';
@@ -85,12 +85,35 @@ import image86 from '../public/images/gallery-images/86.jpg';
 import image87 from '../public/images/gallery-images/87.jpg';
 import image88 from '../public/images/gallery-images/88.jpg';
 import image89 from '../public/images/gallery-images/89.jpg';
-import image90 from '../public/images/gallery-images/90.jpg';
-import image91 from '../public/images/gallery-images/91.jpg';
 import image92 from '../public/images/gallery-images/92.jpg';
 import image93 from '../public/images/gallery-images/93.jpg';
-export const carouselImages = [image48, image74, image41, image4];
+export const carouselImages = [image12, image13, image4, image62];
 export const galleryImages = [
+	{
+		image: image7,
+		alt: '',
+		category: '',
+	},
+	{
+		image: image12,
+		alt: '',
+		category: '',
+	},
+	{
+		image: image13,
+		alt: '',
+		category: '',
+	},
+	{
+		image: image4,
+		alt: '',
+		category: '',
+	},
+	{
+		image: image11,
+		alt: '',
+		category: '',
+	},
 	{
 		image: image1,
 		alt: '',
@@ -98,16 +121,6 @@ export const galleryImages = [
 	},
 	{
 		image: image2,
-		alt: '',
-		category: '',
-	},
-	{
-		image: image3,
-		alt: '',
-		category: '',
-	},
-	{
-		image: image4,
 		alt: '',
 		category: '',
 	},
@@ -122,11 +135,7 @@ export const galleryImages = [
 		alt: '',
 		category: '',
 	},
-	{
-		image: image7,
-		alt: '',
-		category: '',
-	},
+
 	{
 		image: image8,
 		alt: '',
@@ -142,21 +151,7 @@ export const galleryImages = [
 		alt: '',
 		category: '',
 	},
-	{
-		image: image11,
-		alt: '',
-		category: '',
-	},
-	{
-		image: image12,
-		alt: '',
-		category: '',
-	},
-	{
-		image: image13,
-		alt: '',
-		category: '',
-	},
+
 	{
 		image: image14,
 		alt: '',
@@ -532,17 +527,12 @@ export const galleryImages = [
 		category: '',
 	},
 	{
-		image: image90,
-		alt: '',
-		category: '',
-	},
-	{
-		image: image91,
-		alt: '',
-		category: '',
-	},
-	{
 		image: image92,
+		alt: '',
+		category: '',
+	},
+	{
+		image: image3,
 		alt: '',
 		category: '',
 	},

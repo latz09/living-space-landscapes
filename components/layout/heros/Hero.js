@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import heroImage from '../../../public/images/webp/logoHero.webp';
 import logo from '../../../public/images/webp/logo.webp';
+import SocialHeroLinks from '../../utils/SocialHeroLinks';
+
 const Hero = () => {
 	return (
 		<div className='relative w-full h-[75vh]'>
@@ -13,7 +15,7 @@ const Hero = () => {
 				placeholder='blur'
 				priority='true'
 			/>
-			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
+			<div className='relative grid place-items-center h-full bg-black bg-opacity-60'>
 				<div className='lg:w-1/2 max-w-3xl'>
 					<Image
 						src={logo}
@@ -21,6 +23,9 @@ const Hero = () => {
 						layout='intrinsic'
 						priority='true'
 					/>
+					{/* <div>
+						<SocialHeroLinks />
+					</div> */}
 				</div>
 			</div>
 		</div>
