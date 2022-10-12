@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import japaneseHero from '../../../public/images/gallery-images/12.jpg';
+import japaneseHero from '../../../public/images/gallery-images/old-website-images/12.jpg';
 import ButtonLink from '../../utils/ButtonLink';
 const JapaneseHero = () => {
 	return (

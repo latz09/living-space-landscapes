@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import stoneHero from '../../../public/images/gallery-images/17.jpg';
+import stoneHero from '../../../public/images/gallery-images/old-website-images/17.jpg';
 import ButtonLink from '../../utils/ButtonLink';
 const StoneHero = () => {
 	return (

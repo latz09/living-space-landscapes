@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import serviceHero from '../../../public/images/gallery-images/58.jpg';
+import serviceHero from '../../../public/images/gallery-images/old-website-images/58.jpg';
 const ServiceHero = () => {
 	return (
 		<div className='relative w-full h-[60vh]'>
