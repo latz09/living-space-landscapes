@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import heroImage from '../../../public/images/webp/logoHero.webp';
 import logo from '../../../public/images/webp/logo.webp';
-// import SocialHeroLinks from '../../utils/SocialHeroLinks';
 
 const Hero = () => {
 	return (
@@ -23,9 +22,6 @@ const Hero = () => {
 						layout='intrinsic'
 						priority='true'
 					/>
-					{/* <div>
-						<SocialHeroLinks />
-					</div> */}
 				</div>
 			</div>
 		</div>

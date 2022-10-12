@@ -1,7 +1,22 @@
 import '../styles/globals.css';
 import Head from 'next/head';
+import { AnimatePresence, motion } from 'framer-motion';
 import Layout from '../components/layout/Layout';
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
+	const pageAnimateVariable = {
+		hidden: {
+			opacity: 0,
+		},
+		visible: {
+			opacity: 1,
+			transition: {
+				delay: 0.3,
+				duration: 0.8,
+			},
+		},
+		exit: { opacity: 0, transition: { duration: 0.4 } },
+	};
+
 	return (
 		<>
 			<Head>
@@ -11,12 +26,14 @@ function MyApp({ Component, pageProps }) {
 			</Head>
 			<div className='font-spaces '>
 				<Layout>
-					<div className=''>
-						<Component {...pageProps} />
-					</div>
+					<AnimatePresence mode='wait'>
+						<motion.div key={router.route} variants={pageAnimateVariable} initial='hidden' animate='visible' exit='exit'>
+							<Component {...pageProps} />
+						</motion.div>
+					</AnimatePresence>
 				</Layout>
 			</div>
-		</> 
+		</>
 	);
 }
 export default MyApp;

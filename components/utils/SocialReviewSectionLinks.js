@@ -14,7 +14,7 @@ const SocialReviewSectionLinks = () => {
 					href={houzzLink}
 					target='_blank.'
 					rel='noreferrer'
-					className='text-xl md:text-3xl hover:text-landscape-300 transition duration-700'
+					className='text-2xl md:text-3xl hover:text-landscape-300 transition duration-700'
 				>
 					<SiHouzz />
 				</a>
@@ -22,12 +22,12 @@ const SocialReviewSectionLinks = () => {
 					href={instagramLink}
 					target='_blank.'
 					rel='noreferrer'
-					className='text-2xl md:text-4xl  hover:text-landscape-300 transition duration-700 '
+					className='text-3xl md:text-4xl  hover:text-landscape-300 transition duration-700 '
 				>
 					<AiFillInstagram />{' '}
 				</a>
 			</div>{' '}
-			<div className='text-gray-50 text-2xl font-logo font-bold'>
+			<div className='text-landscape-700 text-lg md:text-2xl font-logo font-bold text-center'>
 				Follow us to check out our latest projects and photos!
 			</div>
 		</div>
