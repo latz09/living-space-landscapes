@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://livingspacelandscapes.vercel.app/
+
+# Sitemaps
+Sitemap: https://livingspacelandscapes.vercel.app/sitemap.xml

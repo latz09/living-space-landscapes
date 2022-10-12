@@ -9,7 +9,7 @@ const Gallery = () => {
 			<Meta
 				pageTitle={'Inspirational Gallery'}
 				description={
-					'Creating your landscape with a naturalistic style. Boulders, stones, japanese gardening, patios, pathways'
+					'Living Space Landscapes will create your landscape with a naturalistic style that will inspire a sense of calm in those who experience it.'
 				}
 			/>
 			<div className='bg-landscape-500 max-w-7xl mx-auto px-2 md:px-4 border-x-8 border-landscape-700 '>
@@ -23,7 +23,7 @@ const Gallery = () => {
 					</div>
 				</div>
 			</div>
-		</>
+		</> 
 	);
 };
 export default Gallery;

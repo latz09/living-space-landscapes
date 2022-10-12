@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import heroImage from '../../../public/images/webp/logoHero.webp';
-import logo from '../../../public/images/webp/logo.webp';
+import heroImage from '../../../public/images/webp/living-space-landscapes.webp';
+import logo from '../../../public/images/webp/living-space-landscape.webp';
 
 const Hero = () => {
 	return (

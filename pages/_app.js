@@ -22,12 +22,21 @@ function MyApp({ Component, pageProps, router }) {
 			<Head>
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<meta httpEquiv='Content-Type' content='text/html; charSet=utf-8' />
-				<link rel='shortcut icon' href='/images/logos/favicon.jpg' />
+				<link
+					rel='shortcut icon'
+					href='/images/logos/living-space-landscapes.jpg'
+				/>
 			</Head>
 			<div className='font-spaces '>
 				<Layout>
 					<AnimatePresence mode='wait'>
-						<motion.div key={router.route} variants={pageAnimateVariable} initial='hidden' animate='visible' exit='exit'>
+						<motion.div
+							key={router.route}
+							variants={pageAnimateVariable}
+							initial='hidden'
+							animate='visible'
+							exit='exit'
+						>
 							<Component {...pageProps} />
 						</motion.div>
 					</AnimatePresence>

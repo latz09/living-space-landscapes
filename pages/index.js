@@ -14,7 +14,7 @@ const HomePage = () => {
 			<Meta
 				pageTitle={'Living Space Landscapes'}
 				description={
-					'Creating your landscape with a naturalistic style. Boulders, stones, japanese gardening, patios, pathways'
+					'Living Space Landscapes will create your landscape with a naturalistic style that will inspire a sense of calm in those who experience it.'
 				}
 			/>
 			<div className='grid gap-4 pb-8 justify-items-center bg-gray-50 pt-16'>

@@ -7,7 +7,7 @@ const contact = () => {
 			<Meta
 				pageTitle={'Contact Us'}
 				description={
-					'Creating your landscape with a naturalistic style. Boulders, stones, japanese gardening, patios, pathways'
+					'Living Space Landscapes will create your landscape with a naturalistic style that will inspire a sense of calm in those who experience it.'
 				}
 			/>
 			<div className='py-16'>
@@ -25,5 +25,5 @@ const contact = () => {
 			</div>
 		</>
 	);
-};
+}; 
 export default contact;
