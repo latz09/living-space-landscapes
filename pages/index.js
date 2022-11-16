@@ -16,7 +16,7 @@ const HomePage = () => {
 					'Living Space Landscapes will create your landscape with a naturalistic style that will inspire a sense of calm in those who experience it.'
 				}
 			/>
-			<div className='grid gap-20 mb-8 justify-items-center'>
+			<div className='grid gap-20 mb-20 justify-items-center'>
 				<Hero />
 				<Philosophy />				
 				<JapaneseHero />

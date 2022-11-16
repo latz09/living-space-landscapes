@@ -21,7 +21,7 @@ const Intro = ({
 					<h1 className=''>{degree}</h1>
 				</div>
 				<div className='lg:m-8'>
-					<Image src={image} alt={alt} layout='intrinsic' />
+					<Image src={image} alt={alt} layout='intrinsic' priority='true' />
 				</div>
 			</div>
 

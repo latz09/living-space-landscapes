@@ -47,7 +47,7 @@ const Navbar = () => {
 								</button>
 							)}
 						</div>
-						<div className='hidden lg:block border-b-2 border-opacity-50 hover:border-opacity-100 hover:scale-105  pb-1 border-landscape-700 transition duration-700 text-white'>
+						<div className='hidden lg:block hover:border-white/50 hover:font-bold hover:text-landscape-700 border border-landscape-700 font-logo p-1  transition duration-700 text-white'>
 							<ContactButton />
 						</div>
 					</div>
