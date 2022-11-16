@@ -4,10 +4,9 @@ const Layout = ({ children }) => {
 	return (
 		<div className='flex flex-col h-screen'>
 			<Navbar />
-			<main className='flex-grow'>{children}</main>
+			<main className='flex-grow bg-[#F2F8EF]' >{children}</main>
 			<Footer />
 		</div>
 	);
 };
 export default Layout;
- 

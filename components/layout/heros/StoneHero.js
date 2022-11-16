@@ -3,7 +3,7 @@ import stoneHero from '../../../public/images/gallery-images/old-website-images/
 import ButtonLink from '../../utils/ButtonLink';
 const StoneHero = () => {
 	return (
-		<div className='relative w-full h-[75vh]'>
+		<div className='relative w-full h-[60vh]'>
 			<Image
 				src={stoneHero}
 				alt=''
@@ -13,22 +13,31 @@ const StoneHero = () => {
 				placeholder='blur'
 			/>
 
-			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-40'>
-				<div className='grid gap-4 text-center tracking-widest text-gray-50 max-w-5xl mx-auto'>
-					<h1 className='text-5xl md:text-7xl font-logo text-landscape-500'>
-						Natural Stones and Boulders
+			<div className='relative flex justify-center items-center h-full bg-black/60'>
+				<div className='grid gap-4 place-items-center tracking-widest text-white/80'>
+					<h1 className='text-4xl md:text-7xl font-logo text-landscape-500'>
+						Stones and Boulders
 					</h1>
-					<span className='text-left text-lg md:text-2xl mx-12 '>
+					<span className='text-lg md:text-2xl mx-4 text-center'>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 						eiusmod tempor incididunt ut labore et dolore magna aliqua. Id
-						aliquet risus feugiat in ante. Interdum varius sit amet mattis
-						vulputate.
+						aliquet risus feugiat in ante.
 					</span>
-					<div className='md:w-1/3 mx-auto '>
-						<ButtonLink href={'/contact'} title={'Contact us'} />
+					<div className='my-4'>
+						<ButtonLink href={'/japanese-gardens'} title={'Learn More'} />
 					</div>
 				</div>
 			</div>
+
+			{/* <div className='relative h-full bg-black bg-opacity-40'>
+				<div className=' tracking-widest text-gray-50 '>
+					<h1 className='text-5xl md:text-7xl font-logo text-landscape-500'></h1>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+					eiusmod tempor incididunt ut labore et dolore magna aliqua. Id aliquet
+					risus feugiat in ante. Interdum varius sit amet mattis vulputate.
+					<div className=' '></div>
+				</div>
+			</div> */}
 		</div>
 	);
 };

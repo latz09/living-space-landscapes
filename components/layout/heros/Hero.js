@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import heroImage from '../../../public/images/webp/living-space-landscapes.webp';
 import logo from '../../../public/images/webp/living-space-landscape.webp';
+import ContactButton from '../../utils/ContactBtn';
 
 const Hero = () => {
 	return (
-		<div className='relative w-full h-[75vh]'>
+		<div className='relative w-full h-[70vh] lg:h-[80vh]'>
 			<Image
 				src={heroImage}
 				alt='Landscaping around a patio setting'
@@ -22,6 +23,9 @@ const Hero = () => {
 						layout='intrinsic'
 						priority='true'
 					/>
+				</div>
+				<div className='lg:hidden border-b-2 text-white font-long border-landscape-700 border-opacity-40 hover:border-opacity-100 transition duration-700 hover:opacity-70 '>
+					<ContactButton />
 				</div>
 			</div>
 		</div>

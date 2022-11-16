@@ -1,6 +1,5 @@
 import Hero from '../components/layout/heros/Hero';
 import Philosophy from '../components/philosophy/Philosophy';
-import ButtonLink from '../components/utils/ButtonLink';
 import GalleryPreview from '../components/gallery/GalleryPreview';
 import Reviews from '../components/reviews/Reviews';
 import StoneHero from '../components/layout/heros/StoneHero';
@@ -17,24 +16,12 @@ const HomePage = () => {
 					'Living Space Landscapes will create your landscape with a naturalistic style that will inspire a sense of calm in those who experience it.'
 				}
 			/>
-			<div className='grid gap-4 pb-8 justify-items-center bg-gray-50 pt-16'>
+			<div className='grid gap-20 mb-8 justify-items-center'>
 				<Hero />
-				<Philosophy />
-
-				<div className='flex space-x-3 w-full max-w-3xl mx-auto text-center items-center'>
-					<div className='w-1/2 px-1 xs:px-2'>
-						<ButtonLink title='Our Process' href={'/our-process'} />
-					</div>
-					<div className='w-1/2 px-1 xs:px-2'>
-						<ButtonLink title='Why us' href={'/why-us'} />
-					</div>
-				</div>
+				<Philosophy />				
 				<JapaneseHero />
-				<div className='py-8 lg:h-[60vh] grid place-items-center gap-3'>
-					<Reviews />
-
-					<SocialReviewSectionLinks />
-				</div>
+				<Reviews />
+				<SocialReviewSectionLinks />
 				<StoneHero />
 				<GalleryPreview />
 			</div>

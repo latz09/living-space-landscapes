@@ -11,8 +11,8 @@ const WhyUs = () => {
 					'Living Space Landscapes will create your landscape with a naturalistic style that will inspire a sense of calm in those who experience it.'
 				}
 			/>
-			<div className='pt-16'>
-				<div className='grid gap-20 my-12'>
+			<div className='my-12 lg:my-20'>
+				<div className='grid gap-4 lg:gap-20 '>
 					<Intro
 						name={background.name}
 						image={background.image}

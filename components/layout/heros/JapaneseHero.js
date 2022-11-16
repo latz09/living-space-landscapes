@@ -3,7 +3,7 @@ import japaneseHero from '../../../public/images/gallery-images/old-website-imag
 import ButtonLink from '../../utils/ButtonLink';
 const JapaneseHero = () => {
 	return (
-		<div className='relative w-full h-[75vh]'>
+		<div className='relative w-full h-[60vh]'>
 			<Image
 				src={japaneseHero}
 				alt=''
@@ -13,17 +13,17 @@ const JapaneseHero = () => {
 				placeholder='blur'
 			/>
 
-			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-40'>
-				<div className='grid gap-4 text-center tracking-widest text-gray-50 max-w-5xl mx-auto'>
-					<h1 className='text-5xl md:text-7xl font-logo text-landscape-500'>
+			<div className='relative flex justify-center items-center h-full bg-black/60'>
+				<div className='grid gap-4 place-items-center tracking-widest text-white/80'>
+					<h1 className='text-4xl md:text-7xl font-logo text-landscape-500'>
 						Japanese Gardens
 					</h1>
-					<span className=' text-left text-lg md:text-2xl mx-12'>
+					<span className='text-lg md:text-2xl mx-4 text-center'>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 						eiusmod tempor incididunt ut labore et dolore magna aliqua. Id
 						aliquet risus feugiat in ante.
 					</span>
-					<div className='md:w-1/3 mx-auto '>
+					<div className='my-4'>
 						<ButtonLink href={'/japanese-gardens'} title={'Learn More'} />
 					</div>
 				</div>

@@ -1,3 +1,5 @@
+import scott from '../public/images/gallery-images/old-website-images/2.jpg'
+
 export const background = {
 	name: 'Scott Solomonson',
 	degree: 'Horticulture degree, University of Minnesota',
@@ -5,7 +7,7 @@ export const background = {
 		'M.N.L.A., Certified Nursery/Landscape Professional',
 		'D.N.R Certified Tree Inspector',
 	],
-	image: '/images/scott.jpg',
+	image: scott,
 	about:
 		'Worked in the horticulture, nursery and landscape industry since the 1980s.  Lived in Portland Oregon for several years learning the art of Japanese Gardens.  Worked with experienced Japanese garden builders in Portland.',
 	organizations: [

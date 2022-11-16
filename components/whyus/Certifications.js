@@ -1,7 +1,7 @@
 import WhyUsHeading from '../utils/WhyUsHeading';
 const Certifications = ({ certifications }) => {
 	return (
-		<div className='grid'>
+		<div className=''>
 			<WhyUsHeading title='certifications' />
 			<ul className='text-gray-400 tracking-wide text-sm'>
 				{certifications.map((cert) => (

@@ -4,8 +4,12 @@ export const navLinks = [
         link: '/japanese-gardens',
     },
     {
-        name: 'Why Us',
+        name: 'Stones And boulders',
         link: '/why-us',
+    },
+    {
+        name: 'About Us',
+        link: '/about-us',
     },
     {
         name: 'Our Process',
@@ -15,8 +19,5 @@ export const navLinks = [
         name: 'Gallery',
         link: '/gallery',
     }, 
-    {
-        name: 'Contact',
-        link: '/contact',
-    },
+
 ];

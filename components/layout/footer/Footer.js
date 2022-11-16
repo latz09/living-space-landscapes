@@ -5,7 +5,7 @@ import FooterLogo from './FooterLogo';
 
 const Footer = () => {
 	return (
-		<div className=''>
+		<div className='bg-landscape-00'>
 			<ConsultationBar />{' '}
 			<div className='grid sm:grid-cols-3  place-items-center max-w-7xl mx-auto py-2 border-b-4 border-landscape-700'>
 				<FooterLogo />
