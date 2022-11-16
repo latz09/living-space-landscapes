@@ -11,6 +11,7 @@ const ContactButton = () => {
 					duration: 1.2,
 					repeat: Infinity,
 					repeatType: 'reverse',
+					repeatDelay: 3
 				}}
 			>
 				<div>
