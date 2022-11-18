@@ -16,9 +16,9 @@ const Intro = ({
 		<div className='text-gray-400 border-l-4 md:pl-12 max-w-7xl mx-auto border-landscape-300 grid lg:grid-cols-2 lg:gap-16 lg:place-items-center'>
 			{/* PHOTO OF SCOTT */}
 			<div className="m-4 grid gap-6">
-				<div className='lg:hidden'>
+				<div className='lg:hidden grid gap-4'>
 					<SectionHeading title={name} />
-					<h1 className=''>{degree}</h1>
+					<h1 className='text-center'>{degree}</h1>
 				</div>
 				<div className='lg:m-8'>
 					<Image src={image} alt={alt} layout='intrinsic' priority='true' />
