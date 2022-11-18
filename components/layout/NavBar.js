@@ -12,7 +12,7 @@ const Navbar = () => {
 	return (
 		<div className='shadow-md w-full  top-0 left-0 z-10'>
 			<div className='bg-landscape-500 '>
-				<div className='max-w-7xl mx-auto grid gap-4 p-4  text-white tracking-widest'>
+				<div className='max-w-7xl mx-auto grid gap-4 p-4  text-white tracking-widest '>
 					{/* Home House and Menu Tab for under Large */}
 					<div className='flex justify-between items-center lg:border-b lg:border-b-landscape-700 lg:pb-4'>
 						<Link href={'/'}>
@@ -47,7 +47,7 @@ const Navbar = () => {
 								</button>
 							)}
 						</div>
-						<div className='hidden lg:block hover:border-white/50 hover:font-bold hover:text-landscape-700 border border-landscape-700 font-logo p-1  transition duration-700 text-white'>
+						<div className='hidden lg:block border-landscape-700/40 hover:font-bold hover:text-landscape-700 border hover:border-gray-200 font-logo p-1  transition duration-700 text-landscape-700'>
 							<ContactButton />
 						</div>
 					</div>

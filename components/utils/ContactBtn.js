@@ -6,17 +6,19 @@ const ContactButton = () => {
 		<>
 			<motion.div
 				initial={{ scale: 0.98 }}
-				animate={{ scale: 1 }}
+				animate={{ scale: [0.98, 1, 0.98, 1, 0.98, 1] }}
 				transition={{
-					duration: 1.2,
+					duration: 3.8,
 					repeat: Infinity,
-					repeatType: 'reverse',
-					repeatDelay: 3
+					
+					repeatDelay: 3,
+					ease: 'easeInOut'
 				}}
+				className=""
 			>
 				<div>
 					<Link href={'/contact'}>
-						<a className=' text-2xl  px-2 py-1 '>Contact us</a>
+						<a className=' text-2xl px-1 py-2 '>Contact us</a>
 					</Link>
 				</div>
 			</motion.div>
