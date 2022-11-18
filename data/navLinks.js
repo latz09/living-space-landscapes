@@ -5,7 +5,7 @@ export const navLinks = [
     },
     {
         name: 'Stones And boulders',
-        link: '/why-us',
+        link: '/stones-and-boulders',
     },
     {
         name: 'About Us',

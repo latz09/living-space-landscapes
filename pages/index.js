@@ -2,10 +2,11 @@ import Hero from '../components/layout/heros/Hero';
 import Philosophy from '../components/philosophy/Philosophy';
 import GalleryPreview from '../components/gallery/GalleryPreview';
 import Reviews from '../components/reviews/Reviews';
-import StoneHero from '../components/layout/heros/StoneHero';
-import JapaneseHero from '../components/layout/heros/JapaneseHero';
+import japaneseHeroImage from '../public/images/gallery-images/old-website-images/12.jpg';
+import stonesHeroImage from '../public/images/gallery-images/old-website-images/17.jpg'
 import Meta from '../components/utils/Meta';
 import SocialReviewSectionLinks from '../components/utils/SocialReviewSectionLinks';
+import SectionHero from '../components/layout/heros/SectionHero';
 
 const HomePage = () => {
 	return (
@@ -18,11 +19,24 @@ const HomePage = () => {
 			/>
 			<div className='grid gap-20 mb-20 justify-items-center'>
 				<Hero />
-				<Philosophy />				
-				<JapaneseHero />
+				<Philosophy />
+				<SectionHero
+					bgImage={japaneseHeroImage}
+					title={'Japanese Gardens'}
+					linkTo={'/japanese-gardens'}
+					buttonText={'learn more'}
+					description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut abore et dolore magna aliqua. Id aliquet risus feugiat in ante.'
+				/>
+
 				<Reviews />
 				<SocialReviewSectionLinks />
-				<StoneHero />
+				<SectionHero
+					bgImage={stonesHeroImage}
+					title={'Stones and Boulders'}
+					linkTo={'/stones-and-boulders'}
+					buttonText={'learn more'}
+					description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut abore et dolore magna aliqua. Id aliquet risus feugiat in ante.'
+				/>
 				<GalleryPreview />
 			</div>
 		</>

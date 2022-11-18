@@ -17,7 +17,7 @@ const ProcessPage = ({ title, image, description }) => {
 					{description}
 				</motion.div>
 				<div className='order-1 w-5/6 md:w-2/3 lg:order-2 lg:col-span-2 lg:w-full shadow-lg grid place-items-center '>
-					<Image src={image} alt={title} placeholder='blur' />
+					<Image src={image} alt={title}  />
 				</div>
 			</div>
 		</div>
