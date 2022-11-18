@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-const PageHero = ({ heroImage, heroTitle, viewPortHeight }) => {
+const PageHero = ({ heroImage, heroTitle }) => {
 	return (
-		<div className={`relative w-full h-[${viewPortHeight}vh]`}>
+		<div className='relative w-full h-[60vh]'>
 			<Image
 				src={heroImage}
 				alt=''
