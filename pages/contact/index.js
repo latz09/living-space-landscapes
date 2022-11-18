@@ -1,7 +1,7 @@
 import ContactInfo from '../../components/contact/ContactInfo';
 import EmailUs from '../../components/contact/EmailUs';
 import Meta from '../../components/utils/Meta';
-const contact = () => {
+const Contact = () => {
 	return (
 		<>
 			<Meta
@@ -10,20 +10,20 @@ const contact = () => {
 					'Living Space Landscapes will create your landscape with a naturalistic style that will inspire a sense of calm in those who experience it.'
 				}
 			/>
-			<div className='py-16'>
-				<div className='bg-landscape-700 bg-opacity-90 text-white text-center  sm:text-2xl md:text-3xl font-bold tracking-wider flex justify-center pt-12 pb-20'>
-					<p>Schedule a consultation with one of our professionals</p>
+			<div className='grid gap-20 mt-16 mb-20 max-w-7xl mx-auto '>
+				<div className=' text-landscape-700/80 text-center  sm:text-2xl md:text-4xl font-logo  tracking-wider '>
+					Schedule a consultation with one of our professionals
 				</div>
-				<div className='grid lg:grid-cols-2 gap-4  p-4 max-w-6xl mx-auto items-stretch'>
-					<div className='relative bottom-16 bg-white shadow-lg'>
+				<div className='grid lg:grid-cols-2 gap-4 '>
+					<div className="border-r border-landscape-300 pr-4">
 						<EmailUs />
 					</div>
-					<div className='lg:relative bottom-16 bg-white shadow-lg'>
+					<div className="pl-4 ">
 						<ContactInfo />
 					</div>
 				</div>
 			</div>
 		</>
 	);
-}; 
-export default contact;
+};
+export default Contact;

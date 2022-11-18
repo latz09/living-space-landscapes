@@ -57,31 +57,32 @@ const Navbar = () => {
 					{/* All the links */}
 					<div
 						className={`${
-							open && 'bg-landscape-500'
+							open && 'bg-landscape-700'
 						} border-b-2 border-landscape-700  lg:border-none absolute lg:static lg:z-auto z-[-1] left-0 w-full transition-all duration-700 ease-in 
 						lg:flex lg:justify-between lg:mt-2
 						${open ? 'top-16' : 'top-[-490px]'}`}
 					>
-						<div className="lg:hidden text-center  md:my-0 my-7">
-							<Link href={'/contact'}>
-								<a className=' text-lg md:text-2xl text-center text-white hover:text-landscape-700 transition duration-700'>
-									Contact
-								</a>
-							</Link>
-						</div>
-						{navLinks.map((link) => (
-							<div
-								key={link.name}
-								className='text-lg md:text-2xl md:my-0 my-7 text-center'
-								onClick={() => setOpen(!open)}
-							>
-								<Link href={link.link}>
-									<a className='text-white hover:text-landscape-700 transition duration-700'>
-										{link.name}
+						<div className='grid gap-8 py-8 lg:py-0 lg:flex lg:justify-between w-1/2 mx-auto  lg:w-full'>
+							<div className='lg:hidden text-right '>
+								<Link href={'/contact'}>
+									<a className=' text-lg md:text-2xl  text-white  hover:text-landscape-700 transition duration-700 font-logo'>
+										Contact
 									</a>
 								</Link>
 							</div>
-						))}
+							{navLinks.map((link) => (
+								<Link href={link.link} key={link.name}>
+									<div
+										className='text-lg md:text-2xl  text-right cursor-pointer'
+										onClick={() => setOpen(!open)}
+									>
+										<div className='text-white hover:text-landscape-700 transition duration-700 font-logo tracking-widest'>
+											{link.name}
+										</div>
+									</div>
+								</Link>
+							))}
+						</div>
 					</div>
 				</div>
 			</div>

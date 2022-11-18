@@ -22,7 +22,7 @@ const SectionHero = ({ bgImage, title, linkTo, buttonText, description }) => {
 					transition={{ delay: 0.4, duration: 1.4 }}
 				>
 					<div className='grid gap-2'>
-						<h1 className='text-5xl md:text-7xl font-logo text-landscape-500 text-center '>
+						<h1 className='text-5xl md:text-7xl text-landscape-500 text-center '>
 							{title}
 						</h1>
 						<motion.div

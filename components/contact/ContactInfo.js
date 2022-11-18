@@ -1,31 +1,30 @@
 import { businessInformation } from '../../data/businessInfo';
-import SectionHeading from '../utils/SectionHeading';
-import Address from './Address';
+import { MdHouseSiding } from 'react-icons/md';
 import Contact from './Contact';
 const ContactInfo = () => {
 	const contacts = businessInformation.contact;
 	return (
-		<div className='p-4 text-landscape-700 border py-14'>
-			<div className='flex justify-center mb-5 border-b pb-8'>
-				<Address />{' '}
+		<div className=' text-landscape-700 grid gap-8 place-items-center'>
+			<div className='flex space-x-8 text-lg items-center'>
+				<MdHouseSiding className='text-3xl' />
+				<div className='grid gap-1'>
+					<span>Living Space Landscapes, Inc</span>
+					<span>820 Concord St North</span>
+					<span>Suite 103</span>
+					<span>South St. Paul, MN</span>
+				</div>
 			</div>
-			<div className='grid sm:grid-cols-3 items-center justify-items-center'>
-				<div>
-					<SectionHeading title='Contact' />
-				</div>
-				<div className='col-span-2'>
-					<div className='grid gap-4'>
-						{contacts.map((contact) => (
-							<div key={contact.phoneNumber}>
-								<Contact
-									name={contact.name}
-									number={contact.phoneNumber}
-									email={contact.email}
-								/>
-							</div>
-						))}
+
+			<div className='flex space-x-8 items-center border-t  pt-8'>
+				{contacts.map((contact) => (
+					<div key={contact.phoneNumber} className="border-r border-landscape-300 pr-4">
+						<Contact
+							name={contact.name}
+							number={contact.phoneNumber}
+							email={contact.email}
+						/>
 					</div>
-				</div>
+				))}
 			</div>
 		</div>
 	);
