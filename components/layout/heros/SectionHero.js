@@ -15,29 +15,29 @@ const SectionHero = ({ bgImage, title, linkTo, buttonText, description }) => {
 			/>
 
 			<div className='relative h-full bg-black/60 grid place-items-center'>
-				<div className='max-w-7xl grid gap-8'>
+				<motion.div
+					className='max-w-7xl grid gap-8'
+					initial={{ opacity: 0 }}
+					whileInView={{ opacity: 1 }}
+					transition={{ delay: 0.4, duration: 1.4 }}
+				>
 					<div className='grid gap-2'>
-						<h1 className='text-4xl md:text-7xl font-logo text-landscape-500 text-center '>
+						<h1 className='text-5xl md:text-7xl font-logo text-landscape-500 text-center '>
 							{title}
 						</h1>
 						<motion.div
-							className='text-lg md:text-2xl w-2/3 mx-auto'
+							className='sm:text-lg md:text-xl lg:text-2xl  px-2 text-center  lg:w-2/3 mx-auto'
 							initial={{ opacity: 0 }}
 							whileInView={{ opacity: 1 }}
-							transition={{ delay: 0.3, duration: 1.3 }}
+							transition={{ delay: .55, duration: 1.4 }}
 						>
 							{description}
 						</motion.div>
 					</div>
-					<motion.div
-						className='w-1/3 mx-auto'
-						initial={{ opacity: .8 }}
-						whileInView={{ opacity: 1 }}
-						transition={{ delay: .3, duration: 1 }}
-					>
+					<div className='w-3/5 md:w-1/3 mx-auto'>
 						<ButtonLink href={linkTo} title={buttonText} />
-					</motion.div>
-				</div>
+					</div>
+				</motion.div>
 			</div>
 		</div>
 	);

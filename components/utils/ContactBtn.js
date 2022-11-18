@@ -5,16 +5,14 @@ const ContactButton = () => {
 	return (
 		<>
 			<motion.div
-				initial={{ scale: 0.98 }}
-				animate={{ scale: [0.98, 1, 0.98, 1, 0.98, 1] }}
+				initial={{ opacity: 0.68 }}
+				animate={{ opacity: 1 }}
 				transition={{
-					duration: 3.8,
+					duration: 1.1,
 					repeat: Infinity,
-					
-					repeatDelay: 3,
-					ease: 'easeInOut'
+					repeatType: 'reverse',
 				}}
-				className=""
+				className=''
 			>
 				<div>
 					<Link href={'/contact'}>
