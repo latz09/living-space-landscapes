@@ -47,9 +47,11 @@ const Navbar = () => {
 								</button>
 							)}
 						</div>
-						<div className='hidden lg:block border-landscape-700/40 hover:font-bold hover:text-landscape-700 border hover:border-gray-200 font-logo p-1  transition duration-700 text-landscape-700'>
-							<ContactButton />
-						</div>
+						<Link href={'/contact'}>
+							<div className='hidden lg:block border-x border-white/50 hover:border-landscape-700 hover:scale-105  hover:border-white/100 font-logo p-1  transition duration-700 text-white text-2xl px-2 cursor-pointer'>
+								Contact us
+							</div>
+						</Link>
 					</div>
 
 					{/* All the links */}
@@ -60,10 +62,17 @@ const Navbar = () => {
 						lg:flex lg:justify-between lg:mt-2
 						${open ? 'top-16' : 'top-[-490px]'}`}
 					>
+						<div className="lg:hidden text-center  md:my-0 my-7">
+							<Link href={'/contact'}>
+								<a className=' text-lg md:text-2xl text-center text-white hover:text-landscape-700 transition duration-700'>
+									Contact
+								</a>
+							</Link>
+						</div>
 						{navLinks.map((link) => (
 							<div
 								key={link.name}
-								className='md:ml-8 text-lg md:text-2xl md:my-0 my-7 text-center'
+								className='text-lg md:text-2xl md:my-0 my-7 text-center'
 								onClick={() => setOpen(!open)}
 							>
 								<Link href={link.link}>

@@ -5,7 +5,7 @@ const ContactButton = () => {
 	return (
 		<>
 			<motion.div
-				initial={{ opacity: 0.68 }}
+				initial={{ opacity: 0.75 }}
 				animate={{ opacity: 1 }}
 				transition={{
 					duration: 1.1,

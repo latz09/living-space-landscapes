@@ -27,12 +27,12 @@ const Hero = () => {
 								priority='true'
 							/>
 						</div>
-						<div
-							className='lg:hidden border-b-2 text-landscape-700 font-long border-landscape-300 mr-1 ml-2 border-opacity-40 hover:border-opacity-100 transition duration-700 hover:opacity-80 '
+						<motion.div
+							className='lg:hidden border-b-2 text-landscape-700 font-long border-landscape-300 mr-1 ml-2 border-opacity-40 hover:border-opacity-100 transition duration-700 hover:opacity-80 ' 
 						
 						>
 							<ContactButton />
-						</div>
+						</motion.div>
 					</div>
 				</div>
 			</div>
