@@ -9,7 +9,7 @@ const StonesAndBoulders = () => {
 			{/* will be new component */}{' '}
 			<PageHero heroImage={heroImage} heroTitle={'Stones and Boulders'} />
 			<div>
-				<p className="prose mx-auto text-xl text-gray-700 leading-8 tracking-wide text-justify px-2">
+				<p className="prose mx-auto md:text-lg text-gray-600 leading-8 tracking-wide text-justify px-2">
 					Boulders and natural stones play an important part of our landscape
 					installations. The impact of carefully placed boulders give the
 					landscape year-round interest and creates a powerful timeless beauty

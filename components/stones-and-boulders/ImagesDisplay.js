@@ -1,36 +1,12 @@
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { useState } from 'react';
 
 const ImagesDisplay = ({ images, description }) => {
-	const [focusedImage, setFocusedImage] = useState(images[0].src);
 	const [imageIndex, setImageIndex] = useState(0);
 
-	const container = {
-		hidden: { opacity: 0 },
-		visible: {
-			opacity: 1,
-
-			transition: {
-				duration: 1,
-
-				staggerChildren: 0.7,
-			},
-		},
-	};
-
-	const item = {
-		hidden: { scale: 0.98, opacity: 0.6 },
-		visible: {
-			scale: 1,
-			opacity: 1,
-			transition: {
-				duration: 1,
-			},
-		},
-	};
 	const handleChange = (index) => {
 		setImageIndex(index);
 	};
@@ -49,60 +25,76 @@ const ImagesDisplay = ({ images, description }) => {
 
 	return (
 		<>
-			<motion.div
-				className='grid gap-2 md:grid-cols-2 md:gap-8  '
-				variants={container}
-				initial='hidden'
-				whileInView='visible'
-			>
-				<div className='mx-1 md:mx-2 grid'>
-					<motion.div initial={{opacity: 0}} whileInView={{opacity:1}} transition={{delay: .2, duration: 2}}>
-						<Image src={images[imageIndex].src} alt='' />
+			<div className='grid gap-2 md:grid-cols-2 md:gap-8  '>
+				<div className='mx-1 md:mx-2 grid gap-2 md:gap-8 '>
+					{' '}
+					<motion.div
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						transition={{ duration: 1 }}
+						className="shadow-lg grid place-items-center"
+					>
+						<Image src={images[imageIndex].src} alt=''/>
 					</motion.div>
-					<div className='flex justify-around w-1/3 md:w-1/4 mx-auto text-2xl md:text-3xl text-landscape-700'>
-						<span
+					<motion.div
+						className='flex justify-around w-1/3 md:w-1/4 mx-auto text-2xl md:text-3xl text-landscape-700'
+						initial={{ scale: 0.96 }}
+						animate={{ scale: 1 }}
+						transition={{
+							duration: 1.2,
+							repeat: Infinity,
+							repeatType: 'reverse',
+						}}
+					>
+						<motion.div
+							whileHover={{ scale: 1.3 }}							
+							transition={{ duration: 0.4 }}
 							onClick={prevImage}
-							className='p-3 cursor-pointer animate-pulse'
+							className='p-3 cursor-pointer'
 						>
 							<AiOutlineArrowLeft />
-						</span>
-						<span
+						</motion.div>
+						<motion.div
+							whileHover={{ scale: 1.3 }}
+							transition={{ duration: 0.4 }}
 							onClick={nextImage}
-							className='p-3 cursor-pointer animate-pulse'
+							className='p-3 cursor-pointer'
 						>
 							<AiOutlineArrowRight />
-						</span>
-					</div>
+						</motion.div>
+					</motion.div>
 				</div>
 				<div className='grid gap-8 md:gap-0'>
 					<div className='grid grid-cols-3 gap-2 mx-2 md:mx-0 '>
 						{images.map((image, index) => (
-							<div
+							<motion.div
 								key={index}
-								className=''
+								className=' grid place-items-center'
+								whileHover={{ scale: 1.1 }}
+								transition={{ duration: 0.5 }}
 								onClick={() => {
 									handleChange(index);
 								}}
 							>
 								<Image src={image.src} alt={image.alt} />
-							</div>
+							</motion.div>
 						))}
 					</div>
 
-					<div className='prose mx-4 md:w-4/5 md:mx-auto text-xl text-gray-600 font-logo '>
-						{description}
+					<div className='prose mx-4 md:w-4/5 md:mx-auto text-lg md:text-xl text-gray-600 font-logo  '>
+						<motion.div
+							initial={{ opacity: 0, x: '1.2vw' }}
+							whileInView={{ opacity: 1, x: 0 }}
+							transition={{ duration: 1.4 }}
+							className='md:border-r-2 border-landscape-700 pr-2  text-justify md:pr-8 py-4'
+						>
+							{description}
+						</motion.div>
 					</div>
 				</div>
-			</motion.div>
+			</div>
 		</>
 	);
 };
 
 export default ImagesDisplay;
-
-
-
-// // for description
-// initial={{ opacity: 0, scale: 0.8 }}
-// whileInView={{ scale: 1, opacity: 1 }}
-// transition={{ delay: 0.15, duration: 1.3 }}
