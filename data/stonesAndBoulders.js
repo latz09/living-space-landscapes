@@ -8,6 +8,7 @@ import image7 from '../public/images/stones-and-boulders/4.jpg';
 import image8 from '../public/images/stones-and-boulders/22.jpg';
 import image9 from '../public/images/stones-and-boulders/23.jpg';
 
+
 export const stonesAndBoulderData = [
 	{
 		id: 1,
