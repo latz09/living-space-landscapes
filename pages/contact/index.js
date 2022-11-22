@@ -11,17 +11,10 @@ const Contact = () => {
 				}
 			/>
 			<div className='grid gap-8 my-8 lg:gap-20 lg:mt-16 lg:mb-20 max-w-7xl mx-auto '>
-				<div className=' text-landscape-700/80 text-center  text-2xl md:text-4xl font-logo  tracking-wider '>
+				<div className=' text-landscape-700/80 text-center  text-2xl md:text-4xl font-logo  tracking-wider mx-2'>
 					Schedule a consultation with one of our professionals
 				</div>
-				<div className='grid gap-8 lg:grid-cols-2 lg:gap-4 '>
-					<div className="border-r border-landscape-300 pr-4">
-						<EmailUs />
-					</div>
-					<div className="pl-4 ">
-						<ContactInfo />
-					</div>
-				</div>
+				<ContactInfo />
 			</div>
 		</>
 	);
