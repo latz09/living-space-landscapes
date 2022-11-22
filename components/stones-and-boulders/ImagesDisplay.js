@@ -1,11 +1,10 @@
 import Image from 'next/image';
-import { AnimatePresence, motion } from 'framer-motion';
-import { useState, useEffect } from 'react';
-import ImageModal from '../utils/ImageModal';
+import { motion } from 'framer-motion';
+
+
 
 const ImagesDisplay = ({ images }) => {
-	const [openModal, setOpenModal] = useState(false);
-    const [modalSource, setModalSource] = useState();
+
 
 	const container = {
 		hidden: { opacity: 0 },
