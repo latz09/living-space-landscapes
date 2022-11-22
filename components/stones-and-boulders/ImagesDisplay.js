@@ -35,7 +35,7 @@ const ImagesDisplay = ({ images }) => {
 	return (
 		<>
 			<motion.div
-				className='grid lg:grid-cols-3 gap-6  '
+				className='grid lg:grid-cols-3 gap-4  '
 				variants={container}
 				initial='hidden'
 				whileInView='visible'
