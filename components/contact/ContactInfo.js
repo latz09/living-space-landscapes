@@ -15,9 +15,9 @@ const ContactInfo = () => {
 				</div>
 			</div>
 
-			<div className='flex space-x-8 items-center border-t  pt-8'>
+			<div className='grid gap-4 place-items-center xl:flex xl:space-x-8 xl:items-center xl:border-t  xl:pt-8'>
 				{contacts.map((contact) => (
-					<div key={contact.phoneNumber} className="border-r border-landscape-300 pr-4">
+					<div key={contact.phoneNumber} className="xl:border-r border-t pt-4 border-landscape-300 xl:pr-4">
 						<Contact
 							name={contact.name}
 							number={contact.phoneNumber}

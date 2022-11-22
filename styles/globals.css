@@ -3,6 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* Hide scrollbar for IE, Edge and Firefox */
+	.no-scrollbar {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+}
 @layer components {
 	.button-link {
 		@apply bg-landscape-700 px-4 py-2 shadow-md text-xl lg:text-2xl text-center text-white tracking-wider  hover:bg-opacity-75 cursor-pointer transition duration-700 font-logo;
