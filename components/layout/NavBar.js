@@ -3,7 +3,7 @@ import { RiMenu3Fill, RiCloseLine } from 'react-icons/ri';
 import { useState } from 'react';
 import { MdHouseSiding } from 'react-icons/md';
 import { navLinks } from '../../data/navLinks';
-import ContactButton from '../utils/ContactBtn';
+
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
 	const closeMenu = () => {
@@ -58,12 +58,15 @@ const Navbar = () => {
 					<div
 						className={`${
 							open && 'bg-landscape-700 lg:bg-landscape-700/0'
-						} border-b-2 border-landscape-700  lg:border-none absolute lg:static lg:z-auto z-[-1] left-0 w-full transition-all duration-700 ease-in 
+						} border-b-2 border-landscape-700  lg:border-none absolute lg:static lg:z-auto z-[-1] left-0 w-full transition-all duration-[850ms] ease-in 
 						lg:flex lg:justify-between lg:mt-2
 						${open ? 'top-16' : 'top-[-490px]'}`}
 					>
 						<div className='grid gap-8 py-8 lg:py-0 lg:flex lg:justify-between w-1/2 mx-auto  lg:w-full'>
-							<div className='lg:hidden text-right '>
+							<div
+								className='lg:hidden text-right '
+								onClick={() => setOpen(!open)}
+							>
 								<Link href={'/contact'}>
 									<div className=' text-lg md:text-2xl  text-white  hover:scale-105 transition duration-700 font-logo cursor-pointer'>
 										Contact
