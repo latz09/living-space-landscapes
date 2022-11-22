@@ -11,7 +11,7 @@ const EmailUs = () => {
 				<h1 className='text-center text-4xl md:text-6xl text-landscape-700 font-long'>
 					Send us an email
 				</h1>
-				<div className='text-landscape-700 text-justify  tracking-wider md:text-lg font-logo'>
+				<div className='text-landscape-700/80 font-bold text-justify  tracking-wider md:text-lg font-logo'>
 					Tell us more about your project! We will contact you for the next
 					steps. Most projects start with a consultation and paid-for design.
 				</div>
