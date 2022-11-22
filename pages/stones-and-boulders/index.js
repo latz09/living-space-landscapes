@@ -1,6 +1,6 @@
 import BoulderSection from '../../components/stones-and-boulders/BoulderSection';
 import PageHero from '../../components/utils/PageHero';
-import heroImage from '../../public/images/stones-and-boulders/3.jpg';
+import heroImage from '../../public/images/stones-and-boulders-two/3.jpg';
 import { stonesAndBoulderData } from '../../data/stonesAndBoulders';
 
 const StonesAndBoulders = () => {

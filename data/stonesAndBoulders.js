@@ -1,12 +1,12 @@
-import image1 from '../public/images/stones-and-boulders/3.jpg';
-import image2 from '../public/images/stones-and-boulders/12.jpg';
-import image3 from '../public/images/stones-and-boulders/7.jpg';
-import image4 from '../public/images/stones-and-boulders/1.jpg';
-import image5 from '../public/images/stones-and-boulders/10.jpg';
-import image6 from '../public/images/stones-and-boulders/20.jpg'
-import image7 from '../public/images/stones-and-boulders/4.jpg';
-import image8 from '../public/images/stones-and-boulders/22.jpg';
-import image9 from '../public/images/stones-and-boulders/23.jpg';
+import image1 from '../public/images/stones-and-boulders-two/3.jpg';
+import image2 from '../public/images/stones-and-boulders-two/12.jpg';
+import image3 from '../public/images/stones-and-boulders-two/7.jpg';
+import image4 from '../public/images/stones-and-boulders-two/1.jpg';
+import image5 from '../public/images/stones-and-boulders-two/10.jpg';
+import image6 from '../public/images/stones-and-boulders-two/20.jpg'
+import image7 from '../public/images/stones-and-boulders-two/4.jpg';
+import image8 from '../public/images/stones-and-boulders-two/22.jpg';
+import image9 from '../public/images/stones-and-boulders-two/23.jpg';
 
 
 export const stonesAndBoulderData = [
