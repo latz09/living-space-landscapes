@@ -35,7 +35,7 @@ const HomePage = () => {
 					title={'Stones and Boulders'}
 					linkTo={'/stones-and-boulders'}
 					buttonText={'learn more'}
-					description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut abore et dolore magna aliqua. Id aliquet risus feugiat in ante.'
+					description='Create a powerful timeless beauty that mimics nature'
 				/>
 				<GalleryPreview />
 			</div>

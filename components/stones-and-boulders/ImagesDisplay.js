@@ -32,9 +32,9 @@ const ImagesDisplay = ({ images, description }) => {
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ duration: 1 }}
-						className="shadow-lg grid place-items-center"
+						className='shadow-lg grid place-items-center'
 					>
-						<Image src={images[imageIndex].src} alt=''/>
+						<Image src={images[imageIndex].src} alt='' priority='true' />
 					</motion.div>
 					<motion.div
 						className='flex justify-around w-1/3 md:w-1/4 mx-auto text-2xl md:text-3xl text-landscape-700'
@@ -47,7 +47,7 @@ const ImagesDisplay = ({ images, description }) => {
 						}}
 					>
 						<motion.div
-							whileHover={{ scale: 1.3 }}							
+							whileHover={{ scale: 1.3 }}
 							transition={{ duration: 0.4 }}
 							onClick={prevImage}
 							className='p-3 cursor-pointer'
@@ -76,7 +76,7 @@ const ImagesDisplay = ({ images, description }) => {
 									handleChange(index);
 								}}
 							>
-								<Image src={image.src} alt={image.alt} />
+								<Image src={image.src} alt={image.alt} priority='true' />
 							</motion.div>
 						))}
 					</div>
