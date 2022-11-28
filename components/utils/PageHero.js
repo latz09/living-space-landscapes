@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const PageHero = ({ heroImage, heroTitle }) => {
 	return (
-		<div className='relative w-full h-[40vh] md:h-[60vh]'>
+		<div className='relative w-full h-[30vh] md:h-[45vh]'>
 			<Image
 				src={heroImage}
 				alt=''
