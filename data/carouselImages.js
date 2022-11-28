@@ -89,42 +89,65 @@ import image92 from '../public/images/gallery-images/old-website-images/92.jpg';
 import image93 from '../public/images/gallery-images/old-website-images/93.jpg';
 
 //october 2022//
-import oct1 from '../public/images/gallery-images/october-twenty-two/oct1.jpg'
-import oct2 from '../public/images/gallery-images/october-twenty-two/oct2.jpg'
-import oct3 from '../public/images/gallery-images/october-twenty-two/oct3.jpg'
-import oct4 from '../public/images/gallery-images/october-twenty-two/oct4.jpg'
-import oct5 from '../public/images/gallery-images/october-twenty-two/oct5.jpg'
-import oct6 from '../public/images/gallery-images/october-twenty-two/oct6.jpg'
-import oct7 from '../public/images/gallery-images/october-twenty-two/oct7.jpg'
-import oct8 from '../public/images/gallery-images/october-twenty-two/oct8.jpg'
-import oct9 from '../public/images/gallery-images/october-twenty-two/oct9.jpg'
-import oct10 from '../public/images/gallery-images/october-twenty-two/oct10.jpg'
-import oct11 from '../public/images/gallery-images/october-twenty-two/oct11.jpg'
-import oct12 from '../public/images/gallery-images/october-twenty-two/oct12.jpg'
-import oct13 from '../public/images/gallery-images/october-twenty-two/oct13.jpg'
-import oct14 from '../public/images/gallery-images/october-twenty-two/oct14.jpg'
-import oct15 from '../public/images/gallery-images/october-twenty-two/oct15.jpg'
-import oct16 from '../public/images/gallery-images/october-twenty-two/oct16.jpg'
-import oct17 from '../public/images/gallery-images/october-twenty-two/oct17.jpg'
-import oct18 from '../public/images/gallery-images/october-twenty-two/oct18.jpg'
-import oct19 from '../public/images/gallery-images/october-twenty-two/oct19.jpg'
-import oct20 from '../public/images/gallery-images/october-twenty-two/oct20.jpg'
-import oct21 from '../public/images/gallery-images/october-twenty-two/oct21.jpg'
-import oct22 from '../public/images/gallery-images/october-twenty-two/oct22.jpg'
-import oct23 from '../public/images/gallery-images/october-twenty-two/oct23.jpg'
-import oct24 from '../public/images/gallery-images/october-twenty-two/oct24.jpg'
-import oct25 from '../public/images/gallery-images/october-twenty-two/oct25.jpg'
-import oct26 from '../public/images/gallery-images/october-twenty-two/oct26.jpg'
-import oct27 from '../public/images/gallery-images/october-twenty-two/oct27.jpg'
-
+import oct1 from '../public/images/gallery-images/october-twenty-two/oct1.jpg';
+import oct2 from '../public/images/gallery-images/october-twenty-two/oct2.jpg';
+import oct3 from '../public/images/gallery-images/october-twenty-two/oct3.jpg';
+import oct4 from '../public/images/gallery-images/october-twenty-two/oct4.jpg';
+import oct5 from '../public/images/gallery-images/october-twenty-two/oct5.jpg';
+import oct6 from '../public/images/gallery-images/october-twenty-two/oct6.jpg';
+import oct7 from '../public/images/gallery-images/october-twenty-two/oct7.jpg';
+import oct8 from '../public/images/gallery-images/october-twenty-two/oct8.jpg';
+import oct9 from '../public/images/gallery-images/october-twenty-two/oct9.jpg';
+import oct10 from '../public/images/gallery-images/october-twenty-two/oct10.jpg';
+import oct11 from '../public/images/gallery-images/october-twenty-two/oct11.jpg';
+import oct12 from '../public/images/gallery-images/october-twenty-two/oct12.jpg';
+import oct13 from '../public/images/gallery-images/october-twenty-two/oct13.jpg';
+import oct14 from '../public/images/gallery-images/october-twenty-two/oct14.jpg';
+import oct15 from '../public/images/gallery-images/october-twenty-two/oct15.jpg';
+import oct16 from '../public/images/gallery-images/october-twenty-two/oct16.jpg';
+import oct17 from '../public/images/gallery-images/october-twenty-two/oct17.jpg';
+import oct18 from '../public/images/gallery-images/october-twenty-two/oct18.jpg';
+import oct19 from '../public/images/gallery-images/october-twenty-two/oct19.jpg';
+import oct20 from '../public/images/gallery-images/october-twenty-two/oct20.jpg';
+import oct21 from '../public/images/gallery-images/october-twenty-two/oct21.jpg';
+import oct22 from '../public/images/gallery-images/october-twenty-two/oct22.jpg';
+import oct23 from '../public/images/gallery-images/october-twenty-two/oct23.jpg';
+import oct24 from '../public/images/gallery-images/october-twenty-two/oct24.jpg';
+import oct25 from '../public/images/gallery-images/october-twenty-two/oct25.jpg';
+import oct26 from '../public/images/gallery-images/october-twenty-two/oct26.jpg';
+import oct27 from '../public/images/gallery-images/october-twenty-two/oct27.jpg';
+import nov1 from '../public/images/stones-and-boulders-two/1.jpg';
+import nov2 from '../public/images/stones-and-boulders-two/2.jpg';
+import nov3 from '../public/images/stones-and-boulders-two/3.jpg';
+import nov4 from '../public/images/stones-and-boulders-two/4.jpg';
+import nov5 from '../public/images/stones-and-boulders-two/5.jpg';
+import nov6 from '../public/images/stones-and-boulders-two/6.jpg';
+import nov7 from '../public/images/stones-and-boulders-two/7.jpg';
+import nov8 from '../public/images/stones-and-boulders-two/8.jpg';
+import nov9 from '../public/images/stones-and-boulders-two/9.jpg';
+import nov10 from '../public/images/stones-and-boulders-two/10.jpg';
+import nov11 from '../public/images/stones-and-boulders-two/11.jpg';
+import nov12 from '../public/images/stones-and-boulders-two/12.jpg';
+import nov13 from '../public/images/stones-and-boulders-two/13.jpg';
+import nov14 from '../public/images/stones-and-boulders-two/14.jpg';
+import nov15 from '../public/images/stones-and-boulders-two/15.jpg';
+import nov16 from '../public/images/stones-and-boulders-two/16.jpg';
+import nov17 from '../public/images/stones-and-boulders-two/17.jpg';
+import nov18 from '../public/images/stones-and-boulders-two/18.jpg';
+import nov19 from '../public/images/stones-and-boulders-two/19.jpg';
+import nov20 from '../public/images/stones-and-boulders-two/20.jpg';
+import nov21 from '../public/images/stones-and-boulders-two/21.jpg';
+import nov22 from '../public/images/stones-and-boulders-two/22.jpg';
+import nov23 from '../public/images/stones-and-boulders-two/23.jpg';
 
 export const carouselImages = [image12, image13, image4, image62];
 export const galleryImages = [
+	// requested first 5
 	{
 		image: image7,
 		alt: '',
 		category: '',
-	}, 
+	},
 	{
 		image: image12,
 		alt: '',
@@ -148,10 +171,21 @@ export const galleryImages = [
 
 	//october 2022
 	{
-		image: oct1,
+		image: nov1,
 		alt: '',
 		category: '',
 	},
+	{
+		image: nov8,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov3,
+		alt: '',
+		category: '',
+	},
+
 	{
 		image: oct2,
 		alt: '',
@@ -177,6 +211,23 @@ export const galleryImages = [
 		alt: '',
 		category: '',
 	},
+
+	{
+		image: nov2,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov4,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov7,
+		alt: '',
+		category: '',
+	},
+
 	{
 		image: oct7,
 		alt: '',
@@ -193,7 +244,39 @@ export const galleryImages = [
 		category: '',
 	},
 	{
+		image: nov5,
+		alt: '',
+		category: '',
+	},
+
+	{
+		image: nov13,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov14,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov15,
+		alt: '',
+		category: '',
+	},
+
+	{
+		image: nov6,
+		alt: '',
+		category: '',
+	},
+	{
 		image: oct10,
+		alt: '',
+		category: '',
+	},
+	{
+		image: oct1,
 		alt: '',
 		category: '',
 	},
@@ -207,6 +290,60 @@ export const galleryImages = [
 		alt: '',
 		category: '',
 	},
+
+	{
+		image: nov1,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov1,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov1,
+		alt: '',
+		category: '',
+	},
+
+	{
+		image: nov17,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov18,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov20,
+		alt: '',
+		category: '',
+	},
+
+	{
+		image: nov9,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov10,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov12,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov15,
+		alt: '',
+		category: '',
+	},
+
 	{
 		image: oct13,
 		alt: '',
@@ -224,6 +361,21 @@ export const galleryImages = [
 	},
 	{
 		image: oct16,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov21,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov22,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov23,
 		alt: '',
 		category: '',
 	},
@@ -284,7 +436,6 @@ export const galleryImages = [
 	},
 
 	//end of october 2022
-
 
 	{
 		image: image1,
@@ -685,6 +836,21 @@ export const galleryImages = [
 	},
 	{
 		image: image87,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov16,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov19,
+		alt: '',
+		category: '',
+	},
+	{
+		image: nov11,
 		alt: '',
 		category: '',
 	},
