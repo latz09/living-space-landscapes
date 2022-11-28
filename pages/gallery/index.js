@@ -13,7 +13,7 @@ const Gallery = () => {
 				}
 			/>
 
-			<div className='grid lg:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-8 place-items-center px-[5vw] py-10 lg:py-20 bg-landscape-500/30'>
+			<div className='grid lg:grid-cols-2 xl:grid-cols-3 gap-16 lg:gap-8 place-items-center px-1 md:px-[5vw] py-10 lg:py-20 bg-landscape-500/30'>
 				{galleryImages.map((image, index) => (
 					<motion.div
 						key={index}
