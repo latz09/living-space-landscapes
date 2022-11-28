@@ -26,4 +26,6 @@
 	.review-text {
 		@apply py-1  text-gray-600 italic font-serif leading-8 tracking-wider;
 	}
+
+
 }
