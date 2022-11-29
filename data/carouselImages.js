@@ -124,7 +124,6 @@ import nov5 from '../public/images/stones-and-boulders-two/5.jpg';
 import nov6 from '../public/images/stones-and-boulders-two/6.jpg';
 import nov7 from '../public/images/stones-and-boulders-two/7.jpg';
 import nov8 from '../public/images/stones-and-boulders-two/8.jpg';
-import nov9 from '../public/images/stones-and-boulders-two/9.jpg';
 import nov10 from '../public/images/stones-and-boulders-two/10.jpg';
 import nov11 from '../public/images/stones-and-boulders-two/11.jpg';
 import nov12 from '../public/images/stones-and-boulders-two/12.jpg';
@@ -323,11 +322,7 @@ export const galleryImages = [
 		category: '',
 	},
 
-	{
-		image: nov9,
-		alt: '',
-		category: '',
-	},
+
 	{
 		image: nov10,
 		alt: '',
