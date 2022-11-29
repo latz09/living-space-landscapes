@@ -3,10 +3,10 @@ import installationImage from '../public/images/design/installation.jpg';
 import pruningImage from '../public/images/design/aesthetic-pruning.jpg';
 import heroImage from '../public/images/gallery-images/old-website-images/58.jpg';
 import japHeroImage from '../public/images/japanese-gardens/5.jpg';
-import credentialImage from '../public/images/japanese-gardens/1.jpeg';
-import ourWorkImage from '../public/images/japanese-gardens/2.jpeg';
-import extraImageOne from '../public/images/japanese-gardens/3.jpeg';
-import extraImageTwo from '../public/images/japanese-gardens/4.jpeg';
+import credentialImage from '../public/images/japanese-gardens/1.JPEG';
+import ourWorkImage from '../public/images/japanese-gardens/2.JPEG';
+import extraImageOne from '../public/images/japanese-gardens/3.JPEG';
+import extraImageTwo from '../public/images/japanese-gardens/4.JPEG';
 
 export const ourProcessPageData = [
 	{
