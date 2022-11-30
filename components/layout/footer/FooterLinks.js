@@ -9,6 +9,9 @@ const FooterLinks = () => {
 					<span className='cursor-pointer'>{link.name}</span>
 				</Link>
 			))}
+			<Link href='/contact'>
+				<span className="cursor-pointer">Contact us</span>
+			</Link>
 		</div>
 	);
 };

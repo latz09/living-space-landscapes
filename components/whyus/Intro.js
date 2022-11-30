@@ -36,7 +36,7 @@ const Intro = ({
 
 				<div className='grid gap-2'>
 					<WhyUsHeading title='background' />
-					<div className='text-gray-600  sm:text-base  tracking-wide text-justify'>
+					<div className='text-gray-600  sm:text-base  tracking-wide text-justify font-logo'>
 						<p>{about}</p>
 					</div>
 				</div>

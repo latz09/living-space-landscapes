@@ -1,7 +1,7 @@
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 
 import Image from 'next/image';
-import { AnimatePresence, motion } from 'framer-motion';
+import {  motion } from 'framer-motion';
 import { useState } from 'react';
 
 const ImagesDisplay = ({ images, description }) => {
