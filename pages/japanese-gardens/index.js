@@ -1,4 +1,3 @@
-
 import GardensToVisit from '../../components/japanese-garden/GardensToVisit';
 import JapaneseSection from '../../components/japanese-garden/JapaneseSection';
 import Meta from '../../components/utils/Meta';
@@ -13,7 +12,7 @@ const JapaneseGardening = () => {
 					'Living Space Landscapes will create your landscape with a naturalistic style that will inspire a sense of calm in those who experience it.'
 				}
 			/>
-			<div className='grid gap-8 mt-8 lg:gap-16 lg:mt-16  lg:mx-2 xl:mx-0'>			
+			<div className='grid gap-8 mt-8 lg:gap-16 lg:mt-16  lg:mx-2 xl:mx-0'>
 				<div className='grid gap-8'>
 					<h1 className='text-center text-2xl lg:text-4xl text-landscape-700 font-logo'>
 						Japanese Gardens
@@ -22,9 +21,10 @@ const JapaneseGardening = () => {
 						{japaneseProcessPageData.intro}
 					</p>
 				</div>
-				<JapaneseSection data={japaneseProcessPageData.credentialSections} />
-				<GardensToVisit data={japaneseProcessPageData.gardensToVisit} />
-			
+				<div className="grid ">
+					<JapaneseSection data={japaneseProcessPageData.credentialSections} />
+					<GardensToVisit data={japaneseProcessPageData.gardensToVisit} />
+				</div>
 			</div>
 		</>
 	);

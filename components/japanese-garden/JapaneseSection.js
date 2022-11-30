@@ -23,7 +23,7 @@ const JapaneseSection = ({ data }) => {
 					</div>
 				</div>
 			</div>
-			<div className='grid max-w-7xl mx-auto gap-8 lg:border-t py-8 border-landscape-700/50 '>
+			<div className='grid max-w-7xl mx-auto gap-8 lg:border-t pt-8 lg:pb-8 border-landscape-700/50 '>
 				<div className='grid lg:grid-cols-5 gap-8 place-items-center'>
 					<div className='grid text-lg prose text-justify mx-4 lg:col-span-3 lg:w-4/5 '>
 						<span className='jap-section-heading'>{ourWork.heading}</span>
@@ -32,7 +32,7 @@ const JapaneseSection = ({ data }) => {
 							<p className='jap-section-content'>{ourWork.textTwo}</p>
 						</div>
 					</div>
-					<div className='lg:col-span-2'>
+					<div className='lg:col-span-2 grid place-items-center'>
 						<Image
 							src={ourWork.image}
 							alt='explaing the process of japanese gardening'
