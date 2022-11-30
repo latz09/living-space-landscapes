@@ -17,7 +17,7 @@ const JapaneseGardening = () => {
 					<h1 className='text-center text-2xl lg:text-4xl text-landscape-700 font-logo'>
 						Japanese Gardens
 					</h1>
-					<p className='max-w-5xl tracking-wide leading-7 md:leading-8 lg:leading-[32px] mx-2 md:mx-8 lg:mx-auto text-justify text-gray-600  text-sm md:text-base lg:text-lg border-r px-4 md:px-8 border-landscape-700/40 '>
+					<p className='max-w-5xl tracking-wide leading-relaxed md:leading-8 lg:leading-[32px] mx-2 md:mx-8 lg:mx-auto text-justify text-gray-600  text-base lg:text-lg border-r px-4 md:px-8 border-landscape-700/40 '>
 						{japaneseProcessPageData.intro}
 					</p>
 				</div>
