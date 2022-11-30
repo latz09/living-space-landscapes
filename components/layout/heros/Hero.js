@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
 	return (
-		<div className='relative w-full  h-[45vh] md:h-[70vh]'>
+		<div className='relative w-full  h-[45vh] md:h-[70vh] '>
 			<Image
 				src={heroImage}
 				alt='Landscaping around a patio setting'

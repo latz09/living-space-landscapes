@@ -60,7 +60,7 @@ export const stonesAndBoulderData = [
 	},
 	{
 		id: 3,
-		heading: 'Not Your Cookie-Cutter patios',
+		heading: 'Not Your Cookie-Cutter Patio',
 		description:
 			'Our cut-to-fit irregular flagstone patios and paths are skillfully arranged to eliminate “pizza slice” shapes and have no more than 3 pieces at each flagstone intersection. Think of the letter T or Y, and not having 4 stones meet to create an X.',
 		images: [

@@ -4,7 +4,7 @@ import ButtonLink from '../utils/ButtonLink';
 const Philosophy = () => {
 	return (
 		<>
-			<div className='grid gap-4 lg:grid-cols-2 justify-items-center items-center text-justify tracking-widest'>
+			<div className='grid gap-4 lg:grid-cols-2 justify-items-center items-center text-justify tracking-widest '>
 				<h1 className='font-logo  text-4xl text-landscape-700 '>Philosphy</h1>
 				<Text />
 			</div>
