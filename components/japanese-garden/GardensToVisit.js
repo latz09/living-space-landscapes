@@ -2,7 +2,7 @@ import SectionHeading from '../utils/SectionHeading';
 
 const GardensToVisit = ({ data }) => {
 	return (
-		<div className=' grid gap-16  bg-landscape-300/20 py-8 md:py-16'>
+		<div className=' grid gap-16  bg-landscape-300/20 py-16'>
 			<div className='grid gap-8 max-w-7xl mx-4 xl:mx-auto '>
 				<SectionHeading title='Gardens To Visit' />
 				<div className='grid xl:grid-cols-5 gap-8 place-items-center xl:place-items-start'>
