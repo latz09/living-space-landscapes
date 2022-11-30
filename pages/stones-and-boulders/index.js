@@ -5,7 +5,7 @@ import { stonesAndBoulderData } from '../../data/stonesAndBoulders';
 
 const StonesAndBoulders = () => {
 	return (
-		<div className='grid gap-20 mb-20 '>
+		<div className='grid gap-8 mb-8 lg:gap-16 lg:mb-16 '>
 			{/* will be new component */}{' '}
 			<PageHero heroImage={heroImage} heroTitle={'Stones and Boulders'} />
 			<div>

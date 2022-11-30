@@ -17,7 +17,7 @@ const HomePage = () => {
 					'Living Space Landscapes will create your landscape with a naturalistic style that will inspire a sense of calm in those who experience it.'
 				}
 			/>
-			<div className='grid gap-20 mb-20 justify-items-center'>
+			<div className='grid gap-12 mb-12 md:gap-16 md:mb-16 justify-items-center'>
 				<Hero />
 				<Philosophy />
 				<SectionHero
@@ -25,7 +25,7 @@ const HomePage = () => {
 					title={'Japanese Gardens'}
 					linkTo={'/japanese-gardens'}
 					buttonText={'learn more'}
-					description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut abore et dolore magna aliqua. Id aliquet risus feugiat in ante.'
+					description='Evoke the joy and beauty of nature'
 				/>
 
 				<Reviews />

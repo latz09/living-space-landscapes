@@ -1,7 +1,7 @@
 import WhyUsHeading from '../utils/WhyUsHeading';
 const Memberships = ({ memberships }) => {
 	return (
-		<div>
+		<div className="grid gap-2">
 			<WhyUsHeading title='memberships' />
 			{memberships.map((membership) => (
 				<div key={membership.organization}>

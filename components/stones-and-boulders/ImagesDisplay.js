@@ -25,8 +25,8 @@ const ImagesDisplay = ({ images, description }) => {
 
 	return (
 		<>
-			<div className='grid gap-2 md:grid-cols-2 md:gap-8  '>
-				<div className='mx-1 md:mx-2 grid gap-2 md:gap-8 '>
+			<div className='grid gap-4 lg:grid-cols-2 lg:gap-6  '>
+				<div className='mx-1 lg:mx-2 grid gap-2 md:gap-4 lg:gap-6 '>
 					{' '}
 					<motion.div
 						initial={{ opacity: 0 }}
@@ -37,7 +37,7 @@ const ImagesDisplay = ({ images, description }) => {
 						<Image src={images[imageIndex].src} alt='' priority='true' />
 					</motion.div>
 					<motion.div
-						className='flex justify-around w-1/3 md:w-1/4 mx-auto text-2xl md:text-3xl text-landscape-700'
+						className='flex justify-around w-1/3 lg:w-1/4 mx-auto text-2xl lg:text-3xl text-landscape-700'
 						initial={{ scale: 0.96 }}
 						animate={{ scale: 1 }}
 						transition={{
@@ -64,8 +64,8 @@ const ImagesDisplay = ({ images, description }) => {
 						</motion.div>
 					</motion.div>
 				</div>
-				<div className='grid gap-8 md:gap-0'>
-					<div className='grid grid-cols-3 gap-2 mx-2 md:mx-0 '>
+				<div className='grid gap-8 lg:gap-0'>
+					<div className='grid grid-cols-3 gap-2 mx-2 lg:mx-0 '>
 						{images.map((image, index) => (
 							<motion.div
 								key={index}
@@ -81,12 +81,12 @@ const ImagesDisplay = ({ images, description }) => {
 						))}
 					</div>
 
-					<div className='prose mx-4 md:w-4/5 md:mx-auto text-lg md:text-xl text-gray-600 font-logo  '>
+					<div className='prose mx-4 lg:w-4/5 lg:mx-auto text-lg lg:text-xl text-gray-600 font-logo place-self-center'>
 						<motion.div
 							initial={{ opacity: 0, x: '1.2vw' }}
 							whileInView={{ opacity: 1, x: 0 }}
 							transition={{ duration: 1.4 }}
-							className='md:border-r-2 border-landscape-700 pr-2  text-justify md:pr-8 py-4'
+							className='lg:border-r-2 border-landscape-700 pr-2  text-justify lg:pr-8 py-4'
 						>
 							{description}
 						</motion.div>

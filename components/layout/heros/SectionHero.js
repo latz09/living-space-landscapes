@@ -15,28 +15,36 @@ const SectionHero = ({ bgImage, title, linkTo, buttonText, description }) => {
 			/>
 
 			<div className='relative h-full bg-black/60 grid place-items-center'>
-				<motion.div
-					className='max-w-7xl grid gap-8'
-					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }}
-					transition={{ delay: 0.4, duration: 1.4 }}
-				>
-					<div className='grid gap-2'>
-						<h1 className='text-5xl md:text-7xl text-landscape-500 text-center '>
+				<motion.div className='max-w-7xl grid gap-4 md:gap-8'>
+					<div className='grid gap-1 text-center'>
+						<motion.h1
+							initial={{ opacity: 0, scale: 0.96 }}
+							whileInView={{ opacity: 1, scale: 1 }}
+							transition={{ delay: 0.2, duration: 1.2 }}
+							className='text-4xl sm:text-5xl md:text-7xl text-landscape-500 '
+						>
 							{title}
-						</h1>
+						</motion.h1>
 						<motion.div
-							className='sm:text-lg md:text-xl lg:text-2xl  px-2 text-center  lg:w-2/3 mx-auto'
+							className='text-base sm:text-lg md:text-xl lg:text-2xl px-2 mx-auto font-bold'
 							initial={{ opacity: 0 }}
 							whileInView={{ opacity: 1 }}
-							transition={{ delay: .55, duration: 1.4 }}
+							transition={{ delay: 0.8, duration: 1.4 }}
 						>
 							{description}
 						</motion.div>
 					</div>
-					<div className='w-3/5 md:w-1/3 mx-auto'>
+					<motion.div
+						initial={{ opacity: 0.7 }}
+						whileInView={{ opacity: 1 }}
+						transition={{
+							delay: 1.3,
+							duration: 1.5,
+						}}
+						className=' w-3/4 md:w-2/3 mx-auto shadow-lg'
+					>
 						<ButtonLink href={linkTo} title={buttonText} />
-					</div>
+					</motion.div>
 				</motion.div>
 			</div>
 		</div>

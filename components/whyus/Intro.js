@@ -13,9 +13,8 @@ const Intro = ({
 	memberships,
 }) => {
 	return (
-		<div className='text-gray-400 border-l-4 md:pl-12 max-w-7xl mx-auto border-landscape-300 grid lg:grid-cols-2 lg:gap-16 lg:place-items-center'>
-			{/* PHOTO OF SCOTT */}
-			<div className="m-4 grid gap-6">
+		<div className='text-gray-400 border-l-4 md:pl-12 max-w-7xl mx-auto border-landscape-300 grid gap-4 lg:grid-cols-2 lg:gap-16 lg:place-items-center'>
+			<div className='m-4 grid gap-6 '>
 				<div className='lg:hidden grid gap-4'>
 					<SectionHeading title={name} />
 					<h1 className='text-center'>{degree}</h1>
@@ -25,21 +24,19 @@ const Intro = ({
 				</div>
 			</div>
 
-			{/* ALL INFO */}
-			<div className='m-4 lg:m-8 tracking-wide grid gap-6'>
-				<div className='grid gap-6'>
-					<div className='hidden lg:grid gap-1'>
-						<SectionHeading title={name} />
-						<h1 className=''>{degree}</h1>
-					</div>
-					<div className='grid gap-2'>
-						<Certifications certifications={certifications} />
-						<Memberships memberships={memberships} />
-					</div>
+			<div className='tracking-wide grid gap-4 mx-4'>
+				<div className='hidden lg:grid gap-4'>
+					<SectionHeading title={name} />
+					<h1 className=''>{degree}</h1>
 				</div>
-				<div className='grid gap-1'>
+				<div className='grid gap-4'>
+					<Certifications certifications={certifications} />
+					<Memberships memberships={memberships} />
+				</div>
+
+				<div className='grid gap-2'>
 					<WhyUsHeading title='background' />
-					<div className='text-gray-700 font-logo sm:text-base tracking-wide text-justify'>
+					<div className='text-gray-600  sm:text-base  tracking-wide text-justify'>
 						<p>{about}</p>
 					</div>
 				</div>

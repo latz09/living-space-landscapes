@@ -1,14 +1,14 @@
 import SectionHeading from '../utils/SectionHeading';
 const FeaturedIn = ({ articles }) => {
 	return (
-		<div className='grid gap-4 mt-8 mx-4 lg:mt-0 lg:flex lg:justify-center  lg:items-center max-w-7xl lg:mx-auto w-full'>
-			<div className='lg:w-1/3 grid place-items-center'>
+		<div className='grid gap-4 lg:grid-cols-5 place-items-center lg:max-w-5xl mx-auto w-ful'>
+			<div className='lg:col-span-2'>
 				<SectionHeading title='Featured In' />
 			</div>
-			<ul className='grid text-justify  gap-5 text-lg italic text-landscape-700 mt-4 grow'>
+			<ul className='lg:col-span-3 grid text-justify  gap-4 text-lg italic text-landscape-700 '>
 				{articles.map((article) => (
 					<li
-						className='bg-landscape-500 bg-opacity-20 font-bold shadow-md mr-4 p-1 text-sm sm:text-lg'
+						className='bg-landscape-500 bg-opacity-20 font-bold shadow-md mx-4 px-4 py-2 text-sm sm:text-lg'
 						key={article}
 					>
 						{article}

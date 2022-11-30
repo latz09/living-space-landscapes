@@ -53,7 +53,8 @@ export const japaneseProcessPageData = {
 			id: 2,
 			heading: 'Skills and CraftsmanShip',
 			image: ourWorkImage,
-			text: 'Later, Scott worked side by side with other Japanese trained garden builders in Portland learning the skill and craftmanship of creating quality Japanese gardens.  Two former Japanese Landscape Directors of the Portland Japanese Garden both started their own companies.  Toru Tanaka, Japanese Garden Specialty and Masa Mizuno, Masa and Associates were both very influential for Scott in honing the skills required to create and maintain a great Japanese garden.  20+ years later, Scott and his talented crew at Living Space Landscapes are always improving on there combined skill sets to provide beautiful landscapes that use the design and refined craftmanship needed to create a landscape that is inspired by authentic Japanese gardens.  We have been honored to work at several private beautiful gardens in the Twin Cities.',
+			text: 'Later, Scott worked side by side with other Japanese trained garden builders in Portland learning the skill and craftmanship of creating quality Japanese gardens.  Two former Japanese Landscape Directors of the Portland Japanese Garden both started their own companies.  Toru Tanaka, Japanese Garden Specialty and Masa Mizuno, Masa and Associates were both very influential for Scott in honing the skills required to create and maintain a great Japanese garden.  ',
+			textTwo: '20+ years later, Scott and his talented crew at Living Space Landscapes are always improving on there combined skill sets to provide beautiful landscapes that use the design and refined craftmanship needed to create a landscape that is inspired by authentic Japanese gardens.  We have been honored to work at several private beautiful gardens in the Twin Cities.'
 		},
 	],
 	gardensToVisit: {

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
 	return (
-		<div className='relative w-full h-[70vh]'>
+		<div className='relative w-full  h-[45vh] md:h-[70vh]'>
 			<Image
 				src={heroImage}
 				alt='Landscaping around a patio setting'
@@ -27,10 +27,7 @@ const Hero = () => {
 								priority='true'
 							/>
 						</div>
-						<motion.div
-							className='lg:hidden border-b-2 text-landscape-700 font-long border-landscape-300 mr-1 ml-2 border-opacity-40 hover:border-opacity-100 transition duration-700 hover:opacity-80 ' 
-						
-						>
+						<motion.div className='lg:hidden border-b-2 text-landscape-700 font-long border-landscape-300 mr-1 ml-2 border-opacity-40 hover:border-opacity-100 transition duration-700 hover:opacity-80 '>
 							<ContactButton />
 						</motion.div>
 					</div>

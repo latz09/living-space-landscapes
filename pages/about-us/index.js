@@ -12,7 +12,7 @@ const WhyUs = () => {
 				}
 			/>
 			<div className='my-12 lg:my-20'>
-				<div className='grid gap-4 lg:gap-20 '>
+				<div className='grid gap-8 lg:gap-16 '>
 					<Intro
 						name={background.name}
 						image={background.image}

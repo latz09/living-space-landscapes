@@ -2,7 +2,7 @@ import { reviews } from '../../data/reviews';
 import ReviewItem from './ReviewItem';
 const Reviews = () => {
 	return (
-		<div className='grid gap-8 mx-4 lg:grid-cols-2 lg:gap-16'>
+		<div className='grid gap-8 mx-4 xl:grid-cols-2 xl:gap-16'>
 			{reviews.map((review) => (
 				<div key={review.name}>
 					<ReviewItem
