@@ -15,7 +15,7 @@ const JapaneseSection = ({ data }) => {
 							priority='true'
 						/>
 					</div>
-					<div className='grid text-lg prose text-justify mx-4 lg:col-span-3 lg:w-4/5 '>
+					<div className='grid text-lg prose text-justify mx-4 lg:col-span-3 lg:w-4/5'>
 						<span className='jap-section-heading'>{credentials.heading}</span>
 						<p className='jap-section-content md:leading-7'>
 							{credentials.text}

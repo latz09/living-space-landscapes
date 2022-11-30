@@ -27,7 +27,7 @@
 		@apply py-1  text-gray-600 italic font-serif leading-8 tracking-wider;
 	}
 	.jap-section-content {
-		@apply text-base xl:text-lg leading-7 md:leading-8;
+		@apply text-base xl:text-lg leading-7 md:leading-8 pb-8;
 	}
 	.jap-section-heading {
 		@apply text-xl lg:text-2xl font-logo text-end text-landscape-700;
