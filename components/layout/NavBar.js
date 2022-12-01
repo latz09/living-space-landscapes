@@ -11,13 +11,13 @@ const Navbar = () => {
 	};
 	return (
 		<div className='shadow-md w-full  top-0 left-0 z-10 '>
-			<div className='bg-landscape-500 px-2'>
+			<div className='bg-landscape-700/80 px-2'>
 				<div className='max-w-7xl mx-auto grid gap-4 p-4  text-white tracking-widest '>
 					{/* Home House and Menu Tab for under Large */}
-					<div className='flex justify-between items-center lg:border-b lg:border-b-landscape-700 lg:pb-4'>
+					<div className='flex justify-between items-center lg:border-b-2 lg:border-b-landscape-300/70 lg:pb-4'>
 						<Link href={'/'}>
 							<button
-								className='hover:text-landscape-700 duration-700 text-4xl cursor-pointer'
+								className='hover:text-landscape-300 hover:scale-125 duration-700 text-4xl cursor-pointer'
 								onClick={closeMenu}
 								aria-label='Navigate Home'
 							>
@@ -33,7 +33,7 @@ const Navbar = () => {
 								<button
 									label='open navbar'
 									aria-label='open dropdown navigation bar'
-									className='hover:text-landscape-700'
+									className='hover:text-landscape-300 hover:scale-125 transition duration-700'
 								>
 									<RiMenu3Fill />{' '}
 								</button>
@@ -48,7 +48,7 @@ const Navbar = () => {
 							)}
 						</div>
 						<Link href={'/contact'}>
-							<div className='hidden lg:block border-x border-white/50 hover:border-landscape-700 hover:scale-105  hover:border-white/100 font-logo p-1  transition duration-700 text-white text-2xl px-2 cursor-pointer'>
+							<div className='hidden lg:block border-x border-white/50  hover:scale-110 hover:border-x-2  hover:border-landscape-300 font-logo p-1  transition duration-700 text-white text-2xl px-2 cursor-pointer'>
 								Contact us
 							</div>
 						</Link>
@@ -57,8 +57,9 @@ const Navbar = () => {
 					{/* All the links */}
 					<div
 						className={`${
-							open && 'bg-landscape-700 lg:bg-landscape-700/0'
-						} border-b-2 border-landscape-700  lg:border-none absolute lg:static lg:z-auto z-[-1] left-0 w-full transition-all duration-[850ms] ease-in 
+							open &&
+							'bg-landscape-700/70 backdrop-blur-md lg:bg-landscape-700/0'
+						}  absolute lg:static lg:z-auto z-[-1] left-0 w-full transition-all duration-[850ms] ease-in 
 						lg:flex lg:justify-between lg:mt-2
 						${open ? 'top-16' : 'top-[-490px]'}`}
 					>
@@ -79,7 +80,7 @@ const Navbar = () => {
 										className='text-lg md:text-xl xl:text-2xl  text-right cursor-pointer'
 										onClick={() => setOpen(!open)}
 									>
-										<div className='text-white hover:scale-105 transition duration-700 font-logo tracking-widest lg:hover:text-landscape-700'>
+										<div className='text-gray-100 hover:text-white hover:scale-110 transition duration-700 font-logo tracking-widest lg:hover:text-landscape-00'>
 											{link.name}
 										</div>
 									</div>

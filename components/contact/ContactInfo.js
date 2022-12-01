@@ -1,36 +1,45 @@
 import { businessInformation } from '../../data/businessInfo';
-import { MdHouseSiding } from 'react-icons/md';
+import { motion } from 'framer-motion';
 import Contact from './Contact';
 import EmailUs from './EmailUs';
 const ContactInfo = () => {
 	const contacts = businessInformation.contact;
+
 	return (
-		<div className='grid place-items-center gap-8 lg:grid-cols-4 lg:gap-8 text-landscape-700 mx-2'>
-			<div className='lg:col-span-2 h-full w-4/5 mx-auto lg:border-r border-landscape-500 py-4 px-8'>
+		<div className='max-w-7xl mx-4 md:mx-auto grid place-items-center  gap-8 lg:grid-cols-4 lg:gap-8 text-landscape-700 my-12 '>
+			<div className=' lg:col-span-3 h-full lg:w-2/3  mx-auto  p-4  grid place-items-center  lg:pt-0 '>
 				<EmailUs />
 			</div>
-			<div className="lg:col-span-2 w-full grid gap-8 md:grid-cols-2 place-items-center lg:place-items-start">
-				<div className='grid gap-4 '>
+			<div className='lg:col-span-1 w-full grid gap-8 place-items-cente border-t lg:border-t-0 lg:border-l border-landscape-500 pt-8 lg:pt-0 lg:pl-4 '>
+				<motion.div className='grid gap-4'>
 					{contacts.map((contact) => (
-						<div key={contact.phoneNumber} className=''>
+						<motion.div
+							initial={{ opacity: 0}}
+							animate={{ opacity: 1 }}
+							transition={{ delay: 1, duration: 1.2 }}
+							key={contact.phoneNumber}
+						>
 							<Contact
 								name={contact.name}
 								number={contact.phoneNumber}
 								email={contact.email}
 							/>
-						</div>
+						</motion.div>
 					))}
-				</div>
-				<div className='text-lg  place-self-center '>
-					<div className=' grid gap-2'>
-						<MdHouseSiding className='text-3xl ' />
-						<div className='grid text-justify'>
-							<span>Living Space Landscapes, Inc</span>
-							<span>820 Concord St North</span>
-							<span>Suite 103</span>
-							<span>South St. Paul, MN</span>
-						</div>
-					</div>
+				</motion.div>
+
+				<div className='grid place-items-center'>
+					<motion.div
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1}}
+						transition={{ delay: 1.5, duration: 1.2 }}
+						className='grid gap-1'
+					>
+						<span>Living Space Landscapes, Inc</span>
+						<span>820 Concord St North</span>
+						<span>Suite 103</span>
+						<span>South St. Paul, MN</span>
+					</motion.div>
 				</div>
 			</div>
 		</div>

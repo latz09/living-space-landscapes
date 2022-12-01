@@ -2,7 +2,7 @@ import ConsultationBar from './ConsultationBar';
 import CopyRight from './CopyRight';
 import FollowUsLinks from './FollowUsLinks';
 import FooterLinks from './FooterLinks';
-import FooterLogo from './FooterLogo';
+
 
 const Footer = () => {
 	return (
