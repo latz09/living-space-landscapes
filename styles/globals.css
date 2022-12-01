@@ -18,7 +18,7 @@
 }
 @layer components {
 	.button-link {
-		@apply bg-landscape-700 px-4 py-3 shadow-md text-xl lg:text-2xl text-center text-white tracking-wider cursor-pointer font-logo;
+		@apply bg-landscape-700 px-2 py-2 md:px-4 md:py-3 shadow-md text-xl lg:text-2xl text-center text-white tracking-wider cursor-pointer font-logo;
 	}
 	.description {
 		@apply sm:text-justify text-gray-700 text-opacity-80  text-sm p-4 md:text-lg tracking-wide font-long;
