@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 
 const SectionHero = ({ bgImage, title, linkTo, buttonText, description }) => {
 	return (
-		
 		<div className='relative w-full h-[40vh] lg:h-[70vh]  tracking-widest text-white/80'>
 			<Image
 				src={bgImage}
@@ -37,11 +36,12 @@ const SectionHero = ({ bgImage, title, linkTo, buttonText, description }) => {
 						</motion.div>
 					</div>
 					<motion.div
-						initial={{ opacity: 0.7 }}
-						whileInView={{ opacity: 1 }}
+						initial={{ scale: 0.993 }}
+						whileInView={{ scale: 1 }}
 						transition={{
-							delay: 1.3,
-							duration: 1.5,
+							duration: 1,
+							repeat: Infinity,
+							repeatType: 'reverse',
 						}}
 						className=' w-1/2 md:w-3/5 mx-auto shadow-lg'
 					>
