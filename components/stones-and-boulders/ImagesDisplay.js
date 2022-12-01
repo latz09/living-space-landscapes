@@ -46,22 +46,22 @@ const ImagesDisplay = ({ images, description }) => {
 							repeatType: 'reverse',
 						}}
 					>
-						<motion.div
+						<motion.button
 							whileHover={{ scale: 1.3 }}
 							transition={{ duration: 0.4 }}
 							onClick={prevImage}
-							className='p-3 cursor-pointer'
+							className='p-5 '
 						>
 							<AiOutlineArrowLeft />
-						</motion.div>
-						<motion.div
+						</motion.button>
+						<motion.button
 							whileHover={{ scale: 1.3 }}
 							transition={{ duration: 0.4 }}
 							onClick={nextImage}
-							className='p-3 cursor-pointer'
+							className='p-5 '
 						>
 							<AiOutlineArrowRight />
-						</motion.div>
+						</motion.button>
 					</motion.div>
 				</div>
 				<div className='grid gap-8 lg:gap-0'>
