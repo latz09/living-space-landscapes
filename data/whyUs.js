@@ -4,7 +4,7 @@ export const background = {
 	name: 'Scott Solomonson',
 	degree: 'Horticulture degree, University of Minnesota',
 	certifications: [
-		'M.N.L.A., Certified Nursery/Landscape Professional',
+		'MNLA-CP Certified Nursery/Landscape Professional Fellow Status',
 		'D.N.R Certified Tree Inspector',
 	],
 	image: scott,

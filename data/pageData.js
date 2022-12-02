@@ -62,7 +62,7 @@ export const japaneseProcessPageData = {
 			'In Minnesota, we are fortunate to have several highly ranked quality public Japanese Gardens to visit.  Over the last decade Living Space Landscapes has worked closely with Japanese trained garden consultant John Powell to help make renovations and improvements to these public Japanese gardens in the Minnesota:',
 		gardens: [
 			'Charlotte Partridge Ordway Japanese Garden at Como Park St Paul MN.',
-			'The Japanese Garden Jo-Ryo-EnCarlton College, Northfield MN.',
+			'The Japanese Garden Jo-Ryo-En. Carlton College, Northfield MN.',
 			'Normandale Community College Japanese Garden Bloomington MN.',
 		],
 	},

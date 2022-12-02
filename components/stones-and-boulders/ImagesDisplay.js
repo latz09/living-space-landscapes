@@ -55,7 +55,7 @@ const ImagesDisplay = ({ images, description }) => {
 							<AiOutlineArrowLeft />
 						</motion.button>
 						<motion.button
-							whileHover={{ scale: 1.3 }}
+							whileHover={{ scale: 1.3 }}							
 							transition={{ duration: 0.4 }}
 							onClick={nextImage}
 							className='p-5 '
