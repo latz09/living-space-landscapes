@@ -13,7 +13,7 @@ import ContactSegment from './ContactSegment';const ContactInfo = () => {
 				<motion.div className='grid gap-4 '>
 					
 						<motion.div
-							initial={{ opacity: 0}}
+							initial={{ opacity: 0.001}}
 							animate={{ opacity: 1 }}
 							transition={{ delay: 1, duration: 1.2 }}
 							
@@ -33,7 +33,7 @@ import ContactSegment from './ContactSegment';const ContactInfo = () => {
 						<span>Living Space Landscapes, Inc</span>
 						<span>820 Concord St North</span>
 						<span>Suite 103</span>
-						<span>South St. Paul, MN</span>
+						<span>South St. Paul, MN </span>
 					</motion.div>
 				</div>
 			</div>
