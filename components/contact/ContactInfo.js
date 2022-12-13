@@ -13,7 +13,7 @@ import ContactSegment from './ContactSegment';const ContactInfo = () => {
 				<motion.div className='grid gap-4 '>
 					
 						<motion.div
-							initial={{ opacity: 0.001}}
+							initial={{ opacity: 0}}
 							animate={{ opacity: 1 }}
 							transition={{ delay: 1, duration: 1.2 }}
 							
