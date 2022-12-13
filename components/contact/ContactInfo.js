@@ -1,6 +1,5 @@
 import { businessInformation } from '../../data/businessInfo';
 import { motion } from 'framer-motion';
-
 import EmailUs from './EmailUs';
 import ContactSegment from './ContactSegment';const ContactInfo = () => {
 

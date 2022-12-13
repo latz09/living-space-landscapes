@@ -32,7 +32,7 @@ const ContactSegment = ({ contacts }) => {
 						<span>{megan.email}</span>
 					</div>
 				</div>
-				<div className='px-2 py-8'>
+				<div className='px-2 py-8 tracking-wider'>
 					<span>{scott.name}</span>
 					<div className='flex items-center space-x-4'>
 						<span>
