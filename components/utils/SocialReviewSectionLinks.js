@@ -3,7 +3,7 @@ import { SiHouzz } from 'react-icons/si';
 
 const SocialReviewSectionLinks = () => {
 	const houzzLink =
-		'https://www.houzz.com/professionals/landscape-architects-and-landscape-designers/living-space-landscapes-pfvwus-pf~1510288630/__public';
+		'https://www.houzz.com/pro/livingspacelandscapes/__public';
 	const instagramLink = 'https://www.instagram.com/livingspacelandscapesmn/';
 
 	return (

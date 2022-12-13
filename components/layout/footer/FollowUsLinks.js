@@ -7,7 +7,7 @@ const FollowUsLinks = () => {
 			
 
 			<a
-				href='https://www.houzz.com/professionals/landscape-architects-and-landscape-designers/living-space-landscapes-pfvwus-pf~1510288630/__public'
+				href='https://www.houzz.com/pro/livingspacelandscapes/__public'
 				target='_blank.'
 				rel='noreferrer'
 				className='grid grid-cols-2 place-items-center'
@@ -33,3 +33,4 @@ const FollowUsLinks = () => {
 };
 
 export default FollowUsLinks;
+// https://www.houzz.com/professionals/landscape-architects-and-landscape-designers/living-space-landscapes-pfvwus-pf~1510288630/__public
