@@ -15,7 +15,7 @@ export const businessInformation = {
 		},
 		{
 			name: 'Megan',
-			phoneNumber: '612-398-1616',
+			phoneNumber: '651-398-1616',
 			email: 'megan@livingspacelandscapes.com',
 		},
 	],

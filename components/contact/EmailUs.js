@@ -50,7 +50,7 @@ const EmailUs = () => {
 					subject='Consultation Request'
 					body={body}
 				>
-					<button className='bg-landscape-700 text-gray-100 w-full px-4 py-2 text-xl lg:text-2xl  tracking-widest'>
+					<button className='bg-landscape-700 text-gray-100 w-full px-4 py-2 text-xl lg:text-2xl  tracking-widest rounded'>
 						Send Email
 					</button>
 				</Mailto>
