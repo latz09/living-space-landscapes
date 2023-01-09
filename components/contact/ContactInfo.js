@@ -25,7 +25,7 @@ import ContactSegment from './ContactSegment';const ContactInfo = () => {
 
 				<div className='grid place-items-center'>
 					<motion.div
-						initial={{ opacity: 0 }}
+						initial={{ opacity: 0.01 }}
 						animate={{ opacity: 1}}
 						transition={{ delay: 1.5, duration: 1.2 }}
 						className='grid gap-1'
