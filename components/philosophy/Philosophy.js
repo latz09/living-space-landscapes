@@ -5,7 +5,7 @@ const Philosophy = () => {
 	return (
 		<>
 			<div className='grid gap-4 lg:grid-cols-2 justify-items-center items-center text-justify tracking-widest '>
-				<h1 className='font-logo  text-4xl text-landscape-700 '>Philosphy</h1>
+				<h1 className='font-logo  text-4xl text-landscape-700 '>Philosophy</h1>
 				<Text />
 			</div>
 			<div className='flex space-x-4 w-full px-2 lg:justify-evenly'>
