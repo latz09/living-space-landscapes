@@ -2,7 +2,7 @@ const Text = () => {
 	return (
 		<div className='text-gray-600 grid font-logo prose tracking-wide '>
 			<p className='text-lg  md:text-xl mx-4 lg:mx-0 '>
-				We create your landscape with a naturitic style that will inspire a
+				We create your landscape with a naturalistic style that will inspire a
 				sense of calm in those who experience it. The landscape should provide
 				highly restorative garden views from inside the building and develop a
 				desire to explore the outdoor space. The ideal landscape will connect
