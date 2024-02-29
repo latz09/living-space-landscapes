@@ -8,7 +8,7 @@ const SocialReviewSectionLinks = () => {
 	return (
 		
 			<div className='  text-xl font-logo grid gap-6 '>
-				<div className='text- text-base md:text-3xl text-center'>
+				<div className='text- text-xl md:text-3xl text-center'>
 					Follow us to check out our latest projects and photos!
 				</div>
 				<div className='text-landscape-700  text-4xl flex justify-center space-x-4 lg:space-x-8'>
