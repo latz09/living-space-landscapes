@@ -24,7 +24,7 @@ const HomePage = () => {
 					bgImage={japaneseHeroImage}
 					title={'Japanese Gardens'}
 					linkTo={'/japanese-gardens'}
-					buttonText={'learn more'}
+					buttonText={'Learn More'}
 					description='Evoke the joy and beauty of nature'
 				/>
 
@@ -34,7 +34,7 @@ const HomePage = () => {
 					bgImage={stonesHeroImage}
 					title={'Stones and Boulders'}
 					linkTo={'/stones-and-boulders'}
-					buttonText={'learn more'}
+					buttonText={'Learn More'}
 					description='Create a powerful timeless beauty that mimics nature'
 				/>
 				

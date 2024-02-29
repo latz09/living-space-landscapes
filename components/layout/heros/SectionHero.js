@@ -12,11 +12,12 @@ const SectionHero = ({ bgImage, title, linkTo, buttonText, description }) => {
 				objectFit='cover'
 				objectPosition='center'
 				placeholder='blur'
+				quality={100}
 			/>
 
-			<div className='relative h-full bg-gradient-to-b from-dark/20 via-dark/60 to-dark/20 grid place-items-center'>
+			<div className='relative h-full bg-gradient-to-b from-dark/40 via-dark/60 to-dark/10 grid place-items-center'>
 				<motion.div
-					className='max-w-7xx mx-auto  '
+					className='max-w-7xx mx-auto text-center '
 					initial={{ opacity: 0, scale: 0.96, y: 35 }}
 					whileInView={{ opacity: 1, scale: 1, y: 0 }}
 					transition={{ delay: 0.2, duration: 1.2 }}
