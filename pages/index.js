@@ -18,7 +18,7 @@ const HomePage = () => {
 				}
 			/>
 			<div className='grid gap-12 mb-12 md:gap-16 md:mb-16 justify-items-center'>
-				{/* <Hero /> */}
+				<Hero />
 				<Philosophy />
 				<SectionHero
 					bgImage={japaneseHeroImage}
