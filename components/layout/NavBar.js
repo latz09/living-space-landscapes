@@ -10,11 +10,11 @@ const Navbar = () => {
 		open && setOpen(false);
 	};
 	return (
-		<div className='shadow-md w-full  top-0 left-0 z-10 '>
-			<div className='bg-landscape-700/80 px-2'>
-				<div className='max-w-7xl mx-auto grid gap-4 p-4  text-white tracking-widest '>
+		<div className='w-full  top-0 left-0 z-10   '>
+			<div className='bg-landscape-700 px-2'>
+				<div className='max-w-7xl mx-auto grid gap-4 p-4  text-white  '>
 					{/* Home House and Menu Tab for under Large */}
-					<div className='flex justify-between items-center lg:border-b-2 lg:border-b-landscape-300/70 lg:pb-4'>
+					<div className='flex justify-between items-center lg:border-b-2 lg:border-b-landscape-300 lg:pb-4'>
 						<Link href={'/'}>
 							<button
 								className='hover:text-landscape-300 hover:scale-125 duration-700 text-4xl cursor-pointer'
@@ -48,8 +48,8 @@ const Navbar = () => {
 							)}
 						</div>
 						<Link href={'/contact'}>
-							<div className='hidden lg:block border-x border-white/50  hover:scale-110 hover:border-x-2  hover:border-landscape-300 font-logo p-1  transition duration-700 text-white text-2xl px-2 cursor-pointer'>
-								Contact us
+							<div className='hidden lg:block border text-xl px-4 py-2 border-light rounded-sm hover:bg-light hover:text-landscape-700 transition duration-700 cursor-pointer shadow-lg shadow-dark/30  '>
+								CONTACT US
 							</div>
 						</Link>
 					</div>
@@ -69,7 +69,7 @@ const Navbar = () => {
 								onClick={() => setOpen(!open)}
 							>
 								<Link href={'/contact'}>
-									<div className=' text-lg md:text-xl lg:text-2xl  text-white  hover:scale-105 transition duration-700 font-logo cursor-pointer'>
+									<div className=' text-lg md:text-xl lg:text-2xl  text-white  hover:scale-105 transition duration-700 font-spaces  cursor-pointr'>
 										Contact
 									</div>
 								</Link>
@@ -80,7 +80,7 @@ const Navbar = () => {
 										className='text-lg md:text-xl xl:text-2xl  text-right cursor-pointer'
 										onClick={() => setOpen(!open)}
 									>
-										<div className='text-gray-100 hover:text-white hover:scale-110 transition duration-700 font-logo tracking-widest lg:hover:text-landscape-00'>
+										<div className='text-gray-100 hover:text-white hover:scale-110 transition duration-700 font-logo  lg:hover:text-landscape-00'>
 											{link.name}
 										</div>
 									</div>

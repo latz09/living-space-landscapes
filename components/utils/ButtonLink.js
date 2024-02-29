@@ -4,7 +4,7 @@ const ButtonLink = ({ href, title }) => {
 	return (
 		<motion.div
 			animate={{ scale: 1, opacity: 1 }}
-			whileHover={{ scale: 1.04, opacity: .9 }}
+			whileHover={{ scale: .95, opacity: .9 }}
 			transition={{ duration: 0.6 }}
 		>
 			<Link href={href}>

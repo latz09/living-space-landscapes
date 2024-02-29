@@ -3,20 +3,20 @@ import ButtonLink from '../utils/ButtonLink';
 
 const Philosophy = () => {
 	return (
-		<>
-			<div className='grid gap-4 lg:grid-cols-2 justify-items-center items-center text-justify tracking-widest '>
-				<h1 className='font-logo  text-4xl text-landscape-700 '>Philosophy</h1>
+		<div className='max-w-5xl mx-auto grid gap-8 lg:gap-16'>
+			<div className='grid gap-4  justify-items-center items-center  max-w-3xl mx-auto '>
+				<h1 className='font-logo  text-4xl text-landscape-700 '>Our Philosophy</h1>
 				<Text />
 			</div>
-			<div className='flex space-x-4 w-full px-2 lg:justify-evenly'>
-				<span className='w-full lg:w-1/3   '>
-					<ButtonLink title='our process' href={'/our-process'} />
+			<div className='grid gap-6 lg:gap-8 lg:flex  w-full px-2 lg:justify-evenly'>
+				<span className='w-2/3 lg:w-4/5 mx-auto  '>
+					<ButtonLink title='Our Process' href={'/our-process'} />
 				</span>
-				<span className='w-full lg:w-1/3  '>
-					<ButtonLink title='about us' href={'/about-us'} />
+				<span className='w-2/3 lg:w-4/5 mx-auto  '>
+					<ButtonLink title='About Us' href={'/about-us'} />
 				</span>
 			</div>
-		</>
+		</div>
 	);
 };
 export default Philosophy;
