@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const SectionHero = ({ bgImage, title, linkTo, buttonText, description }) => {
 	return (
-		<div className='relative w-full h-[50vh] lg:h-[80vh]  text-light'>
+		<div className='relative w-full h-[50vh] lg:h-[80vh] shadow-lg shadow-landscape-700/40  text-light'>
 			<Image
 				src={bgImage}
 				alt=''

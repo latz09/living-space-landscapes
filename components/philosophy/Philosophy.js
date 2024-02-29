@@ -3,7 +3,7 @@ import ButtonLink from '../utils/ButtonLink';
 
 const Philosophy = () => {
 	return (
-		<div className='max-w-5xl mx-auto grid gap-8 lg:gap-16'>
+		<div className='max-w-5xl mx-auto grid gap-12 lg:gap-16'>
 			<div className='grid gap-4  justify-items-center items-center  max-w-3xl mx-auto '>
 				<h1 className='font-logo  text-4xl text-landscape-700 '>Our Philosophy</h1>
 				<Text />
