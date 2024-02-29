@@ -6,9 +6,10 @@ import FooterLinks from './FooterLinks';
 
 const Footer = () => {
 	return (
-		<div className=''>
+		
+		<div className='bg-light '>
 			<ConsultationBar />{' '}
-			<div className='grid lg:grid-cols-2 gap-8  place-items-center max-w-7xl mx-auto py-8'>
+			<div className='grid lg:grid-cols-2 gap-8  place-items-center max-w-7xl mx-auto py-16'>
 				<FollowUsLinks />
 				<FooterLinks />
 			</div>
@@ -16,6 +17,7 @@ const Footer = () => {
 				<CopyRight />
 			</div>
 		</div>
+		
 	);
 };
 export default Footer;

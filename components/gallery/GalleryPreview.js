@@ -7,7 +7,7 @@ import FadeUpWrapper from '../utils/wrapper-animations/FadeUpWrapper';
 
 const GalleryPreview = () => {
 	return (
-		<>
+		<div className="mb-12 grid gap-16 lg:gap-24">
 			<div className='pt-8'>
 				<SectionHeading title={'Inspiration Gallery'} />
 			</div>
@@ -35,7 +35,7 @@ const GalleryPreview = () => {
 			</FadeUpWrapper>
 			<div className=" w-2/3 lg:w-1/3 mx-auto">
 			<ButtonLink href={'/gallery'} title='Full Gallery' /></div>
-		</>
+		</div>
 	);
 };
 export default GalleryPreview;
