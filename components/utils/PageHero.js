@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const PageHero = ({ heroImage, heroTitle }) => {
 	return (
-		<div className='relative w-full h-[30vh] md:h-[45vh]'>
+		<div className='relative w-full h-[45vh] md:h-[70vh] shadow-lg shadow-landscape-700/30'>
 			<Image
 				src={heroImage}
 				alt=''
@@ -14,10 +14,10 @@ const PageHero = ({ heroImage, heroTitle }) => {
 				placeholder='blur'
 			/>
 
-			<div0 className='relative flex justify-center items-center h-full bg-black bg-opacity-40'>
-				<div className='grid gap-4 text-center tracking-widest text-gray-50'>
+			<div0 className='relative flex justify-center items-center h-full bg-gradient-to-b from-dark/20 via-dark/80 to-dark/20'>
+				<div className='grid gap-4 text-center '>
 					<motion.h1
-						className='text-5xl md:text-7xl font-logo text-landscape-500'
+						className='text-5xl md:text-7xl font-logo text-landscape-700'
 						initial={{opacity: 0}}
 						animate={{opacity: 1}}
 						transition={{delay:.4, duration: 1.6}}
