@@ -1,5 +1,4 @@
 import ContactInfo from '../../components/contact/ContactInfo';
-import EmailUs from '../../components/contact/EmailUs';
 import Meta from '../../components/utils/Meta';
 import SectionHeading from '../../components/utils/SectionHeading';
 const Contact = () => {
