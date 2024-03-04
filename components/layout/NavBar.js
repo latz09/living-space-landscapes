@@ -12,7 +12,7 @@ const Navbar = () => {
 	return (
 		<div className='w-full  top-0 left-0 z-10   '>
 			<div className='bg-landscape-700 px-2'>
-				<div className='max-w-7xl mx-auto grid gap-4 p-4  text-white  '>
+				<div className='max-w-7xl mx-auto grid gap-4 p-4  text-light  '>
 					{/* Home House and Menu Tab for under Large */}
 					<div className='flex justify-between items-center lg:border-b-2 lg:border-b-landscape-300 lg:pb-4'>
 						<Link href={'/'}>
