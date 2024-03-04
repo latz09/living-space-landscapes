@@ -20,7 +20,7 @@ const ProcessPage = ({ title, image, descriptions, index }) => {
 					{descriptions.map((paragraph, idx) => (
 						<motion.p
 							key={idx}
-							className='  mb-4 lg:last:mb-0 lg:text-lg leading-7 text-justify mx-2 lg:mx-0'
+							className='  mb-4 last:mb-0 lg:text-lg leading-7 text-justify mx-2 lg:mx-0'
 						>
 							{paragraph}
 						</motion.p>
