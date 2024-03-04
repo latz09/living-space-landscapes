@@ -31,7 +31,7 @@ const EmailUs = () => {
 						</motion.div>
 					</motion.div>
 					<h1 className=' text-center  text-2xl md:text-4xl text-landscape-700 font-logo font-semibold'>
-						Send us an email
+						Send Us an Email
 					</h1>
 				</div>
 				<div className='text-dark/80    md:text-lg font-logo font-bold text-center'>
