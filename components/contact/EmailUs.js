@@ -30,7 +30,7 @@ const EmailUs = () => {
 							<Image src={envelope} alt='' />
 						</motion.div>
 					</motion.div>
-					<h1 className=' text-center  text-2xl md:text-4xl text-landscape-700 font-logo'>
+					<h1 className=' text-center  text-2xl md:text-4xl text-landscape-700 font-logo font-semibold'>
 						Send us an email
 					</h1>
 				</div>
