@@ -12,7 +12,7 @@ const ProcessPage = ({ title, image, descriptions, index }) => {
 
 			<div className='grid lg:grid-cols-2 gap-4 place-items-center'>
 				<motion.div
-					className={`${isEven ? 'order-1' : 'order-2'} col-span-1 w-full px-2 mt-8 lg:mt-0 `}
+					className={`${isEven ? 'order-1' : 'order-2'} col-span-1 w-full px-2  lg:mt-0 `}
 					initial={{ y: 60, opacity: 0 }}
 					whileInView={{ y: 0, opacity: 1 }}
 					transition={{ duration: 1, delay: 0.5 }}
@@ -30,7 +30,7 @@ const ProcessPage = ({ title, image, descriptions, index }) => {
 				<motion.div
 					className={`${
 						isEven ? 'order-2' : 'order-1'
-					} md:w-4/5 mx-auto shadow-lg shadow-landscape-700/40 grid place-items-center`}
+					} md:w-4/5 mx-auto shadow-lg shadow-landscape-700/40 grid place-items-center my-4 lg:my-0`}
 					initial={{ opacity: 0, scale: .95 }}
 					whileInView={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 1, delay: 0.5 }}

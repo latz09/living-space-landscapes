@@ -14,7 +14,7 @@ const PageHero = ({ heroImage, heroTitle }) => {
 				placeholder='blur'
 			/>
 
-			<div0 className='relative flex justify-center items-center h-full bg-gradient-to-b from-dark/20 via-dark/80 to-dark/20'>
+			<div0 className='relative flex justify-center items-center h-full bg-gradient-to-b from-dark/10 via-dark/80 to-dark/10'>
 				<div className='grid gap-4 text-center '>
 					<motion.h1
 						className='text-5xl md:text-7xl font-logo text-landscape-700'
