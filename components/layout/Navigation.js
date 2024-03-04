@@ -107,7 +107,7 @@ const MobileNavbar = () => {
 										<a
 											key={link.name}
 											onClick={() => handleLinkClick(link.link)}
-											className='cursor-pointer text-center border border-landscape-700 rounded-sm p-3 bg-dark/40'
+											className='cursor-pointer text-center border border-landscape-700 rounded-sm py-4 px-5 bg-dark/40'
 										>
 											<div>{link.name}</div>
 										</a>
