@@ -8,11 +8,9 @@ const body =
 const EmailUs = () => {
 	return (
 		<div className='grid gap-8 lg:gap-6 '>
-			<div className='grid gap-4 lg:gap-4 '>
-				<div className='grid gap-6 lg:flex lg:items-center lg:space-x-8'>
-					<h1 className='order-2 text-center lg:order-1 text-2xl md:text-4xl font-semibold text-landscape-700 font-long'>
-						Send us an email
-					</h1>
+			<div className='grid gap-4 lg:gap-4 place-items-center '>
+				<div className='grid gap-4'>
+				
 					<motion.div
 						initial={{ scale: 0, opacity: 0 }}
 						animate={{ scale: 1, opacity: 0.91 }}
@@ -21,7 +19,7 @@ const EmailUs = () => {
 					>
 						<motion.div
 							initial={{ scale: 1 }}
-							animate={{ scale: 0.94 }}
+							animate={{ scale: 0.975 }}
 							transition={{
 								delay: 1.5,
 								duration: 1,
@@ -32,14 +30,17 @@ const EmailUs = () => {
 							<Image src={envelope} alt='' />
 						</motion.div>
 					</motion.div>
+					<h1 className=' text-center  text-2xl md:text-4xl text-landscape-700 font-logo'>
+						Send us an email
+					</h1>
 				</div>
-				<div className='text-landscape-700 text-justify  tracking-wider md:text-lg font-logo font-bold'>
+				<div className='text-dark/80    md:text-lg font-logo font-bold text-center'>
 					Tell us more about your project! We will contact you for the next
 					steps. Most projects start with a consultation and paid-for design.
 				</div>
 			</div>
 			<motion.div
-				className='place-self-center lg:place-self-start  w-2/3 lg:w-1/2 '
+				className='grid place-items-center '
 				animate={{ scale: 1 }}
 				whileHover={{ scale: 1.09 }}
 				transition={{ duration: 0.6 }}
@@ -50,8 +51,8 @@ const EmailUs = () => {
 					subject='Consultation Request'
 					body={body}
 				>
-					<button className='bg-landscape-700 text-gray-100 w-full px-4 py-2 text-xl lg:text-2xl  tracking-widest rounded'>
-						Send Email
+					<button className='bg-landscape-700 text-light w-full px-8 py-2 text-xl lg:text-2xl   rounded-full'>
+						Send Email Now
 					</button>
 				</Mailto>
 			</motion.div>
