@@ -1,9 +1,19 @@
 import Image from 'next/image';
+import { FaRegArrowAltCircleUp } from "react-icons/fa";
+
 import { galleryImages } from '../../data/carouselImages';
 import Meta from '../../components/utils/Meta';
 import { motion } from 'framer-motion';
 
 const Gallery = () => {
+    // Function to scroll to the top of the page
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth', // For smooth scrolling
+        });
+    };
+
     return (
         <>
             <Meta
@@ -32,6 +42,14 @@ const Gallery = () => {
                     </div>
                 ))}
             </div>
+
+			<button
+    onClick={scrollToTop}
+    className='fixed bottom-5 left-1/2 transform -translate-x-1/2 text-4xl bg-landscape-700  text-light rounded-full shadow-lg shadow-dark/40'
+    aria-label='Scroll to Top'
+>
+<FaRegArrowAltCircleUp />
+</button>
         </>
     );
 };
