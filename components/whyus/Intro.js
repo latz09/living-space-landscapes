@@ -20,7 +20,7 @@ const Intro = ({
 					<h1 className='text-center'>{degree}</h1>
 				</div>
 				<div className=''>
-					<Image src={image} alt={alt} layout='intrinsic' priority='true' quality={100} />
+					<Image src={image} alt={alt} layout='intrinsic' priority={true}quality={100} />
 				</div>
 			</div>
 
