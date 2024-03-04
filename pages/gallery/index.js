@@ -25,7 +25,7 @@ const Gallery = () => {
 							whileInView={{ opacity: 1, y: 0}}
 							transition={{  duration: .4 }}
 						>
-							<Image src={image.image} alt={image.alt} priority={true} />
+							<Image src={image.image} alt={image.alt}  />
 						</motion.div>
 					</div>
 				))}
