@@ -13,8 +13,8 @@ const ProcessPage = ({ title, image, descriptions, index }) => {
 			<div className='grid lg:grid-cols-2 gap-4 place-items-center'>
 				<motion.div
 					className={`${isEven ? 'order-1' : 'order-2'} col-span-1 w-full`}
-					initial={{ x: isEven ? -50 : 50, opacity: 0 }}
-					whileInView={{ x: 0, opacity: 1 }}
+					initial={{ y: 60, opacity: 0 }}
+					whileInView={{ y: 0, opacity: 1 }}
 					transition={{ duration: 1, delay: 0.5 }}
 				>
 					{descriptions.map((paragraph, idx) => (
@@ -31,8 +31,8 @@ const ProcessPage = ({ title, image, descriptions, index }) => {
 					className={`${
 						isEven ? 'order-2' : 'order-1'
 					} w-4/5 mx-auto shadow-lg shadow-landscape-700/40 grid place-items-center`}
-					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }}
+					initial={{ opacity: 0, scale: .95 }}
+					whileInView={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 1, delay: 0.5 }}
 				>
 					<Image src={image} alt={title} priority='true' />
