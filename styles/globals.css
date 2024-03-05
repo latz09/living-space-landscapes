@@ -25,7 +25,7 @@
 	}
 
 	.jap-section-content {
-		@apply text-base xl:text-lg md:leading-8 lg:leading-[32px] leading-relaxed pb-8 ;
+		@apply text-base xl:text-lg md:leading-8 leading-7  ;
 	}
 	.jap-section-heading {
 		@apply text-xl lg:text-2xl font-logo text-end text-landscape-700;

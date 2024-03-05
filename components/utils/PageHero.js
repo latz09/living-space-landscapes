@@ -7,7 +7,7 @@ const PageHero = ({ heroImage, heroTitle }) => {
 			<Image
 				src={heroImage}
 				alt=''
-				priority='true'
+				priority={true}
 				layout='fill'
 				objectFit='cover'
 				objectPosition='left'

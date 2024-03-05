@@ -4,7 +4,7 @@ const BoulderSection = ({ data }) => {
 	return (
 		<div className='grid gap-16 max-w-7xl mx-auto'>
 			{data.map((item) => (
-				<div key={item.id} className=' grid place-items-center py-12 border-t border-landscape-500 '>
+				<div key={item.id} className=' grid place-items-center py-12  '>
 					
 						<BoulderCard
 							heading={item.heading}
