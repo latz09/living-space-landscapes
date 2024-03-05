@@ -26,7 +26,7 @@ const ImagesDisplay = ({ images, description }) => {
 	return (
 		<>
 			<div className='grid gap-4 lg:grid-cols-2 lg:gap-6  '>
-				<div className='mx-1 lg:mx-2 grid gap-2 md:gap-4 lg:gap-6 '>
+				<div className=' lg:mx-2 grid gap-2 md:gap-4 lg:gap-6 '>
 					{' '}
 					<motion.div
 						initial={{ opacity: 0 }}
