@@ -25,10 +25,10 @@
 	}
 
 	.jap-section-content {
-		@apply text-base xl:text-lg md:leading-8 leading-7  ;
+		@apply text-base lg:text-lg leading-7 text-center lg:text-justify  ;
 	}
 	.jap-section-heading {
-		@apply text-xl lg:text-2xl font-logo text-end text-landscape-700;
+		@apply text-2xl lg:text-3xl font-logo  text-end text-landscape-700;
 	}
 	
 }
