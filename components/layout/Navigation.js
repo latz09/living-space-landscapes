@@ -7,8 +7,8 @@ import { navLinks } from '../../data/navLinks';
 
 const Navigation = () => {
 	return (
-		<div className='p-4 bg-landscape-700 font-logo'>
-			<div className='max-w-6xl mx-auto grid gap-8  '>
+		<div className='p-4 bg-landscape-700 font-logo '>
+			<div className='max-w-6xl mx-auto grid gap-8   '>
 				<TopBar />
 				<DesktopNavbar />
 				<MobileNavbar />
@@ -21,7 +21,7 @@ export default Navigation;
 
 const TopBar = () => {
 	return (
-		<div className='hidden lg:flex items-center justify-between text-light '>
+		<div className='hidden lg:flex items-center justify-between text-light  '>
 			<div>
 				<HomeButtonLink />
 			</div>
@@ -34,7 +34,7 @@ const TopBar = () => {
 
 const DesktopNavbar = () => {
 	return (
-		<div className='hidden lg:flex justify-between items-center text-light md:text-xl lg:text-2xl'>
+		<div className='hidden lg:flex justify-between items-center text-light md:text-xl lg:text-2xl '>
 			{navLinks.map((link) => (
 				<Link key={link.name} href={link.link}>
 					<a>{link.name}</a>
