@@ -25,7 +25,7 @@
 	}
 
 	.jap-section-content {
-		@apply text-base lg:text-lg leading-7 text-center lg:text-justify  ;
+		@apply text-base lg:text-lg leading-7 text-justify  ;
 	}
 	.jap-section-heading {
 		@apply text-2xl lg:text-3xl font-logo  text-end text-landscape-700;
