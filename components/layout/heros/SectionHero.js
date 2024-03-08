@@ -40,9 +40,9 @@ const SectionHero = ({ bgImage, title, linkTo, buttonText, description }) => {
 							whileInView={{ opacity: 1}}
 							transition={{
 								delay: 1.1,
-								duration: 1.5,
+								duration: 1.0,
 							}}
-							className=' w-1/2 md:w-2/3 mx-auto mt-2 lg:mt-4 '
+							className=' w-1/2 md:w-2/3 mx-auto mt-4 lg:mt-8 '
 						>
 							<ButtonLink href={linkTo} title={buttonText} />
 						</motion.div>
