@@ -22,7 +22,7 @@ const SectionHero = ({ bgImage, title, linkTo, buttonText, description }) => {
 					whileInView={{ opacity: 1, scale: 1, y: 0 }}
 					transition={{ delay: 0.2, duration: 1.2 }}
 				>
-					<div className='grid gap-2 place-items-center'>
+					<div className='grid gap-1 place-items-center'>
 						<h1 className=' text-5xl md:text-6xl lg:text-7xl text-landscape-700 font-bold'>
 							{title}
 						</h1>
