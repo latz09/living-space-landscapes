@@ -28,7 +28,7 @@ const SectionHero = ({ bgImage, title, linkTo, buttonText, description }) => {
 						</h1>
 
 						<motion.div
-							className='text-xl lg:text-3xl px-2 mx-auto font-bol '
+							className='text-2xl lg:text-4xl px-2 lg: mx-auto font-bol '
 							initial={{ opacity: 0 }}
 							whileInView={{ opacity: 1 }}
 							transition={{ delay: 1, duration: 1.1 }}

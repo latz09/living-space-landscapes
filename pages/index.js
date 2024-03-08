@@ -25,7 +25,7 @@ const HomePage = () => {
 					title={'Japanese Gardens'}
 					linkTo={'/japanese-gardens'}
 					buttonText={'Learn More'}
-					description='Evoke the joy and beauty of nature'
+					description='Evoke the Joy and Beauty of Nature'
 				/>
 
 				<Reviews />
@@ -35,7 +35,7 @@ const HomePage = () => {
 					title={'Stones and Boulders'}
 					linkTo={'/stones-and-boulders'}
 					buttonText={'Learn More'}
-					description='Create a powerful timeless beauty that mimics nature'
+					description='Create a Powerful Timeless Beauty that Mimics Nature'
 				/>
 				
 				<GalleryPreview />
