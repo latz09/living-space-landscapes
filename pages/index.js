@@ -25,7 +25,7 @@ const HomePage = () => {
 					title={'Japanese Gardens'}
 					linkTo={'/japanese-gardens'}
 					buttonText={'Learn More'}
-					description='Evoke the Joy and Beauty of Nature'
+					description='Evoke the Joy and Beauty of Nature '
 				/>
 
 				<Reviews />
