@@ -34,7 +34,7 @@ const EmailUs = () => {
 						Send Us an Email!
 					</h1>
 				</div>
-				<p className='text-dark/90  text-lg lg:text-3xl  font-bold text-center'>
+				<p className=' text-lg lg:text-3xl  text-center'>
 					Tell us more about your project! We will contact you for the next
 					steps. Most projects start with a consultation and paid-for design.
 				</p>
