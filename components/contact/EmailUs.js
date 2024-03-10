@@ -31,13 +31,13 @@ const EmailUs = () => {
 						</motion.div>
 					</motion.div>
 					<h1 className=' text-center  text-2xl md:text-4xl text-landscape-700 font-logo font-semibold'>
-						Send Us an Email
+						Send Us an Email!
 					</h1>
 				</div>
-				<div className='text-dark/80    md:text-lg font-logo font-bold text-center'>
+				<p className='text-dark   md:text-lg font-logo font-bold text-center'>
 					Tell us more about your project! We will contact you for the next
 					steps. Most projects start with a consultation and paid-for design.
-				</div>
+				</p>
 			</div>
 			<motion.div
 				className='grid place-items-center '
@@ -51,7 +51,7 @@ const EmailUs = () => {
 					subject='Consultation Request'
 					body={body}
 				>
-					<button className='bg-landscape-700 text-light w-full px-8 py-2 text-xl lg:text-2xl   rounded-full'>
+					<button className='bg-landscape-700 text-light w-full px-8 py-2 text-xl lg:text-2xl  font-bold tracking-wider rounded-full'>
 						Send Email Now
 					</button>
 				</Mailto>

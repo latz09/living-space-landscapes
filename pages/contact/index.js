@@ -10,8 +10,8 @@ const Contact = () => {
 					'Living Space Landscapes will create your landscape with a naturalistic style that will inspire a sense of calm in those who experience it.'
 				}
 			/>
-			<div className='grid gap-2 lg:gap-2 mt-12   '>
-				<div className='w-5/6 lg:w-2/3 mx-auto grid gap-2 lg:gap-6'>
+			<div className='grid gap-4 lg:gap-2 mt-12   '>
+				<div className='px-2 lg:px-0 lg:w-2/3 mx-auto grid gap-2 lg:gap-6'>
 					<SectionHeading title={'Ready to Work With Us?'} />
 
 					<h2 className='grid place-items-center text-xl lg:text-3xl  text-center text-dark/70'>
