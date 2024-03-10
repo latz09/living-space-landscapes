@@ -30,11 +30,11 @@ const EmailUs = () => {
 							<Image src={envelope} alt='' />
 						</motion.div>
 					</motion.div>
-					<h1 className=' text-center  text-2xl md:text-4xl text-landscape-700 font-logo font-semibold'>
+					<h1 className=' text-center  text-2xl md:text-4xl text-landscape-700 font-logo font-bold'>
 						Send Us an Email!
 					</h1>
 				</div>
-				<p className='text-dark   md:text-lg font-logo font-bold text-center'>
+				<p className='text-dark/90  text-lg lg:text-3xl  font-bold text-center'>
 					Tell us more about your project! We will contact you for the next
 					steps. Most projects start with a consultation and paid-for design.
 				</p>
