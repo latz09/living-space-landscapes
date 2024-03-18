@@ -28,8 +28,8 @@ const Gallery = () => {
 					<div key={index}>
 						<motion.div
 							className='shadow-lg shadow-dark/30 grid place-items-center transition duration-700 border-y-[3px] lg:border-x-[3px] border-light lg:rounded'
-							initial={{ scale: 0.95 }}
-							whileInView={{ scale: 1 }}
+							initial={{ y: 100 }}
+							whileInView={{ y: 0 }}
 							transition={{ duration: 0.4 }}
 						>
 							{/* Set priority to true for the first 5-6 images */}
