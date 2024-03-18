@@ -23,22 +23,18 @@ const Gallery = () => {
 				}
 			/>
 
-			<div className='grid lg:grid-cols-2 xl:grid-cols-3 gap-24 lg:gap-16 place-items-center md:px-[5vw] py-10 lg:py-20 bg-landscape-500/30'>
+			<div className='grid lg:grid-cols-2 xl:grid-cols-3  gap-24  lg:gap-12 place-items-center md:px-[5vw] py-10 lg:py-20 bg-landscape-500/30'>
 				{galleryImages.map((image, index) => (
-                    
-					<div key={`${image.directory}-${index + 1}`}>
-						{' '}
-                        
-						{/* Use a unique identifier for the key */}
+					<div key={index}>
 						<motion.div
-							className='shadow-lg shadow-dark/30 grid place-items-center transition duration-700 border-light border-y-[3px] lg:border-x-[3px] lg:rounded-sm'
-							initial={{ opacity: 1, scale:.95 }}
-							whileInView={{ opacity: 1, y: 0, scale: 1}}
+							className='shadow-lg shadow-dark/30 grid place-items-center transition duration-700 border-y-[3px] lg:border-x-[3px] border-light lg:rounded'
+							initial={{ scale: 0.95 }}
+							whileInView={{ scale: 1 }}
 							transition={{ duration: 0.4 }}
 						>
-							{/* Set priority to true for the first 5 images */}
+							{/* Set priority to true for the first 5-6 images */}
 							<Image src={image.image} alt={image.alt} priority={index < 5} 
-                            placeholder='blur'
+                                placeholder='blur'
                             />
 						</motion.div>
 					</div>
