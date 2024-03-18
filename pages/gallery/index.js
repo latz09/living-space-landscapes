@@ -23,7 +23,7 @@ const Gallery = () => {
 				}
 			/>
 
-			<div className='grid lg:grid-cols-2 xl:grid-cols-3  gap-24  lg:gap-12 place-items-center md:px-[5vw] py-10 lg:py-20 bg-landscape-500/30'>
+			<div className='grid lg:grid-cols-2 xl:grid-cols-3  gap-24  lg:gap-12 place-items-center md:px-[5vw] py-24 bg-landscape-500/30'>
 				{galleryImages.map((image, index) => (
 					<div key={index}>
 						<motion.div
@@ -33,9 +33,12 @@ const Gallery = () => {
 							transition={{ duration: 0.4 }}
 						>
 							{/* Set priority to true for the first 5-6 images */}
-							<Image src={image.image} alt={image.alt} priority={index < 5} 
-                                placeholder='blur'
-                            />
+							<Image
+								src={image.image}
+								alt={image.alt}
+								priority={index < 5}
+								
+							/>
 						</motion.div>
 					</div>
 				))}
