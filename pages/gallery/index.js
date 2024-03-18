@@ -6,29 +6,7 @@ import Meta from '../../components/utils/Meta';
 import { motion } from 'framer-motion';
 
 const Gallery = () => {
-    const containerRef = useRef(null);
-
-    useEffect(() => {
-        const options = {
-            root: null, // Use the viewport as the root
-            rootMargin: '200% 0px', // Load when about 2 screen lengths away
-            threshold: 0.5 // Load when 50% of the image is in the viewport
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.src = entry.target.dataset.src;
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, options);
-
-        const imagesToObserve = containerRef.current.querySelectorAll('img[data-src]');
-        imagesToObserve.forEach(image => observer.observe(image));
-
-        return () => observer.disconnect();
-    }, []);
+    
 
     // Function to scroll to the top of the page
     const scrollToTop = () => {
@@ -47,26 +25,22 @@ const Gallery = () => {
                 }
             />
 
-            <div ref={containerRef} className='grid lg:grid-cols-2 xl:grid-cols-3  gap-24  lg:gap-12 place-items-center md:px-[5vw] py-24 bg-landscape-500/30'>
-                {galleryImages.map((image, index) => (
-                    <div key={index}>
-                        <motion.div
-                            className='shadow-lg shadow-dark/30 grid place-items-center transition duration-700 border-y-[3px] lg:border-x-[3px] border-light lg:rounded'
-                            initial={{ scale:.955 }}
-                            whileInView={{ scale:1 }}
-                            transition={{ duration: 0.5 }}
-                        >
-                            {/* Set priority to true for the first 10 images */}
-                            <Image
-                                src={image.image} // Provide a placeholder image
-                                // data-src={image.image} // Store the actual image source in data attribute
-                                alt={image.alt}
-                                // style={{ width: '100%', height: 'auto' }}
-                                priority={index < 5}
-                            />
-                        </motion.div>
-                    </div>
-                ))}
+            <div className='grid lg:grid-cols-2 xl:grid-cols-3  gap-24  lg:gap-12 place-items-center md:px-[5vw] py-24 bg-landscape-500/30'>
+            {galleryImages.map((image, index) => (
+					<div
+						key={index}
+						
+					>
+						<motion.div
+							className='shadow-lg shadow-dark/30 grid place-items-center transition duration-700 border-y-[3px] lg:border-x-[3px] border-light lg:rounded bg-gradient-to-l from-landscape-700 via-dark/40 to-landscape-700'
+							// initial={{ opacity: 0 }}
+							// whileInView={{ opacity: 1 }}
+							// transition={{ delay: 0.3, duration: 1.1 }}
+						>
+							<Image src={image.image} alt={image.alt} />
+						</motion.div>
+					</div>
+				))}
             </div>
 
             <button
