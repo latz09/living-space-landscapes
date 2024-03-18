@@ -4,7 +4,7 @@ export const navLinks = [
         link: '/japanese-gardens',
     },
     {
-        name: 'Stones And Boulders',
+        name: 'Stones and Boulders',
         link: '/stones-and-boulders',
     },
     {
