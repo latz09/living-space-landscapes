@@ -2,11 +2,10 @@ import designImage from '../public/images/design/design-meeting.jpg';
 import installationImage from '../public/images/design/installation.jpg';
 import pruningImage from '../public/images/design/aesthetic-pruning.jpg';
 import heroImage from '../public/images/gallery-images/old-website-images/58.jpg';
-import japHeroImage from '../public/images/japanese-gardens/5.jpg';
+// import japHeroImage from '../public/images/japanese-gardens/5.jpg';
 import credentialImage from '../public/images/japanese-gardens/1.JPEG';
 import ourWorkImage from '../public/images/japanese-gardens/2.JPEG';
-import extraImageOne from '../public/images/japanese-gardens/3.JPEG';
-import extraImageTwo from '../public/images/japanese-gardens/4.JPEG';
+
 
 export const ourProcessPageData = [
     {
@@ -46,7 +45,7 @@ export const ourProcessPageData = [
 
 
 export const japaneseProcessPageData = {
-	heroImage: japHeroImage,
+	// heroImage: japHeroImage,
 	intro:
 		'For centuries, Japanese gardens have evoked the joy and beauty of nature.  A well designed and constructed garden becomes a highly restorative destination.   Living Space Landscapes has a passion for creating residential landscapes inspired by the elements of a Japanese garden.  Boulder placement, cut-to-fit irregular shaped flagstone paths, gently raised berms, dry creeks and thoughtfully designed plant selection all play a part in the wonderment and delight of experiencing a landscape heavily influenced by the Japanese garden experience.',
 	credentialSections: [
@@ -73,5 +72,5 @@ export const japaneseProcessPageData = {
 			'Normandale Community College Japanese Garden Bloomington MN.',
 		],
 	},
-	extraPhotos: [extraImageOne, extraImageTwo],
+	// extraPhotos: [extraImageOne, extraImageTwo],
 };
