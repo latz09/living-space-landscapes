@@ -38,10 +38,12 @@ const Gallery = () => {
 								whileInView={{ opacity: 1, scale: 1 }}
 								transition={{ delay: 0.15, duration: 1.1 }}
 							>
-								<Image src={image.image} alt={image.alt}
-                priority={index < 6} 
-                
-                />
+								{/* Set priority to true for the first 5-6 images */}
+								{index < 5 ? (
+									<Image src={image.image} alt={image.alt} priority={true} />
+								) : (
+									<Image src={image.image} alt={image.alt} />
+								)}
 							</motion.div>
 						</div>
 					</div>
