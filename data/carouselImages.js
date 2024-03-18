@@ -11,8 +11,8 @@ export const carouselImages = [image12, image13, image4, image62];
 // Dynamically import additional images
 
 const importContexts = [
-    { context: require.context('../public/images/gallery-images/old-website-images', false, /\.(jpg)$/), directory: 'old-website-images' },
-    { context: require.context('../public/images/gallery-images/october-twenty-two', false, /\.(jpg)$/), directory: 'october-twenty-two' },
+    { context: require.context('../public/images/gallery-images/old-website-images-tiny', false, /\.(jpg)$/), directory: 'old-website-images-tiny' },
+    { context: require.context('../public/images/gallery-images/october-twenty-two-tiny', false, /\.(jpg)$/), directory: 'october-twenty-two-tiny' },
     { context: require.context('../public/images/gallery-images/twenty-twenty-four', false, /\.(jpg)$/), directory: 'twenty-twenty-four' },
 ];
 
