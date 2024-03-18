@@ -52,7 +52,7 @@ export const japaneseProcessPageData = {
 	credentialSections: [
 		{
 			id: 1,
-			heading: 'How it started',
+			heading: 'How it Started',
 			image: credentialImage,
 			text: 'Living Space Landscapes owner, Scott Solomonson was introduced to the inspiring world of Japanese gardens when he was living in Portland Oregon in his twenties.  Scott was hired by Hoichi Kurisu to be part of the design team for Kurisu International.  Hoichi Kurisu is highly regarded as one of the most influential Japanese garden designers worldwide.',
 		},
