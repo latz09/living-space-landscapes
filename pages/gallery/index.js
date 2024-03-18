@@ -36,7 +36,7 @@ const Gallery = () => {
 							<Image
 								src={image.image}
 								alt={image.alt}
-								priority={index < 10}
+								priority={index < 5}
 								
 							/>
 						</motion.div>
