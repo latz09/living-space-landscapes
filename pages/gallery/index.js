@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { FaRegArrowAltCircleUp } from 'react-icons/fa';
-import { useRef, useEffect } from 'react';
+
 import { galleryImages } from '../../data/carouselImages';
 import Meta from '../../components/utils/Meta';
 import { motion } from 'framer-motion';
@@ -32,12 +32,16 @@ const Gallery = () => {
 							// whileInView={{ opacity: 1 }}
 							// transition={{ delay: 0.3, duration: 1.1 }}
 						>
-							<motion.div className="grid place-items-center "
-                            initial={{ opacity: 0.3, scale: .98 }}
-							whileInView={{ opacity: 1, scale: 1 }}
-							transition={{ delay: .15, duration: 1.1 }}
-                            >
-								<Image src={image.image} alt={image.alt} />
+							<motion.div
+								className='grid place-items-center '
+								initial={{ opacity: 0.3, scale: 0.98 }}
+								whileInView={{ opacity: 1, scale: 1 }}
+								transition={{ delay: 0.15, duration: 1.1 }}
+							>
+								<Image src={image.image} alt={image.alt}
+                priority={index < 6} 
+                
+                />
 							</motion.div>
 						</div>
 					</div>
