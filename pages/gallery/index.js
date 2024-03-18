@@ -33,7 +33,7 @@ const Gallery = () => {
 							// transition={{ delay: 0.3, duration: 1.1 }}
 						>
 							<motion.div className="grid place-items-center "
-                            initial={{ opacity: 0, scale: .95 }}
+                            initial={{ opacity: 0.3, scale: .95 }}
 							whileInView={{ opacity: 1, scale: 1 }}
 							transition={{ delay: .15, duration: 1.1 }}
                             >
