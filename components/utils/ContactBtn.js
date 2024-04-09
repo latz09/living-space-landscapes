@@ -6,8 +6,8 @@ const ContactButton = () => {
 		<>
 			
 				<div>
-					<Link href={'/contact'} >
-						<a className=' text-lg border bg-landscape-700/40 hover:bg-landscape-700 transition duration-700 rounded-full lg:text-2xl font-bold px-4 py-2 text-light '>Contact us</a>
+					<Link href={'/contact'}>
+						<a className=' text-lg lg:text-2xl px-2 text-light '>Contact us</a>
 					</Link>
 				</div>
 			
