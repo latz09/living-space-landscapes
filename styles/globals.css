@@ -18,19 +18,17 @@
 }
 @layer components {
 	.button-link {
-		@apply bg-landscape-700 px-2 py-2 md:px-4 md:py-3 shadow-md text-xl lg:text-2xl text-center text-white tracking-wider cursor-pointer font-logo;
+		@apply bg-landscape-700 px-2 py-2 md:px-4 md:py-3 shadow-lg shadow-dark/20 text-xl lg:text-2xl text-center text-white rounded-full cursor-pointer ;
 	}
 	.description {
 		@apply sm:text-justify text-gray-700 text-opacity-80  text-sm p-4 md:text-lg tracking-wide font-long;
 	}
-	.review-text {
-		@apply py-1  text-gray-600 italic font-serif leading-8 tracking-wider;
-	}
+
 	.jap-section-content {
-		@apply text-base xl:text-lg md:leading-8 lg:leading-[32px] leading-relaxed pb-8 ;
+		@apply text-base lg:text-lg leading-7 text-justify  ;
 	}
 	.jap-section-heading {
-		@apply text-xl lg:text-2xl font-logo text-end text-landscape-700;
+		@apply text-2xl lg:text-3xl font-logo  text-end text-landscape-700;
 	}
 	
 }

@@ -2,23 +2,41 @@ import Image from 'next/image';
 import SectionHeading from '../utils/SectionHeading';
 import { motion } from 'framer-motion';
 
-const ProcessPage = ({ title, image, description }) => {
+const ProcessPage = ({ title, image, descriptions, index }) => {
+	// ADDED THIS, SWITCH IMAGE LOCATION BASED ON
+	const isEven = index % 2 === 0;
+
 	return (
-		<div className='grid gap-12 px-2'>
+		<div className='grid gap-6 lg:gap-16 '>
 			<SectionHeading title={title} />
 
-			<div className='grid lg:grid-cols-5 place-items-center gap-8'>
+			<div className='grid lg:grid-cols-2 gap-4 place-items-center'>
 				<motion.div
-					className='font-logo  sm:text-lg text-gray-600 prose text-justify tracking-wide px-2 order-2 lg:px-0 lg:order-1 lg:col-span-3 '
-					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }}
-					transition={{ delay: 0.2, duration: 1 }}
+					className={`${isEven ? 'order-1' : 'order-2'} col-span-1 w-full px-2  lg:mt-0 `}
+					initial={{ y: 60, opacity: 0 }}
+					whileInView={{ y: 0, opacity: 1 }}
+					transition={{ duration: 1, delay: 0.5 }}
 				>
-					{description}
+					{descriptions.map((paragraph, idx) => (
+						<motion.p
+							key={idx}
+							className='  mb-4 last:mb-0 lg:text-lg leading-7 text-justify mx-2 lg:mx-0'
+						>
+							{paragraph}
+						</motion.p>
+					))}
 				</motion.div>
-				<div className='order-1 w-5/6 md:w-2/3 lg:order-2 lg:col-span-2 lg:w-full shadow-lg grid place-items-center '>
+
+				<motion.div
+					className={`${
+						isEven ? 'order-2' : 'order-1'
+					} md:w-4/5 mx-auto shadow-lg shadow-landscape-700/40 grid place-items-center my-4 lg:my-0`}
+					initial={{ opacity: 0, scale: .95 }}
+					whileInView={{ opacity: 1, scale: 1 }}
+					transition={{ duration: 1, delay: 0.5 }}
+				>
 					<Image src={image} alt={title} priority='true' />
-				</div>
+				</motion.div>
 			</div>
 		</div>
 	);

@@ -26,7 +26,7 @@ const ImagesDisplay = ({ images, description }) => {
 	return (
 		<>
 			<div className='grid gap-4 lg:grid-cols-2 lg:gap-6  '>
-				<div className='mx-1 lg:mx-2 grid gap-2 md:gap-4 lg:gap-6 '>
+				<div className=' lg:mx-2 grid gap-2 md:gap-4 lg:gap-6 '>
 					{' '}
 					<motion.div
 						initial={{ opacity: 0 }}
@@ -34,7 +34,7 @@ const ImagesDisplay = ({ images, description }) => {
 						transition={{ duration: 1 }}
 						className='shadow-lg grid place-items-center'
 					>
-						<Image src={images[imageIndex].src} alt='' priority='true' />
+						<Image src={images[imageIndex].src} alt='' priority={true} />
 					</motion.div>
 					<motion.div
 						className='flex justify-around w-1/3 lg:w-1/4 mx-auto text-2xl lg:text-3xl text-landscape-700'
@@ -47,7 +47,7 @@ const ImagesDisplay = ({ images, description }) => {
 						}}
 					>
 						<motion.button
-							whileHover={{ scale: 1.3 }}
+							whileHover={{ scale: .9 }}
 							transition={{ duration: 0.4 }}
 							onClick={prevImage}
 							className='p-5 '
@@ -55,7 +55,7 @@ const ImagesDisplay = ({ images, description }) => {
 							<AiOutlineArrowLeft />
 						</motion.button>
 						<motion.button
-							whileHover={{ scale: 1.3 }}							
+							whileHover={{ scale: .9 }}							
 							transition={{ duration: 0.4 }}
 							onClick={nextImage}
 							className='p-5 '
@@ -70,23 +70,23 @@ const ImagesDisplay = ({ images, description }) => {
 							<motion.div
 								key={index}
 								className=' grid place-items-center'
-								whileHover={{ scale: 1.1 }}
+								whileHover={{ scale: .95 }}
 								transition={{ duration: 0.5 }}
 								onClick={() => {
 									handleChange(index);
 								}}
 							>
-								<Image src={image.src} alt={image.alt} priority='true' />
+								<Image src={image.src} alt={image.alt} priority={true} />
 							</motion.div>
 						))}
 					</div>
 
-					<div className='prose mx-4 lg:w-4/5 lg:mx-auto text-lg lg:text-xl text-gray-600 font-logo place-self-center'>
+					<div className=' font-logo w-5/6 lg:w-full mx-auto text-xl lg:text-2xl '>
 						<motion.div
 							initial={{ opacity: 0, x: '1.2vw' }}
 							whileInView={{ opacity: 1, x: 0 }}
 							transition={{ duration: 1.4 }}
-							className='lg:border-r-2 border-landscape-700 pr-2  text-justify lg:pr-8 py-4'
+							className='lg:border-r2 border-landscape-700 pr-2  text-center lg:pr-8 py-4'
 						>
 							{description}
 						</motion.div>

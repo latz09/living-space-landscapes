@@ -6,18 +6,18 @@ const JapaneseSection = ({ data }) => {
 
 	return (
 		<div className='grid gap-16  '>
-			<div className='grid max-w-7xl mx-auto gap-8 bg-landscape-300/20 shadow-lg  pb-12 lg:pb-0'>
-				<div className='grid lg:grid-cols-5 gap-8 place-items-center'>
-					<div className='lg:col-span-2 grid place-items-center '>
+			<div className='grid  gap-8 bg-landscape-300/20 shadow-lg  pb-12 lg:pb-0'>
+				<div className='grid lg:grid-cols-5 gap-8 place-items-center max-w-7xl mx-auto lg:py-12'>
+					<div className='lg:col-span-2 grid place-items-center shadow-lg  shadow-landsc'>
 						<Image
 							src={credentials.image}
 							alt='two landscapers working in a japanese gaden'
-							priority='true'
+							priority={true}
 						/>
 					</div>
 					<div className='grid text-lg prose text-justify mx-4 lg:col-span-3 lg:w-4/5'>
 						<span className='jap-section-heading'>{credentials.heading}</span>
-						<p className='jap-section-content md:leading-7'>
+						<p className='jap-section-content '>
 							{credentials.text}
 						</p>
 					</div>
@@ -32,11 +32,11 @@ const JapaneseSection = ({ data }) => {
 							<p className='jap-section-content'>{ourWork.textTwo}</p>
 						</div>
 					</div>
-					<div className='lg:col-span-2 grid place-items-center'>
+					<div className='lg:col-span-2 grid place-items-center shadow-lg shadow-landscape-700/40'>
 						<Image
 							src={ourWork.image}
-							alt='explaing the process of japanese gardening'
-							priority='true'
+							alt='explaining the process of japanese gardening'
+							priority={true}
 						/>
 					</div>
 				</div>

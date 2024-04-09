@@ -24,8 +24,8 @@ const HomePage = () => {
 					bgImage={japaneseHeroImage}
 					title={'Japanese Gardens'}
 					linkTo={'/japanese-gardens'}
-					buttonText={'learn more'}
-					description='Evoke the joy and beauty of nature'
+					buttonText={'Learn More'}
+					description='Evoke the Joy and Beauty of Nature '
 				/>
 
 				<Reviews />
@@ -34,10 +34,10 @@ const HomePage = () => {
 					bgImage={stonesHeroImage}
 					title={'Stones and Boulders'}
 					linkTo={'/stones-and-boulders'}
-					buttonText={'learn more'}
-					description='Create a powerful timeless beauty that mimics nature'
+					buttonText={'Learn More'}
+					description='Create a Powerful Timeless Beauty that Mimics Nature '
 				/>
-				{/* webpack error */}
+				
 				<GalleryPreview />
 			</div>
 		</>

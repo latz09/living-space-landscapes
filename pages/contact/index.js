@@ -1,6 +1,6 @@
 import ContactInfo from '../../components/contact/ContactInfo';
-import EmailUs from '../../components/contact/EmailUs';
 import Meta from '../../components/utils/Meta';
+import SectionHeading from '../../components/utils/SectionHeading';
 const Contact = () => {
 	return (
 		<>
@@ -10,10 +10,14 @@ const Contact = () => {
 					'Living Space Landscapes will create your landscape with a naturalistic style that will inspire a sense of calm in those who experience it.'
 				}
 			/>
-			<div className='grid gap-2 lg:gap-2 py-8   '>
-				<p className='text-center  text-xl md:text-3xl tracking-wider text-landscape-700/70 max-w-7xl mx-auto '>
-					Schedule a consultation with one of our professionals
-				</p>
+			<div className='grid gap-4 lg:gap-2 mt-12   '>
+				<div className='px-2 lg:px-0 lg:w-2/3 mx-auto grid gap-1 lg:gap-2 font-bld'>
+					<SectionHeading title={'Ready to Work With Us?'} />
+
+					<h2 className='grid place-items-center text-xl lg:text-3xl  text-center font-normal'>
+						Schedule a Consultation with One of Our Professionals.
+					</h2>
+				</div>
 
 				<ContactInfo />
 			</div>

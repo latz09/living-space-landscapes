@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps, router }) {
 					href='/images/logos/living-space-landscapes.jpg'
 				/>
 			</Head>
-			<div className='font-spaces '>
+			<div className='font-spaces text-dark bg-dark '>
 				<Layout>
 					<AnimatePresence mode='wait'>
 						<motion.div

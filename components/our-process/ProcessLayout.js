@@ -12,15 +12,16 @@ const ProcessLayout = ({
 	return (
 		<>
 			<Meta pageTitle={metaPageTitle} description={metaPageDescription} />
-			<div className='grid gap-8 lg:gap-16 '>
+			<div className='grid gap-16 lg:gap-24 '>
 				<PageHero heroImage={heroImage} heroTitle={heroTitle} />
-				<div className='max-w-7xl mx-auto grid gap-16 mb-20 '>
-					{sections.map((service) => (
+				<div className='max-w-7xl mx-auto grid gap-24 mb-20 '>
+					{sections.map((service, index) => (
 						<div key={service.title}>
 							<ProcessPage
 								title={service.title}
 								image={service.image}
-								description={service.description}
+								descriptions={service.descriptions}
+								index={index}
 							/>
 						</div>
 					))}

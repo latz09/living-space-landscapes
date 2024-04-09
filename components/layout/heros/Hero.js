@@ -16,9 +16,9 @@ const Hero = () => {
 				placeholder='blur'
 				priority='true'
 			/>
-			<div className='relative grid  h-full bg-black bg-opacity-60'>
+			<div className='relative grid  h-full bg-gradient-to-b from-dark/30 via-dark/60 to-dark/30'>
 				<div className='grid place-items-center'>
-					<div className=''>
+					<div className=' grid gap-3'>
 						<div className=' max-w-3xl'>
 							<Image
 								src={logo}
@@ -27,9 +27,9 @@ const Hero = () => {
 								priority='true'
 							/>
 						</div>
-						<motion.div className='lg:hidden border-b-2 text-landscape-700 font-long border-landscape-300 mr-1 ml-2 border-opacity-40 hover:border-opacity-100 transition duration-700 hover:opacity-80 '>
+						<div className='lg:hidden border-b font-logo uppercase border-landscape-700 mr-1 ml-2  hover:border-opacity-100 transition duration-700 hover:opacity-80 '>
 							<ContactButton />
-						</motion.div>
+						</div>
 					</div>
 				</div>
 			</div>
