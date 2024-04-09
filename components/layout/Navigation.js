@@ -7,7 +7,7 @@ import { navLinks } from '../../data/navLinks';
 
 const Navigation = () => {
 	return (
-		<div className='p-4 bg-landscape-700 font-logo '>
+		<div className='px-4 py-6 bg-landscape-700 font-logo '>
 			<div className='max-w-6xl mx-auto grid gap-8   '>
 				<TopBar />
 				<DesktopNavbar />
@@ -26,7 +26,7 @@ const TopBar = () => {
 				<HomeButtonLink />
 			</div>
 			<div className="text-xl cursor-pointer hover:scale-90 transtion duration-700 ">
-				<Link href={'/contact'}><span className="shadow-lg py-2 px-8 rounded-full bg-dark/20">Contact Us</span></Link>
+				<Link href={'/contact'}><span className="shadow-lg shadow-dark/30 py-2 px-8 rounded-full bg-landscape-300 text-dark font-semibold border border-dark/60 hover:border-dark ">Contact Us</span></Link>
 			</div>
 		</div>
 	);

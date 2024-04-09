@@ -17,8 +17,8 @@ const Hero = () => {
 				priority='true'
 			/>
 			<div className='relative grid  h-full bg-gradient-to-b from-dark/30 via-dark/60 to-dark/30'>
-				<div className='grid place-items-center'>
-					<div className=' grid gap-3'>
+				<div className='grid  place-items-center'>
+					<div className=' grid gap-4'>
 						<div className=' max-w-3xl'>
 							<Image
 								src={logo}
@@ -27,7 +27,7 @@ const Hero = () => {
 								priority='true'
 							/>
 						</div>
-						<div className='lg:hidden border-b font-logo uppercase border-landscape-700 mr-1 ml-2  hover:border-opacity-100 transition duration-700 hover:opacity-80 '>
+						<div className='lg:hidden font-logo uppercase border-landscape-70 grid place-items-center font-normal'>
 							<ContactButton />
 						</div>
 					</div>

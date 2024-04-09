@@ -7,7 +7,7 @@ const ContactSegment = ({ contacts }) => {
 	return (
 		<div className='grid '>
 			<div className=''>
-				<div className='border p-4 border-landscape-700 rounded grid gap-4 shadow-lg shadow-landscape-700/40'>
+				<div className='border p-4 border-landscape-300 rounded-sm grid gap-4 shadow-lg shadow-dark/20'>
 					<div className='grid text-lg  font-logo '>
 						<span>
 							To arrange for a consultation or design contact{' '}
